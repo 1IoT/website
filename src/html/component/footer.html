@@ -1,0 +1,91 @@
+<footer class="footer footer--s3 footer--color-dark">
+    <div class="footer__line footer__line--first">
+        <div class="container">
+            <div class="row">
+
+                <!-- =================================================
+                ===== Company links
+                ================================================== -->
+                <div class="col col-sm-5 col-md-3 col-lg-2">
+                    <div class="footer__item">
+                        <h4 class="footer__item__title text-white">${{ index.company }}$</h4>
+                        <nav class="footer__navigation">
+
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- =================================================
+                ===== Resources links
+                ================================================== -->
+                <div class="col col-sm-5 col-md-3 col-lg-2">
+                    <div class="footer__item">
+                        <h4 class="footer__item__title text-white">${{ index.resources }}$</h4>
+                        <nav class="footer__navigation">
+                            <ul>
+                                <li><a href="help-desk"><i class="fa fa-angle-double-right"></i>${{ index.help }}$</a>
+                                </li>
+                                <li><a href="https://github.com/1IoT" target="_blank"><i
+                                        class="fa fa-angle-double-right"></i>Open Source</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- =================================================
+                ===== Terms links
+                ================================================== -->
+                <div class="col col-sm-5 col-md-3 col-lg-2">
+                    <div class="footer__item">
+                        <h4 class="footer__item__title text-white">${{ index.terms }}$</h4>
+                        <nav class="footer__navigation">
+                            <ul>
+                                <li><a href="privacy"><i class="fa fa-angle-double-right"></i>${{ index.privacy-policy
+                                    }}$</a></li>
+                                <li><a href="terms"><i class="fa fa-angle-double-right"></i>${{ index.terms }}$</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- =================================================
+                ===== Newsletter subscription
+                ================================================== -->
+                <div class="col-12 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+                    <div class="footer__item">
+                        <h4 class="footer__item__title text-white">${{ index.subscribe }}$</h4>
+                        <form class="form--horizontal" id="newsletter-form" novalidate="novalidate">
+                            <p class="mb-4 text-white">${{ index.subscribe-slogan }}$</p>
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm">
+                                    <div class="input-wrp form-group">
+                                        <input autocomplete="on"
+                                               class="textfield textfield--grey newsletter-form-email"
+                                               data-validation-required-message="${{ index.please-enter-mail }}$" name="email" placeholder="E-Mail" required="required"
+                                               type="text"
+                                               type="email"/>
+                                        <p class="help-block text-danger mt-4"></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-auto">
+                                    <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit"
+                                            name="submit"
+                                            role="button" type="submit">${{ index.submit }}$
+                                    </button>
+                                </div>
+                                <div id="success-newsletter"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- =================================================
+    ===== Bottom bar on footer
+    ================================================== -->
+    @@include('footer-bot-bar.html')
+
+</footer>

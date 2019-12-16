@@ -1,0 +1,46 @@
+{
+  "name": "oneiot-web",
+  "version": "1.0.0",
+  "description": "There is only one IoT custom solution. OneIoT.",
+  "keywords": [
+    "smart home",
+    "oneiot",
+    "internet of things",
+    "cloud",
+    "iot",
+    "service",
+    "internet der dinge",
+    "digitalisierung",
+    "digitization",
+    "custom solution"
+  ],
+  "author": "OneIoT",
+  "license": "ISC",
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-file-include": "^2.1.1",
+    "gulp-html-i18n": "^0.15.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-reference": "^1.1.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "rimraf": "^2.7.1"
+  },
+  "dependencies": {
+    "gulp-remember-cache": "^3.1.2",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}

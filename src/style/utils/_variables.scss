@@ -1,0 +1,69 @@
+/* main colors */
+$primary-color: #4881fa !default;
+$primary-color-light: #6F9CFB !default;
+$primary-color-dark: #2065F7 !default;
+
+$secondary-color: #4881fa !default;
+$secondary-color-light: #4881fa !default;
+$secondary-color-dark: #4881fa !default;
+
+$action-color: #4881fa;
+$action-color-light: #4881fa;
+$action-color-dark: #4881fa;
+
+$branding-black-light: #343a3f;
+$branding-black-mid: #2a2c2f;
+$branding-black-dark: #1d2124;
+
+
+$branding-white-light: #fff;
+$branding-white-mid: #f9fbfc;
+$branding-white-dark: #f3f3f3;
+
+$text-color-light: $branding-white-light;
+$text-color-dark: $branding-black-dark;
+
+$primary-linear-grading: linear-gradient(90deg, $primary-color, $primary-color-dark 100%);
+
+/* main fonts */
+$fontSize-root: 10px !default;
+$fontSize-base: 18px !default;
+
+$fontFamily-primary: 'Nunito Sans', sans-serif !default;
+$fontFamily-secondary: 'Quicksand', sans-serif !default;
+
+$fontFamily-base: $fontFamily-primary !default;
+
+/* main breakpoint */
+$xl-width: 1200px !default;
+$lg-width: 992px !default;
+$md-width: 768px !default;
+$sm-width: 560px !default;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1170px
+) !default;
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+                (
+                        0: 0,
+                        1: ($spacer * .5),
+                        2: $spacer,
+                        3: ($spacer * 1.5),
+                        4: ($spacer * 2),
+                        5: ($spacer * 2.5),
+                        6: ($spacer * 3),
+                        7: ($spacer * 3.5),
+                        8: ($spacer * 4),
+                        9: ($spacer * 4.5),
+                        10: ($spacer * 5),
+                        11: ($spacer * 5.5),
+                        12: ($spacer * 6),
+                ),
+                $spacers
+);

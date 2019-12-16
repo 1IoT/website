@@ -1,0 +1,120 @@
+@@include('template/document_start.html')
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.terms }}$",
+    "subtitle": "${{ index.nothing-to-hide }}$"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            ${{ index.brand-name }}$
+                            <br/>
+                            ${{ index.brand-phone }}$
+                            <br/>
+                            &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;
+                            <br/>
+                            ${{ index.brand-address }}$
+                            <br/>
+                            Germany
+                        </p>
+
+                        <h4>Represented by</h4>
+                        <p>
+                            Christof Tinnes <br/>
+                            David Theobald <br/>
+                            Peter Giese
+                        </p>
+                        <h4>Commercial Register</h4>
+                        <p>
+                            ${{ index.brand-register-court }}$
+                            <br/>
+                            ${{ index.brand-register-number }}$
+                        </p>
+                        <h4>Limited liability</h4>
+                        <p>
+                            The content of this website have been created with the greatest possible care. The provider
+                            accepts no responsibility for the topicality, correctness, completeness or quality of the
+                            information provided.
+                        </p>
+                        <p>
+                            The use of the contents of the website is at the user's own risk. The mere use of the
+                            provider's
+                            website does not establish any contractual relationship between the user and the provider.
+                        </p>
+
+                        <h4>Third party links</h4>
+                        <p>
+                            This website contains links to third-party websites ("external links"). These websites are
+                            subject to the liability of the respective operators. When linking the external links for
+                            the
+                            first time, the provider checked the external content for any legal infringements. At that
+                            time,
+                            no legal violations were apparent. The provider has no influence whatsoever on the current
+                            and
+                            future design and content of the linked pages. The setting of external links does not mean
+                            that
+                            the provider adopts the content behind the reference or link as his own. A permanent control
+                            of
+                            the external links is not reasonable for the provider without concrete indications of legal
+                            violations. However, if we become aware of any legal infringements, such external links will
+                            be
+                            deleted immediately.
+                        </p>
+
+                        <h4>Copyright</h4>
+                        <p>
+                            The content published on this website are subject to the German copyright and ancillary
+                            copyright law. Any use not permitted by German copyright and ancillary copyright law
+                            requires
+                            the prior written consent of the provider or the respective rights holder. This applies in
+                            particular to duplication, editing, translation, storage, processing and reproduction of
+                            content
+                            in databases or other electronic media and systems. Third-party content and rights are
+                            marked as
+                            such. Unauthorized duplication or use of objects such as images passing on individual
+                            content or
+                            complete pages is not permitted and punishable. Only the production of copies and downloads
+                            for
+                            the personal, private and non-commercial use is permitted.
+                        </p>
+                        <p>
+                            The presentation of this website in external frames is only permitted with written
+                            permission of
+                            the author. Permission permitted.
+                        </p>
+
+                        <h4>Special terms of use</h4>
+                        <p>
+                            If special conditions for individual uses of this website deviate from the aforementioned
+                            paragraphs, this is expressly pointed out at the appropriate point. In this case, the
+                            special
+                            terms of use apply in each individual case.
+                        </p>
+
+                        <p><b>Last update: May 25, 2018</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

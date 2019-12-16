@@ -1,0 +1,41 @@
+#solution {
+
+  background-image: url('../img/oneiot/bg-solution.png');
+  background-repeat: no-repeat;
+  background-color: $branding-white-mid;
+  background-size: cover;
+
+  .__item {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  @include media-breakpoint-up(sm) {
+    .__item {
+      min-height: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .__item {
+      min-height: 100px !important;
+    }
+    .space-resp {
+      margin-top: 80px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .__item {
+      min-height: 366px !important;
+    }
+    .space-resp {
+      margin-top: 0px;
+    }
+  }
+}
+
+.custom-solution {
+  width: 85%;
+}
+
