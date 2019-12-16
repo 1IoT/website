@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de">
+
+<head>
+    <title>OneIoT - IoT Custom Solution</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <meta content="initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui"
+          name="viewport"/>
+
+    <meta content="There is only one IoT custom solution. Wir digitalisieren Ihr Produkt von der Hardware bis zum IoT Ecosystem." name="description">
+    <meta content="Smart Home, Cloud, Cloud Computing, IoT, Internet der Dinge, Digitalisierung, Plattform, Ecosystem, Device Cloud, Alexa, Google Home" name="keywords">
+    <meta content="OneIoT" name="author">
+
+    <!-- =================================================
+    ===== Favicon
+    ================================================== -->
+    <link href="../img/ico/oneiot-icon.png" rel="shortcut icon" type="image/png">
+
+    <!-- =================================================
+    ===== Fontawesome icons
+    ================================================== -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" rel="stylesheet"
+          type="text/css">
+
+    <!-- =================================================
+    ===== Critical style
+    ================================================== -->
+    <link href="../css/critical.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Common style
+    ================================================== -->
+    <link href="../css/style.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Theme style
+    ================================================== -->
+    <link href="../css/color.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Load Google fonts
+    ================================================== -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {families: ['Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700']}
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <!-- =================================================
+    ===== Load other scripts
+    ================================================== -->
+    <script type="text/javascript">
+        var _html = document.documentElement,
+            isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+        _html.className = _html.className.replace("no-js", "js");
+        _html.classList.add(isTouch ? "touch" : "no-touch");
+    </script>
+    <script src="../js/device.min.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+<div id="app">
+
+    <header class="top-bar top-bar--light" data-nav-anchor="true" id="top-bar">
+        <div class="top-bar__inner">
+            <div class="container-fluid">
+                <div class="row align-items-center no-gutters">
+
+                    <!-- =================================================
+                    ===== Logo
+                    ================================================== -->
+                    <a class="top-bar__logo site-logo" href="./#start-screen">
+                        <img alt="demo" class="img-fluid" height="45" src="../img/oneiot/oneiot-logo.png" width="150"/>
+                    </a>
+
+                    <!-- =================================================
+                    ===== Responsive navigation bar toggle
+                    ================================================== -->
+                    <a class="top-bar__navigation-toggler" href="javascript:void(0);" id="top-bar__navigation-toggler">
+                        <span></span>
+                    </a>
+
+                    <!-- =================================================
+                    ===== Main navigation
+                    ================================================== -->
+                    <div class="top-bar__collapse">
+
+                        <!-- =================================================
+                        ===== Main navigation
+                        ================================================== -->
+                        <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
+                            <ul>
+                                <li><a class="nav-link" href="./#why">Warum</a></li>
+                                <li><a class="nav-link" href="./#usecases">Anwendungsfälle</a></li>
+                                <li><a class="nav-link" href="./#ecosystem">IoT Ecosystem</a></li>
+                                <li><a class="nav-link" href="./#solution">Kundenspezifische Lösung</a></li>
+                                <li><a class="nav-link" href="./#pricing">Preise</a></li>
+                                <li><a class="nav-link" href="./#contact">Kontakt</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- =================================================
+                        ===== Action navigation
+                        ================================================== -->
+                        <div class="top-bar__action" id="top-bar__action">
+                            <div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+
+                                <!-- =================================================
+                                ===== Language chooser
+                                ================================================== -->
+                                <div class="top-bar__choose-lang js-choose-lang">
+                                    <div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/ico/de.png' width='25'/></i><span>De</span></div>
+                                    <div class="list-wrap">
+                                        <ul class="list">
+                                            <li class="" data-img="../img/ico/en.png"
+                                                data-short-name="En">
+                                                <a href="../en/">
+                                                    <span>Englisch</span>
+                                                </a>
+                                            </li>
+                                            <li class="is-active" data-img="../img/ico/de.png"
+                                                data-short-name="De">
+                                                <a href="../de/">
+                                                    <span>Deutsch</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- =================================================
+                                ===== Platform links
+                                ================================================== -->
+                                <div class="top-bar__auth-btns">
+                                    <a class="custom-btn custom-btn--medium custom-btn--style-2" href="https://app.oneiot.de">${{
+                                        index.sign-in }}$</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="hero jarallax" data-img-position="50% 90%" data-speed="0.7" id="hero"
+         style="background-color: #1d2124">
+        <div class="container">
+            <h1 class="hero__title"><span>Hilfestellung</span></h1>
+            <p class="section-heading--center">
+                 Wir sind hier, um Ihre Probleme zu lösen. Zögern Sie also nicht, uns zu kontaktieren.
+            </p>
+        </div>
+    </div>
+
+
+    <main role="main">
+
+        <script>
+            (function (w, d) {
+                var m = d.getElementsByTagName('main')[0],
+                    s = d.createElement("script"),
+                    v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+                    o = {
+                        elements_selector: ".lazy",
+                        threshold: 500,
+                        callback_enter: function (element) {
+
+                        },
+                        callback_load: function (element) {
+
+                        },
+                        callback_set: function (element) {
+
+                            oTimeout = setTimeout(function () {
+                                clearTimeout(oTimeout);
+
+                                AOS.refresh();
+                            }, 1000);
+                        },
+                        callback_error: function (element) {
+                            element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+                        }
+                    };
+                s.type = 'text/javascript';
+                s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+                s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+                m.appendChild(s);
+                // m.insertBefore(s, m.firstChild);
+                w.lazyLoadOptions = o;
+            }(window, document));
+        </script>
+
+
+        <section class="section">
+            <div class="container">
+
+                <!-- =================================================
+                ===== FAQ title
+                ================================================== -->
+                <div class="section-heading section-heading--center">
+                    <h2 class="__title">Häufig <span>gestellte Fragen</span></h2>
+                    <p class="slogan-txt">
+                        Häufig gestellte Fragen von Herstellern. Erfahren Sie Fakten über das OneIoT-Ecosystem und erhalte die Unterstützung, die Sie benötigen.
+                    </p>
+                </div>
+
+                <div class="spacer py-6"></div>
+
+                <!-- =================================================
+                ===== FAQ content
+                ================================================== -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-container">
+                            <div class="faq faq--numbered">
+                                <div class="__inner">
+                                    <div class="row">
+
+                                        <!-- =================================================
+                                        ===== Layout left
+                                        ================================================== -->
+                                        <div class="col-12 col-md-6 col-lg-5">
+                                            <div class="__item">
+                                                <h4 class="__title">Was sind die Vorteile von IoT?</h4>
+                                                <p>
+                                                    Die Zukunft ist schon heute. Das Internet der Dinge verbindet alle Geräte mit dem Internet und schafft neue Möglichkeiten für alle Produkte. Die Nutzung Ihrer Produkte durch den Kunden kann evaluiert werden. Zudem können Ihre Produkte durch Datenerfassung vor Ort bei Ihren Kunden gepflegt werden. Dies führt zu Kostenersparnissen bei gleichzeitiger Steigerung des wirtschaftlichen Mehrwerts des Produkts. Außerdem bieten Sie Ihren Kunden ein noch komfortableres Produkt, indem Sie es dem Produkt ermöglichen, mit allen wichtigen Smart Home Plattformen wie z.B. Alexa zu interagieren.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Was sind die Anwendungsfälle für IoT?</h4>
+                                                <p>
+                                                    Das Einsatzgebiet ist riesig, wir haben hier nur einige wenige Bereiche aufgelistet, wie z.B. Geräte Monitoring, Business Reporting, Objekt-Tracking, Predictive Maintenance, Compliance Reporting und vieles mehr.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Können wir unser Produkt mit IoT im voraus testen?</h4>
+                                                <p>
+                                                    Wir bieten einen umfangreichen Playground an, mit dem Ihr Unternehmen unser Ecosystem ausprobieren und einen ersten Proof of Concept entwickeln kann. Auf Wunsch entwickeln wir einen kundenspezifischen Prototypen, damit Ihr Unternehmen die Machbarkeit Ihres Anwendungsfalls beurteilen kann.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Wie funktioniert die Integration?</h4>
+                                                <p>
+                                                    Wir bieten Ihnen eine vollständige Ende-zu-Ende Integration durch unseren kundenspezifischen Service an. Wir erarbeiten Ihre individuelle Strategie, um Ihr IoT-Upgrade so einfach wie möglich zu realisieren. Die Hardware wird installiert und Ihr Produkt erhält Zugang zu unsererm Ecosystem. Unser Ecosystem übernimmt nun alle anderen Aufgaben für Sie.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Wie verbindet unser Kunde unser Produkt mit dem Ecosystem?</h4>
+                                                <p>
+                                                    Ihr Kunde initialisiert Ihr Produkt über unsere einfach zu bedienende mobile App. Dabei ist kein technisches Know-how erforderlich.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Ist es möglich, das Ecosystem selbst zu hosten?</h4>
+                                                <p>
+                                                    Unsere hochmoderne Architektur ermöglicht es Ihnen, das OneIoT-Ecosystem auf eigenen Servern zu hosten. Auf diese Weise behalten Sie die volle Datenhoheit und Kontrolle über das System.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Wie sicher ist OneIoT?</h4>
+                                                <p>
+                                                    Unser Ecosystem ist per Design sicher. Dank PKI-basierter Geräteidentität, Key-Generierung über HSM und modernster Verschlüsselungstechnologien können wir unbefugten Zugriff verhindern. Für den unwahrscheinlichen Fall, dass etwas passieren sollte, können wir das Datenleck dank der innovativer KI-Technologie sofort erkennen und schließen.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- =================================================
+                                        ===== Layout right
+                                        ================================================== -->
+                                        <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+                                            <div class="__item">
+                                                <h4 class="__title">Welche Hardware können wir verwenden?</h4>
+                                                <p>
+                                                    Wir bieten kostengünstige WLAN- und Mobilfunk-Hardware an, die es ermöglicht, das Internet der Dinge sowohl in industriellen als auch in nicht-industriellen Systemen zu nutzen. Unsere Hardware wird mit dem OneIoT Betriebssystem geliefert, das die Konnektivität und Sicherheit zu unserem Ecosystem übernimmt. Wenn Sie unsere Hardware aus irgendeinem Grund nicht nutzen können, bringen Sie Ihre eigene Hardware mit und wir übernehmen die Integration.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Ist das OneIoT-Dashboard für unseren Anwendungsfall geeignet?</h4>
+                                                <p>
+                                                    Unser Frontend ist hochgradig konfigurierbar und kann genau auf Ihre Bedürfnisse zugeschnitten werden. Natürlich passen wir auch das Frontend an Ihr Branding an.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Können wir unser eigenes Frontend entwicklen?</h4>
+                                                <p>
+                                                    Wir bieten eine gut dokumentierte API an, die es Ihnen sehr einfach macht, Ihre eigene Anwendung zu schreiben.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Was ist mit Datenschutz und DSGVO?</h4>
+                                                <p>
+                                                    Wir speichern die Daten anonym, um eine personenbezogene Datenabbildung Ihrer Kunden zu vermeiden. Wir arbeiten auch mit Experten auf diesem Gebiet zusammen und halten uns an die deutschen Datenschutzstandards.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Was ist ein OTA-Update (Over-the-Air)?</h4>
+                                                <p>
+                                                    OTA bringt Ihnen enorme Vorteile, da Ihr Produkt immer auf den neuesten Stand gebracht werden kann. Sie können Ihr Produkt betreuen, ohne vor Ort zu sein. Aktualisieren Sie einfach Ihre Firmware über unser Device Management. So können auch neue Funktionen direkt im Feld des Kunden getestet und ausgewertet werden, z.B. mit einem  Split-Test Verfahren.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Was sind Plugins?</h4>
+                                                <p>
+                                                    Wir bieten nicht nur eine Plattform, sondern ein einzigartiges IoT-Ecosystem. Ihr Unternehmen und die gesamte IoT-Community haben die Möglichkeit, eigene Erweiterungen in das Ecosystem zu integrieren. Dies gewährleistet eine maximale Kompatibilität mit allen Standards und anderen Plattformen auf dem Markt.
+                                                </p>
+                                            </div>
+                                            <div class="__item">
+                                                <h4 class="__title">Können wir mit OneIoT skalieren?</h4>
+                                                <p>
+                                                    Unsere System skaliert für alle Anforderungen Ihres Unternehmens. Vom Prototyp bis zur Serienproduktion mit Millionen von Geräten.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3"
+                 style="background-color: #1d2124">
+            <div class="container small-container-with-btn">
+                <div class="section-heading section-heading--white section-heading--center">
+                    <h2 class="__title">Kontaktiere <span>OneIoT</span></h2>
+                    <p>
+                        Nehmen Sie Kontakt mit unseren IoT-Experten und unserem Vertrieb auf.
+                    </p>
+                    <div class="col-12 col-sm-auto">
+                        <a href="index#contact">
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide" role="button"
+                                    type="submit">Kontakt
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer footer--s3 footer--color-dark">
+        <div class="footer__line footer__line--first">
+            <div class="container">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Company links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-2">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Unternehmen</h4>
+                            <nav class="footer__navigation">
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Resources links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-2">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Ressourcen</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li><a href="help-desk"><i class="fa fa-angle-double-right"></i>Hilfe</a>
+                                    </li>
+                                    <li><a href="https://github.com/1IoT" target="_blank"><i
+                                            class="fa fa-angle-double-right"></i>Open Source</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Terms links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-2">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Impressum</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li><a href="privacy"><i class="fa fa-angle-double-right"></i>${{ index.privacy-policy
+                                        }}$</a></li>
+                                    <li><a href="terms"><i class="fa fa-angle-double-right"></i>Impressum</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Newsletter subscription
+                    ================================================== -->
+                    <div class="col-12 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Abonnieren</h4>
+                            <form class="form--horizontal" id="newsletter-form" novalidate="novalidate">
+                                <p class="mb-4 text-white">Lernen Sie mehr über IoT und Digitalisierung. Bleiben Sie fit für die Zukunft und abonnieren Sie unseren Newsletter.</p>
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-sm">
+                                        <div class="input-wrp form-group">
+                                            <input autocomplete="on"
+                                                   class="textfield textfield--grey newsletter-form-email"
+                                                   data-validation-required-message="Bitte geben Sie Ihre E-Mail Adresse an." name="email" placeholder="E-Mail" required="required"
+                                                   type="text"
+                                                   type="email"/>
+                                            <p class="help-block text-danger mt-4"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-auto">
+                                        <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit"
+                                                name="submit"
+                                                role="button" type="submit">Senden
+                                        </button>
+                                    </div>
+                                    <div id="success-newsletter"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- =================================================
+        ===== Bottom bar on footer
+        ================================================== -->
+        <div class="footer__line footer__line--second">
+            <div class="container">
+                <div class="row justify-content-center align-items-md-center">
+
+                    <!-- =================================================
+                    ===== Copyright
+                    ================================================== -->
+                    <div class="col-auto col-md-5 col-lg-4">
+                        <div class="footer__item">
+                            <span class="__copy">Copyrights 2019 © EasyTOI UG (haftungsbeschränkt)</span>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Company icon
+                    ================================================== -->
+                    <div class="col-12 col-md text-center">
+                        <div class="footer__item">
+                            <a class="footer__logo site-logo" href="index">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Social links
+                    ================================================== -->
+                    <div class="col-auto col-md-5 col-lg-4">
+                        <div class="footer__item">
+                            <div class="s-btns s-btns--md s-btns--light s-btns--rounded">
+                                <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">
+                                    <!--                            <li><a class="i" href="#"><i class="fontello-instagram"></i></a></li>-->
+                                    <!--                            <li><a class="f" href="#"><i class="fontello-facebook"></i></a></li>-->
+                                    <!--                            <li><a class="t" href="#"><i class="fontello-twitter"></i></a></li>-->
+                                    <!--                            <li><a class="y" href="#"><i class="fontello-youtube-play"></i></a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+<div id="btn-to-top-wrap">
+    <a class="circled" data-visible-offset="800" href="javascript:void(0);" id="btn-to-top"></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="../js/jquery-2.2.4.min.js"><\/script>')</script>
+
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="../js/main.min.js" type="text/javascript"></script>
+
+<script src="../js/contact-form-main.min.js" type="text/javascript"></script>
+<script src="../js/newsletter-form.min.js" type="text/javascript"></script>
+<script src="../js/jqBootstrapValidation.min.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
+

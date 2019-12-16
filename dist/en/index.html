@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>OneIoT - IoT Custom Solution</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <meta content="initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui"
+          name="viewport"/>
+
+    <meta content="There is only one IoT custom solution. We digitize your product from the hardware to the IoT Ecosystem." name="description">
+    <meta content="Smart Home, Cloud, Cloud Computing, IoT, Internet of Things, Digitization, Platform, Ecosystem, Device Cloud, Alexa, Google Home" name="keywords">
+    <meta content="OneIoT" name="author">
+
+    <!-- =================================================
+    ===== Favicon
+    ================================================== -->
+    <link href="../img/ico/oneiot-icon.png" rel="shortcut icon" type="image/png">
+
+    <!-- =================================================
+    ===== Fontawesome icons
+    ================================================== -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" rel="stylesheet"
+          type="text/css">
+
+    <!-- =================================================
+    ===== Critical style
+    ================================================== -->
+    <link href="../css/critical.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Common style
+    ================================================== -->
+    <link href="../css/style.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Theme style
+    ================================================== -->
+    <link href="../css/color.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Load Google fonts
+    ================================================== -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {families: ['Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700']}
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <!-- =================================================
+    ===== Load other scripts
+    ================================================== -->
+    <script type="text/javascript">
+        var _html = document.documentElement,
+            isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+        _html.className = _html.className.replace("no-js", "js");
+        _html.classList.add(isTouch ? "touch" : "no-touch");
+    </script>
+    <script src="../js/device.min.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+
+
+
+<div id="app">
+
+    <header class="top-bar top-bar--light" data-nav-anchor="true" id="top-bar">
+        <div class="top-bar__inner">
+            <div class="container-fluid">
+                <div class="row align-items-center no-gutters">
+
+                    <!-- =================================================
+                    ===== Logo
+                    ================================================== -->
+                    <a class="top-bar__logo site-logo" href="./#start-screen">
+                        <img alt="demo" class="img-fluid" height="45" src="../img/oneiot/oneiot-logo.png" width="150"/>
+                    </a>
+
+                    <!-- =================================================
+                    ===== Responsive navigation bar toggle
+                    ================================================== -->
+                    <a class="top-bar__navigation-toggler" href="javascript:void(0);" id="top-bar__navigation-toggler">
+                        <span></span>
+                    </a>
+
+                    <!-- =================================================
+                    ===== Main navigation
+                    ================================================== -->
+                    <div class="top-bar__collapse">
+
+                        <!-- =================================================
+                        ===== Main navigation
+                        ================================================== -->
+                        <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
+                            <ul>
+                                <li><a class="nav-link" href="./#why">Why</a></li>
+                                <li><a class="nav-link" href="./#usecases">Use cases</a></li>
+                                <li><a class="nav-link" href="./#ecosystem">IoT Ecosystem</a></li>
+                                <li><a class="nav-link" href="./#solution">Custom Solution</a></li>
+                                <li><a class="nav-link" href="./#pricing">Pricing</a></li>
+                                <li><a class="nav-link" href="./#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- =================================================
+                        ===== Action navigation
+                        ================================================== -->
+                        <div class="top-bar__action" id="top-bar__action">
+                            <div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+
+                                <!-- =================================================
+                                ===== Language chooser
+                                ================================================== -->
+                                <div class="top-bar__choose-lang js-choose-lang">
+                                    <div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/ico/en.png' width='25'/></i><span>En</span></div>
+                                    <div class="list-wrap">
+                                        <ul class="list">
+                                            <li class="is-active" data-img="../img/ico/en.png"
+                                                data-short-name="En">
+                                                <a href="../en/">
+                                                    <span>English</span>
+                                                </a>
+                                            </li>
+                                            <li class="" data-img="../img/ico/de.png"
+                                                data-short-name="Ger">
+                                                <a href="../de/">
+                                                    <span>German</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- =================================================
+                                ===== Platform links
+                                ================================================== -->
+                                <div class="top-bar__auth-btns">
+                                    <a class="custom-btn custom-btn--medium custom-btn--style-2" href="https://app.oneiot.de">${{
+                                        index.sign-in }}$</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="start-screen start-screen--style-4" id="start-screen">
+
+        <!-- =================================================
+        ===== Background
+        ================================================== -->
+        <div class="start-screen__bg-container">
+            <div class="start-screen__bg"
+                 style="background-image: url(../img/oneiot/bg-city.png); background-position: center bottom; background-color: #1d2124"></div>
+        </div>
+
+        <!-- =================================================
+        ===== Slogan
+        ================================================== -->
+        <div class="start-screen__content-container">
+            <div class="start-screen__content__item align-items-center text-center">
+                <div class="container">
+                    <div class="row justify-content-sm-center">
+                        <div class="col-12 col-md-11">
+                            <h1 class="text-white">There is only one IoT<br/>custom solution. <span
+                                    class="text-grading font-weight-bold">OneIoT</span>.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <main role="main">
+
+        <script>
+            (function (w, d) {
+                var m = d.getElementsByTagName('main')[0],
+                    s = d.createElement("script"),
+                    v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+                    o = {
+                        elements_selector: ".lazy",
+                        threshold: 500,
+                        callback_enter: function (element) {
+
+                        },
+                        callback_load: function (element) {
+
+                        },
+                        callback_set: function (element) {
+
+                            oTimeout = setTimeout(function () {
+                                clearTimeout(oTimeout);
+
+                                AOS.refresh();
+                            }, 1000);
+                        },
+                        callback_error: function (element) {
+                            element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+                        }
+                    };
+                s.type = 'text/javascript';
+                s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+                s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+                m.appendChild(s);
+                // m.insertBefore(s, m.firstChild);
+                w.lazyLoadOptions = o;
+            }(window, document));
+        </script>
+
+
+        <section class="section" id="why">
+            <div class="container">
+
+                <!-- =================================================
+                ===== Why title
+                ================================================== -->
+                <div class="section-heading section-heading--center">
+                    <h2 class="__title">Why? <span>Choose OneIoT</span></h2>
+                    <div class="spacer py-1"></div>
+                    <p class="slogan-txt">
+                        The best IoT ecosystem for your end-to-end integration. <br/>A compact all-in-one solution from hardware to the managed-device-system.
+                    </p>
+                </div>
+
+                <div class="spacer py-8"></div>
+
+                <!-- =================================================
+                ===== Why content with icons
+                ================================================== -->
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- =================================================
+                        ===== Row 1
+                        ================================================== -->
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-dice-d6 fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>IoT Ecosystem</h4>
+                                <p>
+                                    We offer a unique ecosystem that meets all the requirements of digitization. Hardware, managed device system, management system, data lake, analytics tool, API, smart home integration, customer frontend, community extensions and more.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-exchange-alt fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>End-to-end integration</h4>
+                                <p>
+                                    Other platforms only offer one API and then let you down. We don't just give you an API, we take care of all the technical aspects of your integration from start to finish. We manage your digitization to success.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-microchip fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Hardware</h4>
+                                <p>
+                                    With our easy plug-and-play hardware we power your IoT product, whether wifi or cellular. The OneIoT operating system handles the connectivity to the ecosystem. Bring your own hardware is also a possible solution.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- =================================================
+                        ===== Row 2
+                        ================================================== -->
+                        <div class="row mt-5 text-center">
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-coins fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Cost-efficient</h4>
+                                <p>
+                                    Other platforms offer very expensive hardware. Outside industrial IoT it is impossible to integrate this hardware into low cost devices. Our hardware is the most cost-effective on the market and enables IoT for large and small devices.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Over-the-air updates</h4>
+                                <p>
+                                    With our device management system you can easily manages your OTA updates. You can not only update the firmware of your devices, but also test new functions directly in the customer's field e.g. using a split test method.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-shield-alt fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Secure by default</h4>
+                                <p>
+                                    Our ecosystem is built with the highest security standards. We use PKI-based device identity, key generation via HSM, state-of-the-art encryption technologies and AI-based data leak detection.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- =================================================
+                        ===== Row 3
+                        ================================================== -->
+                        <div class="row mt-5 text-center">
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-chart-line fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Analytics</h4>
+                                <p>
+                                    You can monitor the health of your device in real time to arrange early repairs. By evaluating data, you can improve your product and better understand customer needs and device usage.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-th-large fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Plugins</h4>
+                                <p>
+                                    Community extensions offer the opportunity to create an ecosystem that is always up-to-date and compatible with all standards and platforms. This allows us to offer maximum compatibility like no other.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-user-shield fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h4>Privacy</h4>
+                                <p>
+                                    We adhere to the highest data protection standards according to German data protection law. This gives you full control over your data and that of your customers at all times.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3" id="compare-table"
+                 style="background-image: url(../img/oneiot/bg-slogan-between.png);">
+            <div class="container">
+                <div class="section-heading section-heading--white section-heading--center">
+                    <h2 class="__title">Everything that can be digitized<br><span>will be digitized.</span></h2>
+                    <div class="spacer py-3"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-white slogan-txt">
+                            Products, processes and services are increasingly being digitised and are displacing non-digitised companies. If you want your company to be successful in the future, think about how you can igitize your business. We can help you with that.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section--bg-img lazy" id="usecases">
+            <div class="container">
+                <div class="section-heading section-heading--center">
+
+                    <!-- =================================================
+                    ===== Use cases description
+                    ================================================== -->
+
+                    <div class="section-heading">
+                        <h2 class="__title">Use cases. <span>Increase your business</span></h2>
+                    </div>
+
+                    <div class="spacer py-4"></div>
+
+                    <div>
+                        <p class="slogan-txt">
+                            The Internet of Things is the key technology when it comes to digitization. Each device has the ability to communicate over the internet. This enables unexpected potentials and a huge economic value for almost all products on the market. We are convinced that we can also increase your business through IoT, so that you can continue to be successful in the future..
+                        </p>
+                    </div>
+
+                    <div class="spacer py-9"></div>
+
+                </div>
+
+                <div class="row usecase-item">
+                    <div class="col-12">
+                        <div class="content-container">
+                            <div class="services services--s2">
+                                <div class="__inner">
+                                    <div class="row justify-content-md-center no-gutters">
+                                        <div class="col-12 col-md-11 col-xl-10">
+                                            <div class="row justify-content-lg-center">
+
+                                                <!-- =================================================
+                                                ===== Use case
+                                                ================================================== -->
+                                                <div class="col-12">
+                                                    <div class="__item">
+                                                        <div class="d-sm-table">
+                                                            <div class="d-sm-table-cell align-middle">
+                                                                <h4 class="__title mb-5">Example: E-Scooter Service</h4>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            A sharing service requires that each scooter be monitored and analyzed. They want to monitor all scooters on a map via a dashboard so they can keep track of the scooter's locations.
+                                                        </p>
+                                                        <p>
+                                                            If a scooter is outside the zone or driving too fast, the company may take appropriate action.
+                                                        </p>
+                                                        <img alt="demo" class="img-fluid" src="../img/oneiot/usecase-scooter.png"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="spacer py-4"></div>
+
+                <div class="row usecase-item">
+                    <div class="col-12">
+                        <div class="content-container">
+                            <div class="services services--s2">
+                                <div class="__inner">
+                                    <div class="row justify-content-md-center no-gutters">
+                                        <div class="col-12 col-md-11 col-xl-10">
+                                            <div class="row justify-content-lg-center">
+
+                                                <!-- =================================================
+                                                ===== Use case
+                                                ================================================== -->
+                                                <div class="col-12">
+                                                    <div class="__item">
+                                                        <div class="d-sm-table">
+                                                            <div class="d-sm-table-cell align-middle">
+                                                                <h4 class="__title mb-5">Example: Smart Aquarium</h4>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            An aquarium owner can control the lighting and the pump via his smart home. In addition, he observes the water quality data. This way he knows at any time and in any place whether his fish are doing well.
+                                                        </p>
+                                                        <img alt="demo" class="img-fluid" src="../img/oneiot/usecase-aquarium.png"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="spacer py-4"></div>
+
+                <div class="row usecase-item">
+                    <div class="col-12">
+                        <div class="content-container">
+                            <div class="services services--s2">
+                                <div class="__inner">
+                                    <div class="row justify-content-md-center no-gutters">
+                                        <div class="col-12 col-md-11 col-xl-10">
+                                            <div class="row justify-content-lg-center">
+
+                                                <!-- =================================================
+                                                ===== Use case
+                                                ================================================== -->
+                                                <div class="col-12">
+                                                    <div class="__item">
+                                                        <div class="d-sm-table">
+                                                            <div class="d-sm-table-cell align-middle">
+                                                                <h4 class="__title mb-5">Your idea</h4>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            Our abstract ecosystem allows you to connect any type of device. Simply send the data to the ecosystem and our ecosystem will process all your requirements.
+                                                        </p>
+                                                        <p>
+                                                            We develop your individual use cases according to your needs.
+                                                        </p>
+                                                        <img alt="demo" class="img-fluid" src="../img/oneiot/usecase-your-idea.png"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+        <section class="section" id="ecosystem">
+            <div class="container">
+
+                <!-- =================================================
+                ===== Ecosystem header
+                ================================================== -->
+                <div class="section-heading section-heading--center">
+                    <h2 class="__title">IoT Ecosystem. <span>OneIoT, one solution</span></h2>
+                    <p class="slogan-txt">
+                        Compared to other platforms, we offer not only a platform, we provide a full ecosystem. The advantage of this is that an ecosystem is easy to expand. The entire IoT community and all companies can build their use cases on the system through simple customizing and extension. This allows us to create an all-in-one solution.
+                    </p>
+                </div>
+
+                <div class="spacer py-12"></div>
+
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Ecosystem image
+                    ================================================== -->
+                    <div class="col-12 col-lg-8 col-xl-6 pl-10 pr-10">
+                        <img alt="demo" class="img-fluid" src="../img/oneiot/oneiot-ecosystem.png" width="100%"/>
+                    </div>
+
+                    <div class="spacer py-6 d-xl-none"></div>
+
+                    <!-- =================================================
+                    ===== Ecosystem details
+                    ================================================== -->
+                    <div class="col-12 col-xl-6 pl-10 pr-10">
+                        <div class="content-container">
+                            <div class="faq">
+                                <div class="accordion-container">
+
+                                    <!-- =================================================
+                                    ===== Device cloud
+                                    ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Managed Devices</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    It is the core module and all devices communicate with the ecosystem via WiFi, cellular or other protocols. Our hardware is pre-configured and optimized for the managed-device-system, this leads to an easy and fast integration.
+                                                </p>
+                                                <p>
+                                                    All devices can be connected, whether machines, vehicles, appliances or battery-powered outdoor devices. The range of application is unlimited.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== Management
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Management</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    With our management system you can easily manage all your devices, no matter where your devices are located. This also allows you to update your devices over-the-air.
+                                                </p>
+                                                <p>
+                                                    That means that you can also test new features for a defined number of devices directly in the field. Then you can evaluate the new features and get important insights for your business.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== Data Lake
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Data Lake</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    Our big data lake can store all data of your devices. This ensures that no data is lost and can be analyzed later as well to ensure that no potential value is missed.
+                                                </p>
+                                                <p>
+                                                    Big data analyses can be performed adapted to your business that helps your company to identify new opportunities. That leads to smarter business decisions, efficient operations, increased profits and happier customers.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== Analytics
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Analytics</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    We offer a powerful analytics tool to analyze your data for added business value. You can use it to schedule the maintenance and service of your devices in detail, so you can avoid downtimes and increase your productivity.
+                                                </p>
+                                                <p>
+                                                    You can also evaluate the use of your devices. This gives you valuable data to improve your product. You're answering simple questions like how is the device used? Where are the vulnerabilities? Which features are most frequently used? In this way, you can optimize the device and save money by preventing the development of unused usage.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== Dashboard
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Dashboard</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    We offer a comprehensive dashboard to map your entire device workflow, you can visualize and control your device data in real time. We also attach great importance to customizing the dashboard to your individual needs.
+                                                </p>
+                                                <p>
+                                                    In addition, we offer your customers a web and app dashboard with which they can easily control your product.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== API
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">API</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    With the OneIoT API you can use all functions of the ecosystem to write your own application. This also makes it possible to integrate functions into your own systems such as ERP. This way your business processes can be perfectly extended by IoT. 
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== Smart Home
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Smart Home</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    Unlike other platforms, we offer integration with all common Smart Home platforms. Your customers can thus control your product via their Smart Home. This allows you to offer your customers a smart product that can even be controlled via voice, e.g. via Alexa or Google Home.
+                                                </p>
+                                                <p>
+                                                    Modern Smart Home products can be sold at a multiple price. This increases your business volume and puts you one step ahead of your competitors.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                     ===== Plugins
+                                     ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Plugins</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    Plugins provide the ability for everyone to extend the ecosystem to support all standards, platforms and protocols. This allows us to offer maximum compatibility like no other. Not only the community can extend the ecosystem, but also companies can integrate their own ideas and processes.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Hardware
+                                    ================================================== -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-toggler">
+                                            <h4 class="accordion-title">Hardware</h4>
+                                            <i class="circled"></i>
+                                        </div>
+                                        <article class="accordion-content">
+                                            <div class="accordion-content__inner">
+                                                <p>
+                                                    The hardware is pre-installed with the OneIoT operating system, which guarantees the highest security standard. The pre-installation allows you to connect the hardware to the ecosystem via plug-and-play.
+                                                </p>
+                                                <p>
+                                                    We offer a WiFi module for indoor use and a mobile phone module that is ideal for outdoor use. This allows us to cover all your needs. Of course there is also the possibility to use your own hardware. 
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="solution">
+            <div class="container">
+                <div class="section-heading section-heading--center text-white">
+                    <h2 class="__title text-white">Custom Solution. <span> Use case first</span>
+                    </h2>
+                    <p class="slogan-txt">
+                        Why we are the best IoT custom solution provider on the market?
+                        <br/>
+                        We focus on your use case. Cost-efficient, fast and secure.
+                    </p>
+                </div>
+
+                <div class="spacer py-6"></div>
+
+                <div class="row">
+                    <div class="col-12">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="content-container">
+                                    <div class="services services--s2">
+                                        <div class="__inner">
+                                            <div class="row justify-content-md-center no-gutters">
+                                                <div class="col-12 col-md-11 col-xl-10">
+                                                    <div class="row justify-content-lg-center">
+
+                                                        <!-- =================================================
+                                                        ===== OneIoT
+                                                        ================================================== -->
+                                                        <div class="col-12 col-lg-6 pr-0 pl-0">
+                                                            <div class="__item">
+                                                                <div class="d-sm-table">
+                                                                    <div class="d-sm-table-cell align-middle">
+                                                                        <h4 class="__title mb-5">OneIoT</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <ol class="__desc-list">
+                                                                    <li>First conversation</li>
+                                                                    <li>Fast plug-and-play POC/Prototype</li>
+                                                                    <li>Build your use case custom solution</li>
+                                                                    <li>Map your use cases to our ecosystem</li>
+                                                                    <li>You only pay for your use cases</li>
+                                                                </ol>
+                                                            </div>
+                                                            <div class="section-heading--center custom-solution">
+                                                                <img alt="OneIoT Custom Solution" class="img-fluid"
+                                                                     src="../img/oneiot/custom-solution-oneiot.png" width="100%"/>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- =================================================
+                                                        ===== Company X
+                                                        ================================================== -->
+                                                        <div class="col-12 col-lg-6 pr-0 pl-0 space-resp">
+                                                            <div class="__item">
+                                                                <div class="d-sm-table">
+                                                                    <div class="d-sm-table-cell align-middle">
+                                                                        <h4 class="__title mb-5">Software Company X</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <ol class="__desc-list">
+                                                                    <li>First conversation</li>
+                                                                    <li>Build POC/Prototype from scratch</li>
+                                                                    <li>Deal with IoT problems</li>
+                                                                    <li>Finish POC/Prototype</li>
+                                                                    <li>Build a new platform from scratch</li>
+                                                                    <li>Deal with major IoT problems</li>
+                                                                    <li>Need to talk with IoT experts</li>
+                                                                    <li>Finish platform</li>
+                                                                    <li>Implement your use cases</li>
+                                                                    <li>Fix platform to get use cases integrated</li>
+                                                                    <li>You pay 100% of all development costs</li>
+                                                                </ol>
+                                                            </div>
+                                                            <div class="section-heading--center custom-solution">
+                                                                <img alt="Company X Custom Solution" class="img-fluid"
+                                                                     src="../img/oneiot/custom-solution-company-x.png" width="100%"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="spacer py-10"></div>
+
+                                            <!-- =================================================
+                                             ===== Contact btn
+                                             ================================================== -->
+                                            <div class="section-heading--center">
+                                                <a class="custom-btn custom-btn--medium custom-btn--style-2" href="index#contact">
+                                                    &nbsp;&nbsp;Talk to sales&nbsp;&nbsp;</a>
+                                            </div>
+
+                                            <div class="spacer py-4"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section--light-blue-bg" id="pricing">
+            <div class="container">
+
+                <!-- =================================================
+                ===== Pricing title
+                ================================================== -->
+                <div class="section-heading section-heading--center">
+                    <h2 class="__title">Pricing <span>for your IoT solution</span></h2>
+                    <p class="slogan-txt">
+                        You not just buy a product, you also buy the best IoT service. There are no hidden costs, our prices are transparent.
+                    </p>
+                </div>
+
+                <div class="spacer py-6"></div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-container">
+                            <div class="pricing-table pricing-table--s1">
+                                <div class="__inner">
+                                    <div class="row justify-content-sm-center">
+
+                                        <!-- =================================================
+                                        ===== Easy service
+                                        ================================================== -->
+                                        <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-3 d-sm-flex">
+                                            <div class="__item __item--rounded __item--shadow">
+                                                <div class="__header">
+                                                    <div class="__title h4">Easy Service</div>
+                                                    <div class="__price">6.98<sup>€</sup><br/></div>
+                                                    <sub class="__info">per device</sub>
+                                                </div>
+                                                <div class="__body  pt-8 pb-9">
+                                                    <ul class="__desc-list">
+                                                        <li>Bring your own hardware</li>
+                                                        <li>Full security</li>
+                                                        <li>Access to all features</li>
+                                                        <li>Dashboard and analytics</li>
+                                                        <li>App for your end-user</li>
+                                                        <li>Smart Home compatible</li>
+                                                        <li>Inkl. 90.000.000 data dots</li>
+                                                        <br/>
+                                                        <li>Ready to scale</li>
+                                                        <li>Documentation</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="__footer">
+                                                    <a class="custom-btn custom-btn--medium custom-btn--style-2"
+                                                       href="index#contact">
+                                                        &nbsp;&nbsp;Interested&nbsp;&nbsp;</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- =================================================
+                                        ===== Premium service
+                                        ================================================== -->
+                                        <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-3 d-sm-flex">
+                                            <div class="__item __item--rounded __item--shadow __item--active">
+                                                <div class="__header">
+                                                    <div class="__title h4">Premium Service</div>
+                                                    <div class="__price">10.98<sup>€</sup><br/></div>
+                                                    <sub class="__info">per device</sub>
+                                                </div>
+                                                <div class="__body  pt-8 pb-9">
+                                                    <ul class="__desc-list">
+                                                        <li>OneIoT hardware</li>
+                                                        <li>Full security</li>
+                                                        <li>Access to all features</li>
+                                                        <li>Dashboard and analytics</li>
+                                                        <li>App for your end-user</li>
+                                                        <li>Smart Home compatible</li>
+                                                        <li>Inkl. 90.000.000 data dots</li>
+                                                        <br/>
+                                                        <li>Ready to scale</li>
+                                                        <li>Documentation</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="__footer">
+                                                    <a class="custom-btn custom-btn--medium custom-btn--style-4"
+                                                       href="index#contact">
+                                                        &nbsp;&nbsp;Interested&nbsp;&nbsp;</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- =================================================
+                                        ===== Device storage
+                                        ================================================== -->
+                                        <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-3 d-sm-flex">
+                                            <div class="__item __item--rounded __item--shadow platinum-storage">
+                                                <div class="__header">
+                                                    <div class="__title h4">Platinum Storage</div>
+                                                    <div class="__price"
+                                                         style="font-size: 2.7rem!important;margin-bottom: 30px;">
+                                                        Pay as you go<sup></sup><br/></div>
+                                                    <sub class="__info">per device</sub>
+                                                </div>
+                                                <div class="__body  pt-8 pb-9">
+                                                    <ul class="__desc-list">
+                                                        <li>Real time storage</li>
+                                                        <li>Unlimited data dots</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="__footer">
+                                                    <a class="custom-btn custom-btn--medium custom-btn--style-2"
+                                                       href="index#contact">
+                                                        &nbsp;&nbsp;Interested&nbsp;&nbsp;</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- =================================================
+                                       ===== Custom solution
+                                       ================================================== -->
+                                        <div class="col-12 col-sm-9 col-md-6 col-lg-5 col-xl-3 d-sm-flex">
+                                            <div class="__item __item--rounded __item--shadow">
+                                                <div class="__header">
+                                                    <div class="__title h4">Custom Solution</div>
+                                                </div>
+                                                <div class="__body  pt-8 pb-9">
+                                                    <ul class="__desc-list">
+                                                        <li>Strategy for your digitization</li>
+                                                        <li>Build POC/Prototype</li>
+                                                        <li>Build your use case</li>
+                                                        <li>End-to-End integration from hardware to managed-device-system</li>
+                                                        <li>Custom dashboard, analytics and end-user app</li>
+                                                        <li>Sharing know-how</li>
+                                                        <li>Full support</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="__footer">
+                                                    <a class="custom-btn custom-btn--medium custom-btn--style-2"
+                                                       href="index#contact">
+                                                        &nbsp;&nbsp;Interested&nbsp;&nbsp;</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="spacer py-3"></div>
+                            <p class="pricing-info">
+                                 *All prices and services are negotiable on the basis of <br/>the quantity ordered and the individual needs of your company.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3" id="contact"
+                 style="background-color: #1d2124">
+            <div class="container">
+
+                <!-- =================================================
+                ===== Contact title
+                ================================================== -->
+                <div class="section-heading section-heading--white section-heading--center">
+                    <h2 class="__title">Contact <span>OneIoT</span></h2>
+                    <p class="slogan-txt">
+                        Get in touch with our IoT experts and sales team.
+                    </p>
+                </div>
+
+                <div class="spacer py-6"></div>
+
+                <!-- =================================================
+                ===== Contact content
+                ================================================== -->
+                <div class="row justify-content-md-center">
+
+                    <!-- =================================================
+                    ===== Contact form
+                    ================================================== -->
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                        <form class="js-contact-form" id="contact-form" name="sentMessage" novalidate="novalidate">
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--dark form-name form-control" data-validation-required-message="Please enter your name."
+                                       id="name" name="name" placeholder="Name" required="required"
+                                       type="text"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--dark form-phone form-control" id="phone"
+                                       name="phone" placeholder="Phone" type="number"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--dark form-subject form-control"
+                                       id="subject" name="subject" placeholder="Company" type="text"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--dark form-email form-control"
+                                       data-validation-required-message="Please enter your email address." id="email"
+                                       name="email" placeholder="E-Mail" required="required"
+                                       type="email"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <label class="input-wrp form-group">
+                                <textarea class="textfield textfield--dark form-message form-control" data-validation-required-message="Please enter a message."
+                                          id="message" name="message" placeholder="Message"
+                                          required="required"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </label>
+                            <div id="success"></div>
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit" id="sendMessageButton"
+                                    name="submit" role="button"
+                                    type="submit" value="Send Message">
+                                Send Message
+                            </button>
+                            <div class="form__note"></div>
+                        </form>
+
+                        <!-- =================================================
+                        ===== Contact details
+                        ================================================== -->
+                        <div class="company-contacts company-contacts--s2 mt-12 text-white">
+                            <div class="__inner">
+                                <div class="__name h3">Talk to <span>us?</span></div>
+                                <div class="row no-gutters align-items-baseline">
+                                    <div class="col-12 col-md">
+                                        <span class="__phone">+49 172 - 232 51 02</span>
+                                    </div>
+                                    <div class="col-12 col-md-auto">
+                                        <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer footer--s3 footer--color-dark">
+        <div class="footer__line footer__line--first">
+            <div class="container">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Company links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-2">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Company</h4>
+                            <nav class="footer__navigation">
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Resources links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-2">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Resources</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li><a href="help-desk"><i class="fa fa-angle-double-right"></i>Help</a>
+                                    </li>
+                                    <li><a href="https://github.com/1IoT" target="_blank"><i
+                                            class="fa fa-angle-double-right"></i>Open Source</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Terms links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-2">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Terms</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li><a href="privacy"><i class="fa fa-angle-double-right"></i>${{ index.privacy-policy
+                                        }}$</a></li>
+                                    <li><a href="terms"><i class="fa fa-angle-double-right"></i>Terms</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Newsletter subscription
+                    ================================================== -->
+                    <div class="col-12 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title text-white">Subscribe</h4>
+                            <form class="form--horizontal" id="newsletter-form" novalidate="novalidate">
+                                <p class="mb-4 text-white">Get smarter about IoT and digitization. Stay fit for the future and subscribe our newsletter.</p>
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-sm">
+                                        <div class="input-wrp form-group">
+                                            <input autocomplete="on"
+                                                   class="textfield textfield--grey newsletter-form-email"
+                                                   data-validation-required-message="Please enter your email address." name="email" placeholder="E-Mail" required="required"
+                                                   type="text"
+                                                   type="email"/>
+                                            <p class="help-block text-danger mt-4"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-auto">
+                                        <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit"
+                                                name="submit"
+                                                role="button" type="submit">Submit
+                                        </button>
+                                    </div>
+                                    <div id="success-newsletter"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- =================================================
+        ===== Bottom bar on footer
+        ================================================== -->
+        <div class="footer__line footer__line--second">
+            <div class="container">
+                <div class="row justify-content-center align-items-md-center">
+
+                    <!-- =================================================
+                    ===== Copyright
+                    ================================================== -->
+                    <div class="col-auto col-md-5 col-lg-4">
+                        <div class="footer__item">
+                            <span class="__copy">Copyrights 2019 © EasyTOI UG (haftungsbeschränkt)</span>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Company icon
+                    ================================================== -->
+                    <div class="col-12 col-md text-center">
+                        <div class="footer__item">
+                            <a class="footer__logo site-logo" href="index">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Social links
+                    ================================================== -->
+                    <div class="col-auto col-md-5 col-lg-4">
+                        <div class="footer__item">
+                            <div class="s-btns s-btns--md s-btns--light s-btns--rounded">
+                                <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">
+                                    <!--                            <li><a class="i" href="#"><i class="fontello-instagram"></i></a></li>-->
+                                    <!--                            <li><a class="f" href="#"><i class="fontello-facebook"></i></a></li>-->
+                                    <!--                            <li><a class="t" href="#"><i class="fontello-twitter"></i></a></li>-->
+                                    <!--                            <li><a class="y" href="#"><i class="fontello-youtube-play"></i></a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+<div id="btn-to-top-wrap">
+    <a class="circled" data-visible-offset="800" href="javascript:void(0);" id="btn-to-top"></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="../js/jquery-2.2.4.min.js"><\/script>')</script>
+
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="../js/main.min.js" type="text/javascript"></script>
+
+<script src="../js/contact-form-main.min.js" type="text/javascript"></script>
+<script src="../js/newsletter-form.min.js" type="text/javascript"></script>
+<script src="../js/jqBootstrapValidation.min.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
+
