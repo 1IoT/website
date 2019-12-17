@@ -5474,6 +5474,9 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   background-color: #f9fbfc;
   background-size: cover
 }
+#solution .space-resp {
+  margin-top: 80px
+}
 #solution .__item {
   padding-left: 45px;
   padding-right: 45px
