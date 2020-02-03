@@ -99,7 +99,7 @@ $column-gutter: 30px;
   left: 0;
   right: 0;
   margin: auto;
-  padding: 32px 0;
+  padding: 20px 0;
   font-size: 1.6rem;
   font-weight: 700;
   @include transition(top 0.3s);
@@ -240,7 +240,7 @@ $column-gutter: 30px;
 
   &__navigation-toggler {
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 15px;
     padding: 50px 50px;
     z-index: 6;
@@ -766,7 +766,7 @@ $column-gutter: 30px;
       flex-wrap: wrap;
       flex-grow: 1;
       flex-basis: 0;
-      height: 32px;
+      height: 40px;
       overflow: visible;
     }
 
@@ -826,7 +826,7 @@ $column-gutter: 30px;
 }
 
 .top-bar.is-sticky {
-  padding-bottom: 38px;
+  padding-bottom: 20px;
 
   .top-bar__collapse {
 

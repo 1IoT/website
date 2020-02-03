@@ -5,12 +5,36 @@
     ================================================== -->
     <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
         <ul>
-            <li><a class="nav-link" href="./#why">${{ index.why }}$</a></li>
-            <li><a class="nav-link" href="./#usecases">${{ index.use-cases }}$</a></li>
-            <li><a class="nav-link" href="./#ecosystem">IoT ${{ index.ecosystem }}$</a></li>
-            <li><a class="nav-link" href="./#solution">${{ index.custom-solution }}$</a></li>
-            <li><a class="nav-link" href="./#pricing">${{ index.pricing }}$</a></li>
-            <li><a class="nav-link" href="./#contact">${{ index.contact }}$</a></li>
+            <li class="has-submenu">
+                <a class="nav-link">${{ index.capabilities }}$</a>
+                <ul class="submenu">
+                    <li><a href="capabilities#controlling">${{ index.control }}$</a></li>
+                    <li><a href="capabilities#monitoring">${{ index.monitoring }}$</a></li>
+                    <li><a href="capabilities#maintenance">${{ index.maintenance }}$</a></li>
+                    <li><a href="capabilities#smart-home">${{ index.smart-home }}$</a></li>
+                </ul>
+            </li>
+            <li class="has-submenu">
+                <a class="nav-link">${{ index.product }}$</a>
+                <ul class="submenu">
+                    <li><a href="dashboard">${{ index.dashboard }}$</a></li>
+                    <li><a href="hardware">${{ index.hardware }}$</a></li>
+                    <li><a href="cloud">${{ index.cloud }}$</a></li>
+                    <li><a href="api">${{ index.api }}$</a></li>
+                </ul>
+            </li>
+            <li class="has-submenu">
+                <a class="nav-link">${{ index.service }}$</a>
+                <ul class="submenu">
+                    <li><a href="consulting">${{ index.consulting }}$</a></li>
+                    <li><a href="prototyping">${{ index.prototyping }}$</a></li>
+                    <li><a href="iot-integration">${{ index.iot-integration }}$</a></li>
+                    <li><a href="support">${{ index.support }}$</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="">${{ index.blog }}$</a></li>
+            <li><a class="nav-link" href="">${{ index.pricing }}$</a></li>
+            <li><a class="nav-link" data-toggle="modal" data-target="#contact-modal">${{ index.contact }}$</a></li>
         </ul>
     </nav>
 
@@ -46,9 +70,12 @@
             <!-- =================================================
             ===== Platform links
             ================================================== -->
+            <div class="">
+                <a href="">Login</a>
+            </div>
             <div class="top-bar__auth-btns">
                 <a class="custom-btn custom-btn--medium custom-btn--style-2"
-                   href="https://app.oneiot.de">${{ index.sign-in }}$</a>
+                   href="https://app.oneiot.de">${{ index.register }}$</a>
             </div>
 
         </div>

@@ -37,14 +37,14 @@ h3, .h3 {
 }
 
 h1, .h1 {
-  font-size: rem-calc(40px);
+  font-size: rem-calc(20px);
 
   @include media-breakpoint-up(sm) {
-    font-size: rem-calc(55px);
+    font-size: rem-calc(35px);
   }
 
   @include media-breakpoint-up(md) {
-    font-size: rem-calc(70px);
+    font-size: rem-calc(50px);
   }
 }
 

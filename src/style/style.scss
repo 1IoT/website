@@ -25,8 +25,11 @@
 @import 'vendors-extensions/bootstrap-4/col-push-pull';
 @import 'vendors-extensions/slick';
 @import 'base/common';
+@import 'components/header_top_bar';
 @import 'components/accordions';
 @import 'components/check_list';
+@import 'components/why';
+@import 'components/contact';
 @import 'components/comments_list';
 @import 'components/counters';
 @import 'components/icon_box';
@@ -35,6 +38,9 @@
 @import 'components/social_btns';
 @import 'components/store_btns';
 @import 'components/tab';
+@import 'components/capabilities';
+@import 'components/brands';
+@import 'components/benefits';
 @import 'components/tags_list';
 @import 'components/to_top_btn';
 @import 'components/widget';

@@ -2,12 +2,12 @@
          style="background-color: #1d2124">
     <div class="container small-container-with-btn">
         <div class="section-heading section-heading--white section-heading--center">
-            <h2 class="__title">${{ index.contact-oneiot }}$ <span>OneIoT</span></h2>
+            <h2 class="__title">${{ index.contact-oneiot }}$ <span>${{ index.contact-today }}$</span></h2>
             <p>
                 ${{ index.contact-slogan }}$
             </p>
             <div class="col-12 col-sm-auto">
-                <a href="./#contact">
+                <a data-toggle="modal" data-target="#contact-modal">
                     <button class="custom-btn custom-btn--medium custom-btn--style-2 wide" role="button"
                             type="submit">${{ index.contact }}$
                     </button>

@@ -1,0 +1,28 @@
+#controlling {
+  background-color: $branding-white-dark;
+}
+
+#maintenance {
+  background-color: $branding-white-dark;
+}
+
+.capabilities {
+  @media (min-width: 992px) {
+    .col-lg-3 {
+      flex: 0 0 33% !important;
+      max-width: 33% !important;
+    }
+  }
+
+  .__title {
+    font-weight: 700;
+    font-family: Quicksand,sans-serif;
+  }
+
+  .counter-capabilities {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Quicksand,sans-serif;
+    margin-bottom: 0 !important;
+  }
+}
