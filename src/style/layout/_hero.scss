@@ -3,10 +3,10 @@
 -------------------------------- */
 
 .hero {
-  min-height: 400px;
-  padding-top: 180px;
+  min-height: 560px;
+  padding-top: 250px;
   padding-bottom: 30px;
-  @extend %bg-cover;
+  //@extend %bg-cover;
   background-color: $primary-color;
   color: $white;
   @include userSelect(none);
@@ -16,6 +16,14 @@
     color: inherit;
     text-align: center;
   }
+
+  .section-heading--center {
+    font-size: 20px;
+  }
+}
+
+.hero__title {
+  font-weight: 500 !important;
 }
 
 @include media-breakpoint-up(sm) {

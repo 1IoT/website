@@ -5,17 +5,22 @@
 
     @@include('component/header.html')
 
-    @@include('component/dashboard-header.html')
+    @@include('component/header-title.html', {
+        "title": "${{ index.dashboard-header-title }}$",
+        "subtitle": "${{ index.header-text-part-of-feature }}$"
+    })
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/dashboard-why.html')
-
         @@include('component/dashboard-company.html')
 
         @@include('component/dashboard-customer.html')
+
+        @@include('component/dashboard-eyecatcher.html')
+
+        @@include('component/dashboard-features.html')
 
         @@include('component/contact-small.html')
 

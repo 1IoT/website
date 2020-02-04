@@ -6,15 +6,406 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-        "title": "${{ index.blog }}$",
-        "subtitle": " awd"
+    "title": "${{ index.blog }}$",
+    "subtitle": " awd"
     })
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/faq.html')
+        <section id="blog" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <h6 class="__subtitle">Blog and News</h6>
+
+                    <h2 class="__title">TechLand <span>Blog</span></h2>
+                </div>
+
+                <div class="spacer py-6"></div>
+
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- =================================================
+                        ===== Start row
+                        ================================================== -->
+                        <div class="posts posts--s1">
+                            <div class="__inner">
+                                <div class="row">
+
+                                    <!-- =================================================
+                                    ===== Blog 1
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <img class="lazy" src="img/blank.gif"
+                                                         data-src="img/posts_img/s1_1.jpg" alt="demo"/>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <div class="post-meta">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a href="#">Strategy in digital marketing
+                                                        company </a></h4>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #f94a11;background-color: #ffefe8">SEO</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #0cbc5a;background-color: #e6faef">Strategy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Blog 2
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow">
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <div class="post-meta">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a href="#">SEO company in Washington DC</a>
+                                                    </h4>
+                                                    <p>
+                                                        Redfin perch tripod fish zebra lionfish, nase slickhead!
+                                                        Jewelfish angler Devario gray reef shark forehead brooder. Pike
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #e93053;background-color: #fcecef">Washington</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Blog 3
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <img class="lazy" src="img/blank.gif"
+                                                         data-src="img/posts_img/s1_2.jpg" alt="demo"/>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <div class="post-meta">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a href="#">Grass carp damselfish ghoul king of
+                                                        herring</a></h4>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #f94a11;background-color: #ffefe8">SEO</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #0cbc5a;background-color: #e6faef">Strategy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Blog 4
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow"
+                                             style="background-image: url(img/posts_img/s1_5.jpg);">
+                                            <div class="__body  d-sm-flex align-items-sm-end">
+                                                <div class="__content">
+                                                    <div class="post-meta text-white">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a class="text-white" href="#">Grass carp
+                                                        damselfish ghoul king of herring</a></h4>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #f94a11;background-color: #ffefe8">SEO</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #0cbc5a;background-color: #e6faef">Strategy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- =================================================
+                                    ===== End blog 4
+                                    ================================================== -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- =================================================
+                  ===== End row
+                  ================================================== -->
+
+
+
+                        <!-- =================================================
+                    ===== Start row
+                    ================================================== -->
+                        <div class="posts posts--s1">
+                            <div class="__inner">
+                                <div class="row">
+
+                                    <!-- =================================================
+                                    ===== Blog 1
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <img class="lazy" src="img/blank.gif"
+                                                         data-src="img/posts_img/s1_1.jpg" alt="demo"/>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <div class="post-meta">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a href="#">Strategy in digital marketing
+                                                        company </a></h4>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #f94a11;background-color: #ffefe8">SEO</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #0cbc5a;background-color: #e6faef">Strategy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Blog 2
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow">
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <div class="post-meta">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a href="#">SEO company in Washington DC</a>
+                                                    </h4>
+                                                    <p>
+                                                        Redfin perch tripod fish zebra lionfish, nase slickhead!
+                                                        Jewelfish angler Devario gray reef shark forehead brooder. Pike
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #e93053;background-color: #fcecef">Washington</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Blog 3
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <img class="lazy" src="img/blank.gif"
+                                                         data-src="img/posts_img/s1_2.jpg" alt="demo"/>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <div class="post-meta">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a href="#">Grass carp damselfish ghoul king of
+                                                        herring</a></h4>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #f94a11;background-color: #ffefe8">SEO</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #0cbc5a;background-color: #e6faef">Strategy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- =================================================
+                                    ===== Blog 4
+                                    ================================================== -->
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded __item--shadow"
+                                             style="background-image: url(img/posts_img/s1_5.jpg);">
+                                            <div class="__body  d-sm-flex align-items-sm-end">
+                                                <div class="__content">
+                                                    <div class="post-meta text-white">
+                                                        <div class="row justify-content-between align-items-center">
+                                                            <div class="col-auto">
+                                                                <span class="post-meta__item __author">by Simon Carter</span>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <time class="post-meta__item __date-post">22 Aug</time>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h4 class="__title"><a class="text-white" href="#">Grass carp
+                                                        damselfish ghoul king of herring</a></h4>
+                                                </div>
+                                            </div>
+                                            <div class="__footer">
+                                                <div class="tags-list">
+                                                    <ul>
+                                                        <li><a href="#"
+                                                               style="color: #695afd;background-color: #f2f1ff">Marketing</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #f94a11;background-color: #ffefe8">SEO</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                               style="color: #0cbc5a;background-color: #e6faef">Strategy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- =================================================
+                                    ===== End blog 4
+                                    ================================================== -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- =================================================
+                  ===== End row
+                  ================================================== -->
+                    </div>
+                </div>
+            </div>
+        </section>
 
         @@include('component/contact-small.html')
 
