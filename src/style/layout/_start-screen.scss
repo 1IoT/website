@@ -5,6 +5,7 @@
 .start-screen {
   position: relative;
   z-index: 1;
+  background-color: $primary-color;
 
   &--full-height {
     .start-screen__content__item {

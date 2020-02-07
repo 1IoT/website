@@ -44,6 +44,13 @@ ul {
   margin: 0;
 }
 
+@media (min-width: 1600px) {
+  .container-start-screen {
+    max-width: 1500px !important;
+    padding-top: 150px;
+  }
+}
+
 // Required
 @import "vendors/bootstrap-4/functions";
 @import "vendors/bootstrap-4/variables";

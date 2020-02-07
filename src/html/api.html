@@ -6,7 +6,7 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-        "title": "Dashboard auf Ihre Unternehmensprozesse anpassen.",
+        "title": "${{ index.api-title }}$",
         "subtitle": "${{ index.capabilities-title-text }}$."
     })
 
@@ -15,6 +15,10 @@
         @@include('template/LazyLoad_scripts.html')
 
         @@include('component/api-why.html')
+
+        @@include('component/eyecatcher-call.html')
+
+        @@include('component/api-features.html')
 
         @@include('component/contact-small.html')
 
