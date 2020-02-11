@@ -1,12 +1,7 @@
-# OneIoT Webtemplate
+# OneIoT Website
 
 There is only one IoT custom solution. OneIoT.
 contact@oneiot.de
 
-
-
-
-Gulp v3 required Node 10
-
-ToDo: Update gulp file
-Workaround: Use nvm to switch between Node versions
+- Node v10 required
+- gulp build & gulp watch

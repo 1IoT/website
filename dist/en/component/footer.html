@@ -8,9 +8,19 @@
                 ================================================== -->
                 <div class="col col-sm-5 col-md-3 col-lg-2">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">Company</h4>
+                        <h4 class="footer__item__title">Company</h4>
                         <nav class="footer__navigation">
-
+                            <ul>
+<!--                                <li>-->
+<!--                                    <a href=""> About us</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href=""> Careers</a>-->
+<!--                                </li>-->
+                                <li>
+                                    <a data-toggle="modal" data-target="#contact-modal"> Contact</a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                 </div>
@@ -20,13 +30,18 @@
                 ================================================== -->
                 <div class="col col-sm-5 col-md-3 col-lg-2">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">Resources</h4>
+                        <h4 class="footer__item__title">Resources</h4>
                         <nav class="footer__navigation">
                             <ul>
-                                <li><a href="help-desk"><i class="fa fa-angle-double-right"></i>Help</a>
+                                <li>
+                                    <a href="help-desk">Help Center</a>
                                 </li>
-                                <li><a href="https://github.com/1IoT" target="_blank"><i
-                                        class="fa fa-angle-double-right"></i>Open Source</a></li>
+                                <li>
+                                    <a href="https://github.com/1IoT" target="_blank">Open Source</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://blog.oneiot.de/en">Blog</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -37,12 +52,15 @@
                 ================================================== -->
                 <div class="col col-sm-5 col-md-3 col-lg-2">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">Terms</h4>
+                        <h4 class="footer__item__title">Termine</h4>
                         <nav class="footer__navigation">
                             <ul>
-                                <li><a href="privacy">
-                                    <i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
-                                <li><a href="terms"><i class="fa fa-angle-double-right"></i>Terms</a></li>
+                                <li>
+                                    <a data-toggle="modal" data-target="#online-demo-modal"> Online Demo</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://blog.oneiot.de/en/category/iot-workshop-en"> Workshop</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -51,19 +69,19 @@
                 <!-- =================================================
                 ===== Newsletter subscription
                 ================================================== -->
-                <div class="col-12 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+                <div class="col-12 col-md-8 col-lg-5 col-xl-5 offset-xl-1">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">Subscribe</h4>
+                        <h4 class="footer__item__title">Subscribe</h4>
                         <form class="form--horizontal" id="newsletter-form" novalidate="novalidate">
-                            <p class="mb-4 text-white">Get smarter about IoT and digitization. Stay fit for the future and subscribe our newsletter.</p>
+                            <p class="mb-4">Trends and information about digitisation and IoT.</p>
                             <div class="row no-gutters">
                                 <div class="col-12 col-sm">
                                     <div class="input-wrp form-group">
                                         <input autocomplete="on"
                                                class="textfield textfield--grey newsletter-form-email"
-                                               data-validation-required-message="Please enter your email address." name="email" placeholder="E-Mail" required="required"
-                                               type="text"
-                                               type="email"/>
+                                               data-validation-required-message="Please enter your email address."
+                                               name="email" placeholder="E-Mail" required="required"
+                                               type="text" type="email"/>
                                         <p class="help-block text-danger mt-4"></p>
                                     </div>
                                 </div>
@@ -93,37 +111,43 @@
                 <!-- =================================================
                 ===== Copyright
                 ================================================== -->
-                <div class="col-auto col-md-5 col-lg-4">
+                <div class="col-auto col-md-12 col-lg-12">
                     <div class="footer__item">
-                        <span class="__copy">Copyrights 2019 © EasyTOI UG (haftungsbeschränkt)</span>
+                        <span class="__copy">Copyrights 2020 © EasyTOI UG (haftungsbeschränkt) |
+                            <a href="terms">Terms</a> |
+                            <a href="privacy">Privacy Policy</a>
+                        </span>
                     </div>
                 </div>
 
                 <!-- =================================================
                 ===== Company icon
                 ================================================== -->
-                <div class="col-12 col-md text-center">
-                    <div class="footer__item">
-                        <a class="footer__logo site-logo" href="index">
-                        </a>
-                    </div>
-                </div>
+    <!--            <div class="col-12 col-md text-center">-->
+    <!--                <div class="footer__item">-->
+    <!--                    <a class="footer__logo site-logo" href="index">-->
+    <!--                        <img alt="demo" class="img-fluid" src="../img/oneiot/oneiot-logo-white.png" width="80"/>-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--            </div>-->
 
                 <!-- =================================================
                 ===== Social links
                 ================================================== -->
-                <div class="col-auto col-md-5 col-lg-4">
-                    <div class="footer__item">
-                        <div class="s-btns s-btns--md s-btns--light s-btns--rounded">
-                            <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">
-                                <!--                            <li><a class="i" href="#"><i class="fontello-instagram"></i></a></li>-->
-                                <!--                            <li><a class="f" href="#"><i class="fontello-facebook"></i></a></li>-->
-                                <!--                            <li><a class="t" href="#"><i class="fontello-twitter"></i></a></li>-->
-                                <!--                            <li><a class="y" href="#"><i class="fontello-youtube-play"></i></a></li>-->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    <!--            <div class="col-auto col-md-5 col-lg-4">-->
+    <!--                <div class="footer__item">-->
+    <!--                    <div class="s-btns s-btns&#45;&#45;md s-btns&#45;&#45;light s-btns&#45;&#45;rounded">-->
+    <!--                        <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">-->
+    <!--                            <li><a class="i" target="_blank" href="https://www.xing.com/companies/oneiot"><i class="fab fa-xing"></i></a></li>-->
+    <!--                            <li><a class="i" target="_blank" href="https://www.linkedin.com/company/18496129"><i class="fontello-linkedin"></i></a></li>-->
+    <!--                            <li><a class="t" target="_blank" href="https://twitter.com/oneiot_de"><i class="fontello-twitter"></i></a></li>-->
+    <!--                            <li><a class="i" target="_blank" href="https://www.instagram.com/oneiot.de/"><i class="fontello-instagram"></i></a></li>-->
+    <!--                            <li><a class="f" target="_blank" href="https://www.facebook.com/oneiot.de"><i class="fontello-facebook"></i></a></li>-->
+    <!--                            <li><a class="y" target="_blank" href="https://www.youtube.com/channel/UCbzmC4PVWyU54nuHTLj3qmw"><i class="fontello-youtube-play"></i></a></li>-->
+    <!--                        </ul>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
 
             </div>
         </div>

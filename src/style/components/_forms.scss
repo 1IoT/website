@@ -42,18 +42,20 @@ form {
 
       &:focus,
       &.focus {
-
+        background-color: $white;
+        border-color: $branding-black-mid !important;
       }
     }
 
     &--grey {
-      background-color: $branding-white-light;
-      border-color: $branding-white-light;
-      color: $branding-black-mid;
+      background-color: rgba(#fff, 0.2);
+      border-color: $branding-black-mid;
+      color: $branding-black-dark;
 
       &:focus,
       &.focus {
         background-color: $white;
+        border-color: $branding-black-mid;
       }
     }
 
@@ -64,9 +66,7 @@ form {
 
       &:focus,
       &.focus {
-        background-color: $white;
-        border-color: $white;
-        color: $branding-black-mid;
+        border-color: $branding-black-mid !important;
       }
     }
 

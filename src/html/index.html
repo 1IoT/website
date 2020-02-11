@@ -1,4 +1,6 @@
-@@include('template/document_start.html')
+@@include('template/document_start.html', {
+"title": "${{ index.business-iot-solution }}$"
+})
 
 <body>
 
@@ -18,7 +20,7 @@
 
         @@include('component/benefits.html')
 
-        @@include('component/brands.html')
+<!--        @@include('component/brands.html')-->
 
         @@include('component/contact.html')
 

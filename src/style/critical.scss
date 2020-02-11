@@ -51,6 +51,20 @@ ul {
   }
 }
 
+@media (min-width: 1200px) {
+  .container-start-screen {
+    padding-top: 150px;
+  }
+}
+
+.medium {
+  width: 50%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
 // Required
 @import "vendors/bootstrap-4/functions";
 @import "vendors/bootstrap-4/variables";

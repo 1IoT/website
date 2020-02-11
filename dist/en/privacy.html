@@ -2,27 +2,35 @@
 <html class="no-js" lang="en">
 
 <head>
-    <title>OneIoT - IoT Custom Solution</title>
+    <title>Privacy Policy | OneIoT Custom Solution</title>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
     <meta content="initial-scale=1.0, user-scalable=no" name="viewport"/>
-    <meta content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui"
-          name="viewport"/>
-
+    <meta content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" name="viewport"/>
     <meta content="There is only one IoT custom solution. We digitize your product from the hardware to the IoT Ecosystem." name="description">
     <meta content="Smart Home, Cloud, Cloud Computing, IoT, Internet of Things, Digitization, Platform, Ecosystem, Device Cloud, Alexa, Google Home" name="keywords">
     <meta content="OneIoT" name="author">
 
     <!-- =================================================
+    ===== Bootstrap
+    ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- =================================================
+    ===== MDBootstrap
+    ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+
+    <!-- =================================================
     ===== Favicon
     ================================================== -->
-    <link href="../img/ico/oneiot-icon.png" rel="shortcut icon" type="image/png">
+    <link href="../img/ico/oneiot-icon-rounded.png" rel="shortcut icon" type="image/png">
 
     <!-- =================================================
     ===== Fontawesome icons
     ================================================== -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" rel="stylesheet"
-          type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" rel="stylesheet" type="text/css">
 
     <!-- =================================================
     ===== Critical style
@@ -56,6 +64,48 @@
         })();
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120681810-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120681810-2');
+    </script>
+
+
+    <!-- =================================================
+     ===== Drift scripts
+     ================================================== -->
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                    t[e] = t.factory(e);
+                }), t.load = function(t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('hcinvii5gir9');
+    </script>
+
     <!-- =================================================
     ===== Load other scripts
     ================================================== -->
@@ -82,8 +132,9 @@
                     <!-- =================================================
                     ===== Logo
                     ================================================== -->
-                    <a class="top-bar__logo site-logo" href="./#start-screen">
-                        <img alt="demo" class="img-fluid" height="45" src="../img/oneiot/oneiot-logo.png" width="150"/>
+                    <a class="top-bar__logo site-logo" href="index">
+                        <img alt="demo" class="img-fluid large-logo" height="45" src="../img/oneiot/oneiot-logo-white.png" width="150"/>
+                        <img alt="demo" class="img-fluid sticky-logo" height="45" src="../img/oneiot/oneiot-logo-sticky.png" width="150"/>
                     </a>
 
                     <!-- =================================================
@@ -103,12 +154,36 @@
                         ================================================== -->
                         <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
                             <ul>
-                                <li><a class="nav-link" href="./#why">Why</a></li>
-                                <li><a class="nav-link" href="./#usecases">Use cases</a></li>
-                                <li><a class="nav-link" href="./#ecosystem">IoT Ecosystem</a></li>
-                                <li><a class="nav-link" href="./#solution">Custom Solution</a></li>
-                                <li><a class="nav-link" href="./#pricing">Pricing</a></li>
-                                <li><a class="nav-link" href="./#contact">Contact</a></li>
+                                <li class="has-submenu">
+                                    <a class="nav-link">Capabilities</a>
+                                    <ul class="submenu">
+                                        <li><a href="capabilities#controlling">Control</a></li>
+                                        <li><a href="capabilities#monitoring">Monitoring</a></li>
+                                        <li><a href="capabilities#maintenance">Maintenance</a></li>
+                                        <li><a href="capabilities#smart-home">Smart Home</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a class="nav-link">Product</a>
+                                    <ul class="submenu">
+                                        <li><a href="dashboard">Dashboard</a></li>
+                                        <li><a href="hardware">Hardware</a></li>
+                                        <li><a href="cloud">Cloud</a></li>
+                                        <li><a href="api">API</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a class="nav-link">Service</a>
+                                    <ul class="submenu">
+                                        <li><a href="service#consulting">Consulting</a></li>
+                                        <li><a href="service#prototyping">Prototyping</a></li>
+                                        <li><a href="service#integration">IOT Integration</a></li>
+                                        <li><a href="service#support">Support</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-link" target="_blank" href="https://blog.oneiot.de/en">Blog</a></li>
+                    <!--            <li><a class="nav-link" href="">Pricing</a></li>-->
+                                <li><a class="nav-link" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
                             </ul>
                         </nav>
 
@@ -144,10 +219,13 @@
                                 <!-- =================================================
                                 ===== Platform links
                                 ================================================== -->
-                                <div class="top-bar__auth-btns">
-                                    <a class="custom-btn custom-btn--medium custom-btn--style-2"
-                                       href="https://app.oneiot.de">Sign in</a>
-                                </div>
+                    <!--            <div class="">-->
+                    <!--                <a href="">Login</a>-->
+                    <!--            </div>-->
+                    <!--            <div class="top-bar__auth-btns">-->
+                    <!--                <a class="custom-btn custom-btn&#45;&#45;medium custom-btn&#45;&#45;style-2"-->
+                    <!--                   href="https://app.oneiot.de">Register</a>-->
+                    <!--            </div>-->
 
                             </div>
                         </div>
@@ -160,10 +238,9 @@
     </header>
 
 
-    <div class="hero jarallax" data-img-position="50% 90%" data-speed="0.7" id="hero"
-         style="background-color: #1d2124">
+    <div class="hero jarallax" data-img-position="50% 90%" data-speed="0.7" id="hero">
         <div class="container">
-            <h1 class="hero__title"><span>Privacy Policy</span></h1>
+            <h1 class="hero__title">Privacy Policy</h1>
             <p class="section-heading--center">
                 We have nothing to hide. If you have any questions, do not hesitate to contact us.
             </p>
@@ -691,13 +768,14 @@
                  style="background-color: #1d2124">
             <div class="container small-container-with-btn">
                 <div class="section-heading section-heading--white section-heading--center">
-                    <h2 class="__title">Contact <span>OneIoT</span></h2>
+                    <h2 class="__title">Contact <span>us today</span></h2>
                     <p>
-                        Get in touch with our IoT experts and sales team.
+                        Start with your digitization and take your product to a new level.
                     </p>
                     <div class="col-12 col-sm-auto">
-                        <a href="./#contact">
-                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide" role="button"
+                        <div class="spacer py-4"></div>
+                        <a data-toggle="modal" data-target="#contact-modal">
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 medium" role="button"
                                     type="submit">Contact
                             </button>
                         </a>
@@ -719,9 +797,19 @@
                     ================================================== -->
                     <div class="col col-sm-5 col-md-3 col-lg-2">
                         <div class="footer__item">
-                            <h4 class="footer__item__title text-white">Company</h4>
+                            <h4 class="footer__item__title">Company</h4>
                             <nav class="footer__navigation">
-
+                                <ul>
+    <!--                                <li>-->
+    <!--                                    <a href=""> About us</a>-->
+    <!--                                </li>-->
+    <!--                                <li>-->
+    <!--                                    <a href=""> Careers</a>-->
+    <!--                                </li>-->
+                                    <li>
+                                        <a data-toggle="modal" data-target="#contact-modal"> Contact</a>
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
                     </div>
@@ -731,13 +819,18 @@
                     ================================================== -->
                     <div class="col col-sm-5 col-md-3 col-lg-2">
                         <div class="footer__item">
-                            <h4 class="footer__item__title text-white">Resources</h4>
+                            <h4 class="footer__item__title">Resources</h4>
                             <nav class="footer__navigation">
                                 <ul>
-                                    <li><a href="help-desk"><i class="fa fa-angle-double-right"></i>Help</a>
+                                    <li>
+                                        <a href="help-desk">Help Center</a>
                                     </li>
-                                    <li><a href="https://github.com/1IoT" target="_blank"><i
-                                            class="fa fa-angle-double-right"></i>Open Source</a></li>
+                                    <li>
+                                        <a href="https://github.com/1IoT" target="_blank">Open Source</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://blog.oneiot.de/en">Blog</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -748,12 +841,15 @@
                     ================================================== -->
                     <div class="col col-sm-5 col-md-3 col-lg-2">
                         <div class="footer__item">
-                            <h4 class="footer__item__title text-white">Terms</h4>
+                            <h4 class="footer__item__title">Termine</h4>
                             <nav class="footer__navigation">
                                 <ul>
-                                    <li><a href="privacy">
-                                        <i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
-                                    <li><a href="terms"><i class="fa fa-angle-double-right"></i>Terms</a></li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#online-demo-modal"> Online Demo</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://blog.oneiot.de/en/category/iot-workshop-en"> Workshop</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -762,19 +858,19 @@
                     <!-- =================================================
                     ===== Newsletter subscription
                     ================================================== -->
-                    <div class="col-12 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+                    <div class="col-12 col-md-8 col-lg-5 col-xl-5 offset-xl-1">
                         <div class="footer__item">
-                            <h4 class="footer__item__title text-white">Subscribe</h4>
+                            <h4 class="footer__item__title">Subscribe</h4>
                             <form class="form--horizontal" id="newsletter-form" novalidate="novalidate">
-                                <p class="mb-4 text-white">Get smarter about IoT and digitization. Stay fit for the future and subscribe our newsletter.</p>
+                                <p class="mb-4">Trends and information about digitisation and IoT.</p>
                                 <div class="row no-gutters">
                                     <div class="col-12 col-sm">
                                         <div class="input-wrp form-group">
                                             <input autocomplete="on"
                                                    class="textfield textfield--grey newsletter-form-email"
-                                                   data-validation-required-message="Please enter your email address." name="email" placeholder="E-Mail" required="required"
-                                                   type="text"
-                                                   type="email"/>
+                                                   data-validation-required-message="Please enter your email address."
+                                                   name="email" placeholder="E-Mail" required="required"
+                                                   type="text" type="email"/>
                                             <p class="help-block text-danger mt-4"></p>
                                         </div>
                                     </div>
@@ -804,37 +900,43 @@
                     <!-- =================================================
                     ===== Copyright
                     ================================================== -->
-                    <div class="col-auto col-md-5 col-lg-4">
+                    <div class="col-auto col-md-12 col-lg-12">
                         <div class="footer__item">
-                            <span class="__copy">Copyrights 2019 © EasyTOI UG (haftungsbeschränkt)</span>
+                            <span class="__copy">Copyrights 2020 © EasyTOI UG (haftungsbeschränkt) |
+                                <a href="terms">Terms</a> |
+                                <a href="privacy">Privacy Policy</a>
+                            </span>
                         </div>
                     </div>
 
                     <!-- =================================================
                     ===== Company icon
                     ================================================== -->
-                    <div class="col-12 col-md text-center">
-                        <div class="footer__item">
-                            <a class="footer__logo site-logo" href="index">
-                            </a>
-                        </div>
-                    </div>
+        <!--            <div class="col-12 col-md text-center">-->
+        <!--                <div class="footer__item">-->
+        <!--                    <a class="footer__logo site-logo" href="index">-->
+        <!--                        <img alt="demo" class="img-fluid" src="../img/oneiot/oneiot-logo-white.png" width="80"/>-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
 
                     <!-- =================================================
                     ===== Social links
                     ================================================== -->
-                    <div class="col-auto col-md-5 col-lg-4">
-                        <div class="footer__item">
-                            <div class="s-btns s-btns--md s-btns--light s-btns--rounded">
-                                <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">
-                                    <!--                            <li><a class="i" href="#"><i class="fontello-instagram"></i></a></li>-->
-                                    <!--                            <li><a class="f" href="#"><i class="fontello-facebook"></i></a></li>-->
-                                    <!--                            <li><a class="t" href="#"><i class="fontello-twitter"></i></a></li>-->
-                                    <!--                            <li><a class="y" href="#"><i class="fontello-youtube-play"></i></a></li>-->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        <!--            <div class="col-auto col-md-5 col-lg-4">-->
+        <!--                <div class="footer__item">-->
+        <!--                    <div class="s-btns s-btns&#45;&#45;md s-btns&#45;&#45;light s-btns&#45;&#45;rounded">-->
+        <!--                        <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">-->
+        <!--                            <li><a class="i" target="_blank" href="https://www.xing.com/companies/oneiot"><i class="fab fa-xing"></i></a></li>-->
+        <!--                            <li><a class="i" target="_blank" href="https://www.linkedin.com/company/18496129"><i class="fontello-linkedin"></i></a></li>-->
+        <!--                            <li><a class="t" target="_blank" href="https://twitter.com/oneiot_de"><i class="fontello-twitter"></i></a></li>-->
+        <!--                            <li><a class="i" target="_blank" href="https://www.instagram.com/oneiot.de/"><i class="fontello-instagram"></i></a></li>-->
+        <!--                            <li><a class="f" target="_blank" href="https://www.facebook.com/oneiot.de"><i class="fontello-facebook"></i></a></li>-->
+        <!--                            <li><a class="y" target="_blank" href="https://www.youtube.com/channel/UCbzmC4PVWyU54nuHTLj3qmw"><i class="fontello-youtube-play"></i></a></li>-->
+        <!--                        </ul>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
 
                 </div>
             </div>
@@ -846,9 +948,92 @@
 
 </div>
 
-<div id="btn-to-top-wrap">
-    <a class="circled" data-visible-offset="800" href="javascript:void(0);" id="btn-to-top"></a>
+<div class="modal fade in" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog container" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <!-- =================================================
+                ===== Title
+                ================================================== -->
+                <div class="section-heading">
+                    <h2 class="__title">Contact <span>us</span></h2>
+                </div>
+
+                <!-- =================================================
+                ===== Close
+                ================================================== -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Contact form
+                    ================================================== -->
+                    <div class="col-12 col-xl-6">
+                         <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-name form-control"
+                                       data-validation-required-message="Please enter your name."
+                                       id="name" name="name" placeholder="Name" required="required" type="text"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-phone form-control"
+                                       id="phone" name="phone" placeholder="Phone" type="tel"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-subject form-control"
+                                       id="subject" name="subject" placeholder="Company" type="text"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-email form-control"
+                                       data-validation-required-message="Please enter your email address." id="email"
+                                       name="email" placeholder="E-Mail" required="required" type="email"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <label class="input-wrp form-group">
+                        <textarea class="textfield textfield--grey form-message form-control"
+                                  data-validation-required-message="Please enter a message."
+                                  id="message" name="message" placeholder="Message"
+                                  required="required"></textarea>
+                                <p class="help-block text-danger mt-20"></p>
+                            </label>
+                            <div id="success"></div>
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide" role="button"
+                                    type="submit" value="Send Message">
+                                Send Message
+                            </button>
+                            <div class="form__note"></div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-xl-6">
+                        <p class="text-center">
+                            <strong>+49 172 - 232 51 02</strong><br>
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
+                            Karlsruhe, Germany
+                        </p>
+                        <figure class="image-container">
+                            <img class="img-fluid" src="../img/oneiot/world-map.png" alt="OneIoT location" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+<!--<div id="btn-to-top-wrap">-->
+<!--    <a class="circled" data-visible-offset="800" href="javascript:void(0);" id="btn-to-top"></a>-->
+<!--</div>-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 

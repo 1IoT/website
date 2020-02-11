@@ -2509,7 +2509,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   margin-left: 0
 }
 .slick-dots li.slick-active button {
-  color: #476de6;
+  color: #2552e4;
   border-color: currentColor;
   cursor: default
 }
@@ -2732,7 +2732,7 @@ img {
   margin: auto;
   width: 34px;
   height: 34px;
-  color: #4881fa;
+  color: #2368fb;
   border: 2px solid currentColor;
   -webkit-transition: background-color .3s ease-in-out,border-color .3s ease-in-out,color .3s ease-in-out;
   transition: background-color .3s ease-in-out,border-color .3s ease-in-out,color .3s ease-in-out
@@ -2813,10 +2813,41 @@ img {
   vertical-align: middle
 }
 .ico-checked {
-  background-color: #30e3ca
+  background-color: #2368fb
 }
 .ico-unchecked {
   background-color: #e3306f
+}
+#why {
+  background-color: #f3f3f3
+}
+#contact-eyecatcher button {
+  border-color: #1d2124!important;
+  background-color: #1d2124!important;
+  color: #fff!important
+}
+#contact-eyecatcher button:hover {
+  border-color: #2a2c2f!important;
+  background-color: #2a2c2f!important
+}
+#dashboard-company,
+#dashboard-features {
+  background-color: #f3f3f3!important
+}
+#dashboard-customer {
+  background-color: #fff!important
+}
+#hardware-connectivity .__title {
+  color: #2a2c2f
+}
+#api-features,
+#api-why,
+#hardware-features,
+#hardware-why {
+  background-color: #f3f3f3!important
+}
+#contact {
+  background-color: #343a3f
 }
 .comments-list {
   margin-top: 30px;
@@ -2997,8 +3028,8 @@ img {
   -ms-user-select: none
 }
 .pagination .page-item.active .page-link {
-  background-color: #4881fa;
-  border-color: #4881fa;
+  background-color: #2368fb;
+  border-color: #2368fb;
   cursor: default
 }
 .pagination .page-item > span {
@@ -3297,6 +3328,39 @@ img {
   z-index: 2;
   opacity: 1
 }
+#controlling,
+#maintenance {
+  background-color: #f3f3f3
+}
+.capabilities .__title {
+  font-weight: 700;
+  font-family: Quicksand,sans-serif
+}
+.capabilities .counter-capabilities {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: Quicksand,sans-serif;
+  margin-bottom: 0!important
+}
+#brands {
+  padding-top: 0!important;
+  background-color: #2368fb
+}
+#testimonials {
+  padding-bottom: 90px!important;
+  background-color: #2368fb
+}
+.reviewer-company {
+  font-weight: 700;
+  font-size: 14px
+}
+.section-benefits {
+  padding-bottom: 90px!important;
+  padding-top: 0!important
+}
+.section-benefits-first {
+  padding-bottom: 90px!important
+}
 .tags-list {
   line-height: 0;
   font-size: 0;
@@ -3345,7 +3409,7 @@ img {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background-color: #4881fa;
+  background-color: #2368fb;
   -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out
 }
@@ -3426,6 +3490,9 @@ img {
 }
 .widget--posts .__title {
   margin-bottom: 7px
+}
+.img-fluid-small {
+  max-width: 80%
 }
 .authorization {
   padding: 30px 0
@@ -3515,7 +3582,7 @@ img {
   margin-left: -50px;
   line-height: 1;
   font-size: 2.5rem;
-  color: #4881fa
+  color: #2368fb
 }
 .company-contacts--s3 a:not([class]) {
   color: inherit
@@ -3553,7 +3620,7 @@ img {
   font-size: 1.6rem
 }
 .content-container .demo-selection {
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff
 }
 .content-container ol:not([class]),
@@ -3592,14 +3659,14 @@ img {
   counter-increment: num;
   content: counter(num) ".";
   font-weight: 700;
-  color: #4881fa
+  color: #2368fb
 }
 .content-container ul:not([class]) li:before {
   content: "";
   width: 0;
   height: 0;
   margin-top: 7px;
-  border: 3px solid #4881fa;
+  border: 3px solid #2368fb;
   border-radius: 50%
 }
 .content-container hr {
@@ -3618,7 +3685,7 @@ img {
   margin-top: 40px;
   margin-bottom: 40px;
   padding-left: 20px;
-  border-left: 4px solid #4881fa;
+  border-left: 4px solid #2368fb;
   line-height: 1.4;
   font-size: 2rem;
   color: #333
@@ -3635,7 +3702,42 @@ img {
   line-height: .9;
   font-size: 4.6rem;
   font-weight: 800;
-  color: #4881fa
+  color: #2368fb
+}
+.modal-dialog {
+  font-size: 30px
+}
+.modal-header {
+  border-bottom: 0!important;
+  padding: 5% 5% 2%;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Nunito Sans",sans-serif;
+  font-weight: 400;
+  color: #2a2c2f
+}
+.modal-body {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Nunito Sans",sans-serif;
+  font-weight: 400;
+  color: #2a2c2f
+}
+.modal-content {
+  border-radius: 1.125rem!important
+}
+#contact-modal {
+  padding-top: 4%
+}
+#contact-modal .textfield {
+  color: #2a2c2f!important
+}
+.section-heading {
+  padding-left: 15px;
+  padding-right: 15px
 }
 .faq .__inner {
   margin-bottom: -35px
@@ -4029,7 +4131,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   min-width: 60px;
   margin-bottom: 10px;
   padding: 8px 5px 11px;
-  background-color: #476de6;
+  background-color: #2552e4;
   line-height: 1;
   font-size: 1.6rem;
   font-weight: 700;
@@ -4114,7 +4216,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   font-weight: 400!important
 }
 .pricing-table .__item--best--choice {
-  border: 3px solid #4881fa!important;
+  border: 3px solid #2368fb!important;
   box-shadow: 7px 7px rgba(172,214,97,.2)!important
 }
 .pricing-table .__item {
@@ -4184,7 +4286,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   box-shadow: 0 0 29px 0 rgba(174,175,175,.11)
 }
 .pricing-table--s1 .__item--active {
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff
 }
 .pricing-table--s1 .__item--active .__price,
@@ -4326,7 +4428,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   background-color: #f7f7f7
 }
 .pricing-table--s4 tbody tr:nth-of-type(2n) td.active {
-  background-color: rgba(72,129,250,.8)
+  background-color: rgba(35,104,251,.8)
 }
 .pricing-table--s4 tbody td {
   height: 62px
@@ -4347,7 +4449,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
 }
 .pricing-table--s4 td.active,
 .pricing-table--s4 th.active {
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff
 }
 .pricing-table--s4 td.active .__price,
@@ -4489,7 +4591,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   color: #a3a3a3
 }
 .projects .__filter a.selected {
-  border-color: #4881fa
+  border-color: #2368fb
 }
 .projects--s1 .__inner {
   margin-bottom: -50px
@@ -4554,7 +4656,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   width: 100%;
   height: 100%;
   padding: 15px;
-  background-color: rgba(107,108,230,.75);
+  background-color: rgba(75,75,226,.75);
   opacity: 0;
   text-align: center;
   color: #fff;
@@ -4584,7 +4686,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   padding-top: 100%
 }
 .projects--s3 .__item:hover .__content {
-  background-color: rgba(86,125,240,.75)
+  background-color: rgba(51,99,239,.75)
 }
 .projects--s3 .__content {
   display: -webkit-box;
@@ -4653,7 +4755,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  color: #4881fa;
+  color: #2368fb;
   border-radius: 50%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4715,7 +4817,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   position: absolute;
   top: 30px;
   font-size: 6rem;
-  color: #4881fa
+  color: #2368fb
 }
 .review--s1.review--slider .slick-disabled {
   color: #d9dfe5
@@ -4735,7 +4837,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
 .review--s1 .review__item__author-position {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #4881fa
+  color: #2368fb
 }
 .review--s2.review--slider .slick-list {
   margin: -30px -15px
@@ -5152,7 +5254,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   font-size: 4rem;
   font-weight: 700;
   font-family: Quicksand,sans-serif;
-  color: #4881fa;
+  color: #2368fb;
   border-radius: 50%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5196,8 +5298,8 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   color: #333
 }
 .steps--s2 .tab-nav__item.active {
-  border-color: #4881fa;
-  color: #4881fa
+  border-color: #2368fb;
+  color: #2368fb
 }
 .steps--s2 .tab-nav__link {
   display: inline-block;
@@ -5425,7 +5527,7 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   display: block;
   width: 80px;
   height: 80px;
-  background-color: #4881fa;
+  background-color: #2368fb;
   border-radius: 20px;
   -webkit-transition: background-color .3s ease-in-out,color .3s ease-in-out;
   transition: background-color .3s ease-in-out,color .3s ease-in-out
@@ -7597,6 +7699,11 @@ button.close {
   }
   .comments-list ul {
     padding-left: 50px
+  }
+  .capabilities .col-lg-3 {
+    -webkit-box-flex: 0!important;
+            flex: 0 0 33%!important;
+    max-width: 33%!important
   }
   .review--s2.review--slider {
     margin-left: calc((100% - 930px)/ 2)

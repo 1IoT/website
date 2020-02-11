@@ -1,0 +1,81 @@
+<div class="modal fade in" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog container" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <!-- =================================================
+                ===== Title
+                ================================================== -->
+                <div class="section-heading">
+                    <h2 class="__title">Contact <span>us</span></h2>
+                </div>
+
+                <!-- =================================================
+                ===== Close
+                ================================================== -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Contact form
+                    ================================================== -->
+                    <div class="col-12 col-xl-6">
+                         <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-name form-control"
+                                       data-validation-required-message="Please enter your name."
+                                       id="name" name="name" placeholder="Name" required="required" type="text"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-phone form-control"
+                                       id="phone" name="phone" placeholder="Phone" type="tel"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-subject form-control"
+                                       id="subject" name="subject" placeholder="Company" type="text"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <input autocomplete="on" class="textfield textfield--grey form-email form-control"
+                                       data-validation-required-message="Please enter your email address." id="email"
+                                       name="email" placeholder="E-Mail" required="required" type="email"/>
+                                <p class="help-block text-danger mt-20"></p>
+                            </div>
+                            <label class="input-wrp form-group">
+                        <textarea class="textfield textfield--grey form-message form-control"
+                                  data-validation-required-message="Please enter a message."
+                                  id="message" name="message" placeholder="Message"
+                                  required="required"></textarea>
+                                <p class="help-block text-danger mt-20"></p>
+                            </label>
+                            <div id="success"></div>
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide" role="button"
+                                    type="submit" value="Send Message">
+                                Send Message
+                            </button>
+                            <div class="form__note"></div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-xl-6">
+                        <p class="text-center">
+                            <strong>+49 172 - 232 51 02</strong><br>
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
+                            Karlsruhe, Germany
+                        </p>
+                        <figure class="image-container">
+                            <img class="img-fluid" src="../img/oneiot/world-map.png" alt="OneIoT location" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

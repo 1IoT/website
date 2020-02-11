@@ -1,0 +1,37 @@
+@@include('template/document_start.html', {
+"title": "${{ index.iot-custom-solution }}$"
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.service-title }}$.",
+    "subtitle": "${{ index.capabilities-title-text }}$."
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/service-consulting.html')
+
+        @@include('component/service-prototyping.html')
+
+        @@include('component/eyecatcher-call.html')
+
+        @@include('component/service-integration.html')
+
+        @@include('component/service-support.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

@@ -41,7 +41,7 @@
     }
 
     a {
-      color: #fff;
+      color: $branding-black-dark;
       text-decoration: none;
     }
   }
@@ -155,7 +155,7 @@
 }
 
 .footer--color-light {
-  color: $white;
+  color: $branding-black-dark;
 
   .footer__item__title {
     color: inherit;
@@ -166,14 +166,14 @@
       footer__navigation
       &.active {
         a {
-          color: $branding-white-mid;
+          color: $branding-black-dark;
         }
       }
     }
 
     a {
       &:hover {
-        color: $branding-white-light;
+        color: $primary-color;
       }
     }
   }
@@ -187,7 +187,7 @@
 }
 
 .footer--color-dark {
-  color: inherit;
+  color: $branding-black-dark;
 
   .footer__navigation {
     i {
@@ -198,14 +198,14 @@
     li {
       &.active {
         a {
-          color: #d6d6d6;
+          color: $branding-black-dark;
         }
       }
     }
 
     a {
       &:hover {
-        color: #d6d6d6;
+        color: $primary-color;
       }
     }
   }
@@ -221,21 +221,34 @@
 
 .footer--s3 {
   .footer__line {
+    color: $branding-black-dark;
+
     &--first {
-      background-color: $branding-black-dark;
+      background-color: #fff;
       padding-top: 70px - 20px;
       padding-bottom: 90px - 20px;
     }
 
     &--second {
-      background-color: $branding-black-dark;
+      background-color: #fff;
       padding-top: 30px - 20px;
       padding-bottom: 30px - 20px;
     }
   }
 
   .__copy {
-    color: $white;
+    color: $branding-black-dark;
+    font-size: small;
+
+    a {
+      color: $branding-black-dark !important;
+      text-decoration: none !important;
+    }
+
+    a:hover {
+      color: $branding-black-dark !important;
+      text-decoration: none !important;
+    }
   }
 
   .footer__wave {

@@ -1,4 +1,6 @@
-@@include('template/document_start.html')
+@@include('template/document_start.html', {
+"title": "${{ index.iot-api }}$"
+})
 
 <body>
 <div id="app">
@@ -6,8 +8,8 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-        "title": "${{ index.api-title }}$",
-        "subtitle": "${{ index.capabilities-title-text }}$."
+    "title": "${{ index.api-title }}$",
+    "subtitle": "${{ index.capabilities-title-text }}$."
     })
 
     <main role="main">

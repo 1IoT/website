@@ -1,4 +1,6 @@
-@@include('template/document_start.html')
+@@include('template/document_start.html', {
+"title": "${{ index.terms }}$"
+})
 
 <body>
 <div id="app">
@@ -33,8 +35,7 @@
                         <h4>Represented by</h4>
                         <p>
                             Christof Tinnes <br/>
-                            David Theobald <br/>
-                            Peter Giese
+                            David Theobald
                         </p>
                         <h4>Commercial Register</h4>
                         <p>

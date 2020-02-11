@@ -16,113 +16,178 @@
         <!-- =================================================
         ===== FAQ content
         ================================================== -->
-        <div class="row">
-            <div class="col-12">
-                <div class="content-container">
-                    <div class="faq faq--numbered">
-                        <div class="__inner">
-                            <div class="row">
+        <div class="col-12">
+            <div class="content-container">
+                <div class="faq">
+                    <div class="accordion-container">
 
-                                <!-- =================================================
-                                ===== Layout left
-                                ================================================== -->
-                                <div class="col-12 col-md-6 col-lg-5">
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-1-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-1-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-2-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-2-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-3-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-3-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-4-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-4-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-5-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-5-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-6-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-6-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-7-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-7-content }}$
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <!-- =================================================
-                                ===== Layout right
-                                ================================================== -->
-                                <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-8-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-8-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-9-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-9-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-10-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-10-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-11-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-11-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-12-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-12-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-13-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-13-content }}$
-                                        </p>
-                                    </div>
-                                    <div class="__item">
-                                        <h4 class="__title">${{ index.faq-14-title }}$</h4>
-                                        <p>
-                                            ${{ index.faq-14-content }}$
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-1-title }}$</h4>
+                                <i class="circled"></i>
                             </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-1-content }}$</p>
+                                </div>
+                            </article>
                         </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-2-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-2-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-3-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-3-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-4-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-4-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-5-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-5-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-6-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-6-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-7-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-7-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-8-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-8-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-9-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-9-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-10-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-10-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-11-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-11-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-12-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-12-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-toggler">
+                                <h4 class="accordion-title">${{ index.faq-14-title }}$</h4>
+                                <i class="circled"></i>
+                            </div>
+                            <article class="accordion-content">
+                                <div class="accordion-content__inner">
+                                    <p>${{ index.faq-14-content }}$</p>
+                                </div>
+                            </article>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
     </div>
 </section>

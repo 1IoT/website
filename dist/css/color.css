@@ -19,38 +19,38 @@
 /* .box { @include transition(width, height 0.3s ease-in-out); } */
 /* .box { @include border-radius(10px); } */
 /* CSS3 calc() function to perform calculations */
-a { color: #4881fa; }
+a { color: #2368fb; }
 
-a:hover, a:focus { color: #4881fa; }
+a:hover, a:focus { color: #2368fb; }
 
-main ::-moz-selection { background-color: #4881fa; }
+main ::-moz-selection { background-color: #2368fb; }
 
-main ::selection { background-color: #4881fa; }
+main ::selection { background-color: #2368fb; }
 
-main ::-moz-selection { background-color: #4881fa; }
+main ::-moz-selection { background-color: #2368fb; }
 
-.top-bar--dark .top-bar__navigation a:after { background-color: #4881fa; }
+.top-bar--dark .top-bar__navigation a:after { background-color: #2368fb; }
 
-.top-bar__navigation a.active { color: #4881fa; }
+.top-bar__navigation a.active { color: #2368fb; }
 
-.top-bar--dark .top-bar__auth-btns a:after { background-color: #4881fa; }
+.top-bar--dark .top-bar__auth-btns a:after { background-color: #2368fb; }
 
-.top-bar__choose-lang .list-wrap li.is-active span:after { background-color: #4881fa; }
+.top-bar__choose-lang .list-wrap li.is-active span:after { background-color: #2368fb; }
 
-.section-heading:not(.section-heading--white) .__subtitle { color: #4881fa; }
+.section-heading:not(.section-heading--white) .__subtitle { color: #2368fb; }
 
-.btn-play { background-color: #4881fa; }
+.btn-play { background-color: #2368fb; }
 
 .services--s2 .__ico { border: none; background: -webkit-gradient(linear, left top, right top, from(#28baff), to(#4f74ef)); background: linear-gradient(90deg, #28baff 0%, #4f74ef 100%); }
 
 .posts--s2 .__item--preview .__date-post { background-color: #2e6cff; }
 
-.custom-btn.custom-btn--style-3:before { background: -webkit-gradient(linear, left top, right top, from(#4881fa), to(#2065F7)); background: linear-gradient(90deg, #4881fa 0%, #2065F7 100%); }
+.custom-btn.custom-btn--style-3:before { background: -webkit-gradient(linear, left top, right top, from(#2368fb), to(#2065F7)); background: linear-gradient(90deg, #2368fb 0%, #2065F7 100%); }
 
-.custom-btn.custom-btn--style-1:before { background-color: #4881fa; }
+.custom-btn.custom-btn--style-1:before { background-color: #2368fb; }
 
-.custom-btn.custom-btn--style-2:before { background-color: #4881fa; }
+.custom-btn.custom-btn--style-2:before { background-color: #2368fb; }
 
-.custom-btn.custom-btn--style-3 { border-color: #4881fa; }
+.custom-btn.custom-btn--style-3 { border-color: #2368fb; }
 
-.fa-stack { color: #4881fa; }
+.fa-stack { color: #2368fb; }

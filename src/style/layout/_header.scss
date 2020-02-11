@@ -4,11 +4,29 @@
 
 $column-gutter: 30px;
 
+.sticky-logo {
+  display: none;
+}
+
+.is-sticky {
+  .top-bar__logo {
+    .sticky-logo {
+      display: block;
+    }
+
+    .large-logo {
+      display: none;
+    }
+  }
+}
+
 .top-bar--light {
   color: $white;
 
   &.is-sticky {
-    background-color: $branding-black-mid;
+    background-color: $white;
+    color: $branding-black-dark;
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
   }
 
   &.is-expanded {
@@ -248,8 +266,8 @@ $column-gutter: 30px;
     span {
       position: relative;
       display: block;
-      height: 2px;
-      width: 27px;
+      height: 3px;
+      width: 40px;
 
       &:before,
       &:after {
@@ -688,7 +706,7 @@ $column-gutter: 30px;
         margin-top: 40px;
         margin-right: -($submenuWidth/2);
         padding: 35px 0 40px;
-        background-color: #2f3c46;
+        background-color: $branding-black-dark;
         color: $white;
         visibility: hidden;
         opacity: 0;

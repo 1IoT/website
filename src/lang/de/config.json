@@ -10,5 +10,7 @@
   "img-usecase-scooter": "../img/oneiot/usecase-scooter_de.png",
   "img-usecase-your-idea": "../img/oneiot/usecase-your-idea_de.png",
   "img-custom-solution-company-x": "../img/oneiot/custom-solution-company-x_de.png",
-  "img-custom-solution-oneiot": "../img/oneiot/custom-solution-oneiot_de.png"
+  "img-custom-solution-oneiot": "../img/oneiot/custom-solution-oneiot_de.png",
+  "workshop-link": "https://blog.oneiot.de/category/iot-workshop",
+  "blog-link": "https://blog.oneiot.de"
 }

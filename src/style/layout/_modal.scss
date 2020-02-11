@@ -1,0 +1,40 @@
+.modal-dialog {
+  font-size: 30px;
+}
+
+.modal-header {
+  border-bottom: 0 !important;
+  padding: 5% 5% 2%;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Nunito Sans",sans-serif;
+  font-weight: 400;
+  color: #2a2c2f;
+}
+
+.modal-body {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Nunito Sans",sans-serif;
+  font-weight: 400;
+  color: #2a2c2f;
+}
+
+.modal-content {
+  border-radius: 1.125rem !important;
+}
+
+#contact-modal {
+  padding-top: 2%;
+
+  .textfield {
+    color: #2a2c2f !important;
+  }
+
+  .__title {
+    font-size: 3rem !important;
+  }
+}

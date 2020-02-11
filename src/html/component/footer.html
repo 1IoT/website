@@ -8,17 +8,17 @@
                 ================================================== -->
                 <div class="col col-sm-5 col-md-3 col-lg-2">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">${{ index.company }}$</h4>
+                        <h4 class="footer__item__title">${{ index.company }}$</h4>
                         <nav class="footer__navigation">
                             <ul>
+<!--                                <li>-->
+<!--                                    <a href=""> ${{ index.about-us }}$</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href=""> ${{ index.careers }}$</a>-->
+<!--                                </li>-->
                                 <li>
-                                    <a href=""><i class="fa fa-angle-double-right"></i>${{ index.about-us }}$</a>
-                                </li>
-                                <li>
-                                    <a href=""><i class="fa fa-angle-double-right"></i>${{ index.careers }}$</a>
-                                </li>
-                                <li>
-                                    <a class="text-white" data-toggle="modal" data-target="#contact-modal"><i class="fa fa-angle-double-right"></i>${{ index.contact }}$</a>
+                                    <a data-toggle="modal" data-target="#contact-modal"> ${{ index.contact }}$</a>
                                 </li>
                             </ul>
                         </nav>
@@ -30,17 +30,17 @@
                 ================================================== -->
                 <div class="col col-sm-5 col-md-3 col-lg-2">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">${{ index.resources }}$</h4>
+                        <h4 class="footer__item__title">${{ index.resources }}$</h4>
                         <nav class="footer__navigation">
                             <ul>
                                 <li>
-                                    <a href="help-desk"><i class="fa fa-angle-double-right"></i>Faq & Support</a>
+                                    <a href="help-desk">${{ index.help-center }}$</a>
                                 </li>
                                 <li>
-                                    <a href="blog"><i class="fa fa-angle-double-right"></i>${{ index.blog }}$</a>
+                                    <a href="https://github.com/1IoT" target="_blank">Open Source</a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/1IoT" target="_blank"><i class="fa fa-angle-double-right"></i>Open Source</a>
+                                    <a target="_blank" href="${{ config.blog-link }}$">${{ index.blog }}$</a>
                                 </li>
                             </ul>
                         </nav>
@@ -52,13 +52,14 @@
                 ================================================== -->
                 <div class="col col-sm-5 col-md-3 col-lg-2">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">${{ index.events }}$</h4>
+                        <h4 class="footer__item__title">${{ index.events }}$</h4>
                         <nav class="footer__navigation">
                             <ul>
-                                    <a data-toggle="modal" data-target="#online-demo-modal"><i class="fa fa-angle-double-right"></i>${{ index.online-demo }}$</a>
+                                <li>
+                                    <a data-toggle="modal" data-target="#online-demo-modal"> ${{ index.online-demo }}$</a>
                                 </li>
                                 <li>
-                                    <a href="events"><i class="fa fa-angle-double-right"></i>${{ index.workshop }}$</a>
+                                    <a target="_blank" href="${{ config.workshop-link }}$"> ${{ index.workshop }}$</a>
                                 </li>
                             </ul>
                         </nav>
@@ -68,19 +69,19 @@
                 <!-- =================================================
                 ===== Newsletter subscription
                 ================================================== -->
-                <div class="col-12 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+                <div class="col-12 col-md-8 col-lg-5 col-xl-5 offset-xl-1">
                     <div class="footer__item">
-                        <h4 class="footer__item__title text-white">${{ index.subscribe }}$</h4>
+                        <h4 class="footer__item__title">${{ index.subscribe }}$</h4>
                         <form class="form--horizontal" id="newsletter-form" novalidate="novalidate">
-                            <p class="mb-4 text-white">${{ index.subscribe-slogan }}$</p>
+                            <p class="mb-4">${{ index.subscribe-slogan }}$</p>
                             <div class="row no-gutters">
                                 <div class="col-12 col-sm">
                                     <div class="input-wrp form-group">
                                         <input autocomplete="on"
                                                class="textfield textfield--grey newsletter-form-email"
-                                               data-validation-required-message="${{ index.please-enter-mail }}$" name="email" placeholder="E-Mail" required="required"
-                                               type="text"
-                                               type="email"/>
+                                               data-validation-required-message="${{ index.please-enter-mail }}$"
+                                               name="email" placeholder="E-Mail" required="required"
+                                               type="text" type="email"/>
                                         <p class="help-block text-danger mt-4"></p>
                                     </div>
                                 </div>

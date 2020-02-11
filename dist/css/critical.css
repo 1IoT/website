@@ -249,11 +249,6 @@ template {
 .fontello-linkedin-squared:before {
   content: '\f30c'
 }
-.hero {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover
-}
 * {
   padding: 0;
   margin: 0
@@ -843,7 +838,7 @@ h3 {
 }
 .h1,
 h1 {
-  font-size: 4rem
+  font-size: 2rem
 }
 .h2,
 h2 {
@@ -867,15 +862,15 @@ h6 {
   text-transform: uppercase
 }
 main ::-moz-selection {
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff
 }
 main ::selection {
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff
 }
 main ::-moz-selection {
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff
 }
 main p {
@@ -890,7 +885,7 @@ main p:last-child {
 }
 a {
   background-color: transparent;
-  color: #4881fa;
+  color: #2368fb;
   text-decoration: underline;
   outline: 0;
   -webkit-transition: color .3s ease-in-out;
@@ -898,7 +893,7 @@ a {
 }
 a:focus,
 a:hover {
-  color: #4881fa;
+  color: #2368fb;
   text-decoration: none
 }
 .section-heading {
@@ -911,7 +906,7 @@ a:hover {
 }
 .section-heading .__subtitle {
   font-family: "Nunito Sans",sans-serif;
-  color: #4881fa
+  color: #2368fb
 }
 .section-heading--left {
   text-align: left
@@ -932,7 +927,7 @@ a:hover {
   color: inherit
 }
 .text-grading {
-  color: #4881fa
+  color: #2368fb
 }
 .top-bar--light {
   color: #fff
@@ -970,10 +965,10 @@ a:hover {
   border-top: 1px solid #f2f2f2
 }
 .top-bar--dark .top-bar__navigation a:after {
-  background-color: #6a7ce1
+  background-color: #4a60dd
 }
 .top-bar--dark .top-bar__auth-btns a:after {
-  background-color: #6a7ce1
+  background-color: #4a60dd
 }
 .top-bar {
   position: absolute;
@@ -981,7 +976,7 @@ a:hover {
   left: 0;
   right: 0;
   margin: auto;
-  padding: 32px 0;
+  padding: 20px 0;
   font-size: 1.6rem;
   font-weight: 700;
   -webkit-transition: top .3s;
@@ -1096,7 +1091,7 @@ a:hover {
 }
 .top-bar__navigation-toggler {
   position: absolute;
-  top: 10px;
+  top: 0;
   right: 15px;
   padding: 50px;
   z-index: 6
@@ -1207,7 +1202,7 @@ a:hover {
   pointer-events: none
 }
 .top-bar__navigation a.active {
-  color: #4881fa
+  color: #2368fb
 }
 .top-bar__navigation .submenu {
   display: none
@@ -1377,14 +1372,15 @@ a:hover {
   padding-right: 50px!important
 }
 .top-bar.is-sticky {
-  padding-bottom: 38px
+  padding-bottom: 20px
 }
 .top-bar.is-sticky .top-bar__logo {
   width: 95px
 }
 .start-screen {
   position: relative;
-  z-index: 1
+  z-index: 1;
+  background-color: #2368fb
 }
 .start-screen--full-height .start-screen__content__item {
   min-height: 100vh
@@ -1451,7 +1447,7 @@ a:hover {
   width: 60px;
   height: 60px;
   margin-right: 20px;
-  color: #4881fa;
+  color: #2368fb;
   border: 2px solid #eee;
   border-radius: 35%;
   -webkit-transition: background-color .3s ease-in-out,color .3s ease-in-out;
@@ -1512,11 +1508,11 @@ a:hover {
   right: 0
 }
 .start-screen--style-4 .container {
-  margin-top: -170px
+  margin-top: -100px
 }
 .start-screen--style-4 .start-screen__content__item {
   min-height: 600px;
-  height: 100vh
+  height: 80vh
 }
 .start-screen--style-4 .img-shape:nth-of-type(1) {
   max-width: 90%;
@@ -1596,10 +1592,10 @@ a:hover {
   right: 0
 }
 .hero {
-  min-height: 400px;
-  padding-top: 180px;
+  min-height: 560px;
+  padding-top: 250px;
   padding-bottom: 30px;
-  background-color: #4881fa;
+  background-color: #2368fb;
   color: #fff;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1608,7 +1604,11 @@ a:hover {
 .hero__title {
   line-height: 1.1;
   color: inherit;
-  text-align: center
+  text-align: center;
+  font-weight: 500!important
+}
+.hero .section-heading--center {
+  font-size: 20px
 }
 .site-logo {
   display: inline-block
@@ -1689,15 +1689,15 @@ a:hover {
   opacity: 0
 }
 .custom-btn.custom-btn--style-2 {
-  background-color: #4881fa;
-  border-color: #4881fa;
+  background-color: #2368fb;
+  border-color: #2368fb;
   color: #fff
 }
 .custom-btn.custom-btn--style-2:before {
   content: "";
   opacity: 0;
-  background-color: #4881fa;
-  border-color: #4881fa;
+  background-color: #2368fb;
+  border-color: #2368fb;
   color: #fff
 }
 .custom-btn.custom-btn--style-2:focus,
@@ -1710,7 +1710,7 @@ a:hover {
 }
 .custom-btn.custom-btn--style-3 {
   background-color: #fff;
-  border-color: #4881fa;
+  border-color: #2368fb;
   color: #333
 }
 .custom-btn.custom-btn--style-3:before {
@@ -1823,10 +1823,10 @@ form .textfield--dark:focus {
   color: #2a2c2f
 }
 form .textfield.error {
-  border-color: #4881fa!important
+  border-color: #2368fb!important
 }
 form input.textfield {
-  height: 54px
+  height: 56px
 }
 form textarea {
   resize: vertical;
@@ -1867,7 +1867,7 @@ label {
           transform: scale(1)
 }
 .checkbox input[type=checkbox]:checked ~ span a {
-  color: #4881fa
+  color: #2368fb
 }
 .checkbox i {
   position: relative;
@@ -1890,7 +1890,7 @@ label {
   line-height: 17px;
   -webkit-transform: scale(0);
           transform: scale(0);
-  color: #4881fa;
+  color: #2368fb;
   -webkit-transition: -webkit-transform .25s cubic-bezier(.23,1,.32,1);
   transition: -webkit-transform .25s cubic-bezier(.23,1,.32,1);
   transition: transform .25s cubic-bezier(.23,1,.32,1);
@@ -2227,7 +2227,7 @@ label {
   }
   .h1,
   h1 {
-    font-size: 5.5rem
+    font-size: 3.5rem
   }
   .h2,
   h2 {
@@ -2566,10 +2566,11 @@ label {
   }
   .h1,
   h1 {
-    font-size: 7rem
+    font-size: 5rem
   }
   .start-screen__content__item {
-    padding-top: 50px
+    padding-top: 50px;
+    height: 95vh!important
   }
 }
 @media (min-width:992px) {
@@ -2894,9 +2895,6 @@ label {
   }
   .align-self-lg-stretch {
     align-self: stretch!important
-  }
-  .start-screen--style-4 {
-    margin-bottom: 90px
   }
 }
 @media (min-width:1200px) {
@@ -3338,7 +3336,7 @@ label {
     -webkit-box-flex: 1;
             flex-grow: 1;
     flex-basis: 0;
-    height: 32px;
+    height: 40px;
     overflow: visible
   }
   .top-bar__choose-lang .list-wrap {
@@ -3382,6 +3380,12 @@ label {
   }
   .top-bar__side-menu-button {
     margin-left: 35px
+  }
+}
+@media (min-width:1600px) {
+  .container-start-screen {
+    max-width: 1500px!important;
+    padding-top: 150px
   }
 }
 @media print {
