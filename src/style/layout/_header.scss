@@ -8,6 +8,16 @@ $column-gutter: 30px;
   display: none;
 }
 
+.is-expanded {
+  .sticky-logo {
+    display: block;
+  }
+
+  .large-logo {
+    display: none;
+  }
+}
+
 .is-sticky {
   .top-bar__logo {
     .sticky-logo {
@@ -25,20 +35,20 @@ $column-gutter: 30px;
 
   &.is-sticky {
     background-color: $white;
-    color: $branding-black-dark;
+    color: $branding-black-dark !important;
     box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
   }
 
   &.is-expanded {
     .top-bar__collapse {
-      background-color: $branding-black-mid;
+      background-color: $white;
     }
 
     .top-bar__navigation {
       border-bottom: 1px solid rgba(#f2f2f2, 0.25);
 
       li {
-        border-top: 1px solid rgba(#f2f2f2, 0.25);
+        border-top: 1px solid $branding-white-dark;
       }
     }
   }
@@ -77,6 +87,7 @@ $column-gutter: 30px;
   &.is-expanded {
     .top-bar__collapse {
       background-color: $white;
+      color: $branding-black-dark;
     }
 
     .top-bar__navigation {
@@ -195,6 +206,7 @@ $column-gutter: 30px;
 
   &.is-expanded {
     .top-bar__collapse {
+      color: $branding-black-dark;
       position: fixed;
       top: 0;
       left: 0;
@@ -295,6 +307,8 @@ $column-gutter: 30px;
     }
 
     &.is-active {
+      color: $branding-black-dark !important;
+
       span {
         background-color: transparent !important;
 
