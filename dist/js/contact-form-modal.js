@@ -7,11 +7,11 @@ $(function () {
         submitSuccess: function ($form, event) {
             event.preventDefault();
             // Gets the values of each field in our form. This is the data we'll send to our Lambda function.
-            var formEmail = $(".form-email").val();
-            var formSubject = $(".form-subject").val();
-            var formMessage = $(".form-message").val();
-            var formName = $(".form-name").val();
-            var formPhone = $(".form-phone").val();
+            var formEmail = $(".form-email-modal").val();
+            var formSubject = $(".form-subject-modal").val();
+            var formMessage = $(".form-message-modal").val();
+            var formName = $(".form-name-modal").val();
+            var formPhone = $(".form-phone-modal").val();
             // This is the endpoint we created in our API Gateway. This is where we make our POST request, which calls our Lambda function.
             var endpoint = 'https://5rzdj14qhl.execute-api.eu-west-1.amazonaws.com/prod/ContactFormLambda';
             // Remember those form values we just grabbed? We're going to put them into an object here.
@@ -43,7 +43,7 @@ $(function () {
                     $('#success-modal > .alert-success')
                         .append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#contact-form-modal').trigger("reset");
                 })
                 .catch(function () {
                     // Fail message
@@ -53,7 +53,7 @@ $(function () {
                     $('#success-modal > .alert-danger').append($("<strong>").text("Sorry, we have some technical problems. Please try again later or write us another way."));
                     $('#success-modal > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#contact-form-modal').trigger("reset");
                 });
         },
         filter: function () {

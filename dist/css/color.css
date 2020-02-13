@@ -45,7 +45,7 @@ main ::-moz-selection { background-color: #2368fb; }
 
 .posts--s2 .__item--preview .__date-post { background-color: #2e6cff; }
 
-.custom-btn.custom-btn--style-3:before { background: -webkit-gradient(linear, left top, right top, from(#2368fb), to(#2065F7)); background: linear-gradient(90deg, #2368fb 0%, #2065F7 100%); }
+.custom-btn.custom-btn--style-3:before { background: -webkit-gradient(linear, left top, right top, from(#2368fb), to(#0B57F9)); background: linear-gradient(90deg, #2368fb 0%, #0B57F9 100%); }
 
 .custom-btn.custom-btn--style-1:before { background-color: #2368fb; }
 

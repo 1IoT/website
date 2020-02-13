@@ -2821,6 +2821,14 @@ img {
 #why {
   background-color: #f3f3f3
 }
+#cloud-features,
+#cloud-on-premise,
+#consulting,
+#dashboard-company,
+#dashboard-features,
+#integration {
+  background-color: #f3f3f3!important
+}
 #contact-eyecatcher button {
   border-color: #1d2124!important;
   background-color: #1d2124!important;
@@ -2829,10 +2837,6 @@ img {
 #contact-eyecatcher button:hover {
   border-color: #2a2c2f!important;
   background-color: #2a2c2f!important
-}
-#dashboard-company,
-#dashboard-features {
-  background-color: #f3f3f3!important
 }
 #dashboard-customer {
   background-color: #fff!important
@@ -2847,7 +2851,17 @@ img {
   background-color: #f3f3f3!important
 }
 #contact {
-  background-color: #343a3f
+  background-color: #1d2124
+}
+#contact .__title {
+  color: #fff
+}
+#contact .slogan-txt {
+  color: #fff;
+  font-size: 19px
+}
+#contact .__inner {
+  color: #fff
 }
 .comments-list {
   margin-top: 30px;
@@ -3359,7 +3373,7 @@ img {
   padding-top: 0!important
 }
 .section-benefits-first {
-  padding-bottom: 90px!important
+  padding-bottom: 40px!important
 }
 .tags-list {
   line-height: 0;
@@ -3730,14 +3744,13 @@ img {
   border-radius: 1.125rem!important
 }
 #contact-modal {
-  padding-top: 4%
+  padding-top: 2%
 }
 #contact-modal .textfield {
   color: #2a2c2f!important
 }
-.section-heading {
-  padding-left: 15px;
-  padding-right: 15px
+#contact-modal .__title {
+  font-size: 3rem!important
 }
 .faq .__inner {
   margin-bottom: -35px
@@ -3762,12 +3775,12 @@ img {
   content: counter(faq-num,decimal-leading-zero) ". "
 }
 .feature .__inner {
-  margin-bottom: -30px
+  margin-bottom: -50px
 }
 .feature .__item {
   position: relative;
   width: 100%;
-  margin-bottom: 30px
+  margin-bottom: 50px
 }
 .feature .__item .__ico {
   display: inline-block;
@@ -3836,7 +3849,7 @@ img {
   text-decoration: underline
 }
 .footer__navigation a {
-  color: #fff;
+  color: #1d2124;
   text-decoration: none;
   font-weight: 500
 }
@@ -3937,43 +3950,54 @@ img {
   color: red
 }
 .footer--color-light {
-  color: #fff
+  color: #1d2124
 }
 .footer--color-light .footer__item__title {
   color: inherit
 }
 footer__navigation .footer--color-light .footer__navigation li.active a {
-  color: #f9fbfc
+  color: #1d2124
 }
 .footer--color-light .footer__navigation a:hover {
-  color: #fff
+  color: #2368fb
 }
 .footer--color-dark {
-  color: inherit
+  color: #1d2124
 }
 .footer--color-dark .footer__navigation i {
   margin-right: 10px!important;
   font-size: 10px
 }
-.footer--color-dark .footer__navigation a:hover,
 .footer--color-dark .footer__navigation li.active a {
-  color: #d6d6d6
+  color: #1d2124
+}
+.footer--color-dark .footer__navigation a:hover {
+  color: #2368fb
 }
 .footer--color-dark .footer__address--s3 strong {
   color: #333
 }
+.footer--s3 .footer__line {
+  color: #1d2124
+}
 .footer--s3 .footer__line--first {
-  background-color: #1d2124;
+  background-color: #fff;
   padding-top: 50px;
   padding-bottom: 70px
 }
 .footer--s3 .footer__line--second {
-  background-color: #1d2124;
+  background-color: #fff;
   padding-top: 10px;
   padding-bottom: 10px
 }
 .footer--s3 .__copy {
-  color: #fff
+  color: #1d2124;
+  font-size: small
+}
+.footer--s3 .__copy a,
+.footer--s3 .__copy a:hover {
+  color: #1d2124!important;
+  text-decoration: none!important
 }
 .footer--s3 .footer__wave {
   height: 150px
@@ -5622,7 +5646,7 @@ button.close {
 }
 .close {
   float: right;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
