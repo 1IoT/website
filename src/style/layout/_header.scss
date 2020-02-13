@@ -26,7 +26,7 @@ $column-gutter: 30px;
   &.is-sticky {
     background-color: $white;
     color: $branding-black-dark;
-    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
   }
 
   &.is-expanded {
@@ -245,7 +245,7 @@ $column-gutter: 30px;
   &__inner {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1480px + $column-gutter;
+    max-width: 1170px;
   }
 
   &__logo {
@@ -353,13 +353,13 @@ $column-gutter: 30px;
         &:before {
           content: "";
           float: right;
-          width: 6px;
-          height: 6px;
+          width: 8px;
+          height: 8px;
           border-bottom: 2px solid;
           border-right: 2px solid;
           border-color: currentColor;
-          margin-left: 10px;
-          margin-top: 4px;
+          margin-left: 13px;
+          margin-top: 3px;
           transform: rotate(45deg);
           transform-origin: center;
           @include transition(
@@ -820,7 +820,7 @@ $column-gutter: 30px;
       margin-left: 100px;
 
       li {
-        margin-left: 25px;
+        margin-left: 40px;
       }
     }
 
@@ -839,8 +839,7 @@ $column-gutter: 30px;
 }
 
 .top-bar {
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+
 }
 
 .top-bar.is-sticky {
@@ -852,5 +851,36 @@ $column-gutter: 30px;
 
   .top-bar__logo {
     width: 95px;
+  }
+}
+
+@media (min-width: 1600px){
+
+}
+.container-start-screen {
+  padding-top: 150px;
+}
+
+@media (min-width: 1200px){
+  .top-bar__inner {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 992px){
+  .top-bar__inner {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px){
+  .top-bar__inner {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .top-bar__inner {
+    max-width: 540px;
   }
 }

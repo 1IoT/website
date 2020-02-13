@@ -46,7 +46,7 @@ ul {
 
 @media (min-width: 1600px) {
   .container-start-screen {
-    max-width: 1500px !important;
+    // max-width: 1500px !important;
     padding-top: 150px;
   }
 }
@@ -55,6 +55,15 @@ ul {
   .container-start-screen {
     padding-top: 150px;
   }
+}
+
+.non-flex {
+  display: -webkit-box !important;
+}
+
+.align-top {
+  vertical-align: top !important;
+  display: inline-block !important;
 }
 
 .medium {

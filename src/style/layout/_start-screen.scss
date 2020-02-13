@@ -2,6 +2,12 @@
    start screen
 -------------------------------- */
 
+#start-screen {
+  .slogan-txt {
+    font-size: 20px;
+  }
+}
+
 .start-screen {
   position: relative;
   z-index: 1;
@@ -9,7 +15,7 @@
 
   &--full-height {
     .start-screen__content__item {
-      min-height: 100vh;
+      min-height: 70vh;
     }
   }
 
@@ -55,7 +61,7 @@
 
     @include media-breakpoint-up(md) {
       padding-top: 50px;
-      height: 95vh !important;
+      height: 70vh !important;
     }
   }
 

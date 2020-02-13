@@ -3360,7 +3360,7 @@ img {
   padding-top: 0!important
 }
 .section-benefits-first {
-  padding-bottom: 90px!important
+  padding-bottom: 40px!important
 }
 .tags-list {
   line-height: 0;
@@ -3762,12 +3762,12 @@ img {
   content: counter(faq-num,decimal-leading-zero) ". "
 }
 .feature .__inner {
-  margin-bottom: -30px
+  margin-bottom: -50px
 }
 .feature .__item {
   position: relative;
   width: 100%;
-  margin-bottom: 30px
+  margin-bottom: 50px
 }
 .feature .__item .__ico {
   display: inline-block;

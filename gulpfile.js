@@ -34,7 +34,7 @@ var gulp = require('gulp'),
         src: {
             html: ['src/html/**/*.html', '!src/html/template/**/*.html'],
             js: ['src/js/lib/device.js', 'src/js/lib/jquery-2.2.4.js', 'src/js/main.js',
-                'src/js/contact-form-main.js', 'src/js/jqBootstrapValidation.js',
+                'src/js/contact-form-main.js', 'src/js/contact-form-modal.js', 'src/js/jqBootstrapValidation.js',
                 'src/js/newsletter-form.js'],
             style: ['src/style/critical.scss', 'src/style/style.scss'],
             theme: ['src/style/color-themes/**/*.scss'],
