@@ -2821,6 +2821,7 @@ img {
 #why {
   background-color: #f3f3f3
 }
+#about-us,
 #cloud-features,
 #cloud-on-premise,
 #consulting,
@@ -2844,10 +2845,19 @@ img {
 #hardware-connectivity .__title {
   color: #2a2c2f
 }
-#api-features,
-#api-why,
 #hardware-features,
 #hardware-why {
+  background-color: #f3f3f3!important
+}
+.drift-widget-chat-wrapper {
+  min-height: 0!important
+}
+.drift-widget-greeting-content {
+  max-height: 100%!important
+}
+#api-features,
+#api-why,
+#career-about-us {
   background-color: #f3f3f3!important
 }
 #contact {

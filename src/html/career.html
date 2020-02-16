@@ -1,0 +1,29 @@
+@@include('template/document_start.html', {
+"title": "Working in a technology startup in Karlsruhe"
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "Career at OneIoT",
+    "subtitle": "Become a part of the team and be a visionary"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/career-about-us.html')
+
+        @@include('component/career-offer.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

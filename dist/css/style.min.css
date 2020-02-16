@@ -2808,6 +2808,7 @@ img {
 #why {
   background-color: #f3f3f3
 }
+#about-us,
 #cloud-features,
 #cloud-on-premise,
 #consulting,
@@ -2831,10 +2832,19 @@ img {
 #hardware-connectivity .__title {
   color: #2a2c2f
 }
-#api-features,
-#api-why,
 #hardware-features,
 #hardware-why {
+  background-color: #f3f3f3!important
+}
+.drift-widget-chat-wrapper {
+  min-height: 0!important
+}
+.drift-widget-greeting-content {
+  max-height: 100%!important
+}
+#api-features,
+#api-why,
+#career-about-us {
   background-color: #f3f3f3!important
 }
 #contact {
@@ -3494,6 +3504,49 @@ img {
 }
 .img-fluid-small {
   max-width: 80%
+}
+.cookiealert {
+  position: fixed!important;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0!important;
+  z-index: 999;
+  opacity: 0;
+  background: #f3f3f3;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+  color: #1d2124;
+  border-radius: 0!important;
+  border: none!important;
+  box-shadow: 6px 6px 6px 6px rgba(0,0,0,.2)
+}
+.cookiealert .btn {
+  padding: .5rem 4.6rem!important;
+  font-size: 1.64rem!important;
+  border-radius: 20px!important;
+  background-color: #2368fb!important;
+  margin-top: 15px;
+  text-transform: none!important
+}
+.cookie-alert-col {
+  margin: auto
+}
+.cookiealert.show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s
+}
+.cookiealert a {
+  text-decoration: underline
+}
+.cookiealert .acceptcookies {
+  margin-left: 10px;
+  vertical-align: baseline
 }
 .authorization {
   padding: 30px 0

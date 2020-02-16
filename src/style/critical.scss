@@ -44,6 +44,16 @@ ul {
   margin: 0;
 }
 
+#career-offer {
+  .__title {
+    color: $branding-black-dark !important;
+  }
+}
+
+.font-size-16 {
+  font-size: 1.6rem !important;
+}
+
 @media (min-width: 1600px) {
   .container-start-screen {
     // max-width: 1500px !important;
