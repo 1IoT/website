@@ -9,6 +9,7 @@
   //@extend %bg-cover;
   background-color: $primary-color;
   color: $white;
+  z-index: 1 !important;
   @include userSelect(none);
 
   &__title {

@@ -236,6 +236,11 @@
             </div>
         </div>
     </header>
+    <div class="header-progress-bar">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
 
 
     <div class="hero jarallax" data-img-position="50% 90%" data-speed="0.7" id="hero">
@@ -1057,14 +1062,14 @@
     <div class="row">
         <div class="col-lg-6 text-center cookie-alert-col">
             <div class="cookiealert-container">
-                &#x1F36A; Wir verwenden Cookies und Analysen, um sicherzustellen, dass Sie die beste Erlebnis auf unserer Website erleben. Mit der Nutzung unserer Website stimmen Sie der <a href="privacy">Datenschutzerklärung</a> zu
+                &#x1F36A; Wir verwenden Cookies und Analysen, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erleben. Mit der Nutzung unserer Website stimmen Sie der <a href="privacy">Datenschutzerklärung</a> zu
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 text-center">
             <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-                Zustimmen
+                Schließen
             </button>
         </div>
     </div>
@@ -1081,6 +1086,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <script>window.jQuery || document.write('<script src="../js/jquery-2.2.4.min.js"><\/script>')</script>
+
+<!-- Scroll indicator -->
+<script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
 
 <script crossorigin="anonymous"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"

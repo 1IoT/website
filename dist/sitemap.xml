@@ -1,125 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://www.oneiot.de/</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/index</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/capabilities</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/dashboard</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/hardware</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/cloud</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/api</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/service</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/help-desk</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/terms</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/de/privacy</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/index</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/capabilities</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/dashboard</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/hardware</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/cloud</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/api</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/service</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/help-desk</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/terms</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.oneiot.de/en/privacy</loc>
-  <lastmod>2020-02-13T12:42:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.oneiot.de/</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/index</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/capabilities</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/dashboard</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/hardware</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/cloud</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/api</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/service</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/about</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/career</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/help-desk</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/terms</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/de/privacy</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/index</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/capabilities</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/dashboard</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/hardware</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/cloud</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/api</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/service</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/about</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/career</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/help-desk</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/terms</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.oneiot.de/en/privacy</loc>
+    <lastmod>2020-02-16T00:28:01+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
 </urlset>
