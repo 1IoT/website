@@ -1642,6 +1642,7 @@ a:hover {
   padding-bottom: 30px;
   background-color: #2368fb;
   color: #fff;
+  z-index: 1!important;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none
