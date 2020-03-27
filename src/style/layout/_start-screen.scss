@@ -4,7 +4,7 @@
 
 #start-screen {
   .slogan-txt {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -60,7 +60,7 @@
     padding-bottom: 50px;
 
     @include media-breakpoint-up(md) {
-      padding-top: 50px;
+      padding-top: 150px;
       height: 70vh !important;
     }
   }
