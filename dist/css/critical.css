@@ -258,6 +258,28 @@ template {
 ::before {
   box-sizing: inherit
 }
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%
+}
+.start-screen__content-container h2 {
+  font-size: 60px
+}
+#large-header {
+  height: 470px!important
+}
+.large-header {
+  position: relative;
+  width: 100%;
+  background: center center/cover #333;
+  overflow: hidden;
+  z-index: 1
+}
 html {
   font-size: 10px;
   -webkit-text-size-adjust: 100%;
@@ -278,6 +300,22 @@ body {
   color: #2a2c2f;
   background-color: #fff
 }
+.main-title #header-img {
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #2368fb),color-stop(50%, #2368fb),color-stop(50%, #2368fb),color-stop(50%, #f3f3f3),to(#f3f3f3));
+  background: linear-gradient(to bottom,#2368fb 0,#2368fb 50%,#2368fb 50%,#f3f3f3 50%,#f3f3f3 100%);
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  margin-left: 0!important;
+  margin-right: 0!important
+}
+.main-title #header-img .col-12 {
+  padding-left: 0!important;
+  padding-right: 0!important
+}
+.main-title #header-img img {
+  border-radius: 50%;
+  border: 10px solid #2368fb
+}
 ul {
   list-style: none;
   margin: 0
@@ -287,6 +325,9 @@ ul {
 }
 .font-size-16 {
   font-size: 1.6rem!important
+}
+.container-start-screen {
+  padding-top: 0!important
 }
 .non-flex {
   display: -webkit-box!important
@@ -1416,11 +1457,8 @@ a:hover {
 .top-bar.is-sticky .top-bar__logo {
   width: 95px
 }
-.container-start-screen {
-  padding-top: 150px
-}
 #start-screen .slogan-txt {
-  font-size: 20px
+  font-size: 25px
 }
 .start-screen {
   position: relative;
@@ -2625,7 +2663,7 @@ label {
     max-width: 720px
   }
   .start-screen__content__item {
-    padding-top: 50px;
+    padding-top: 150px;
     height: 70vh!important
   }
 }
@@ -3449,7 +3487,7 @@ label {
 }
 @media (min-width:1600px) {
   .container-start-screen {
-    padding-top: 150px
+    padding-top: 100px
   }
 }
 @media print {

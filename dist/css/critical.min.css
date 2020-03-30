@@ -263,10 +263,8 @@ template {
   padding: 0;
   color: #f9f1e9;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%,-50%,0);
-  transform: translate3d(-50%,-50%,0)
+  top: -16%;
+  left: 0
 }
 .start-screen__content-container h2 {
   font-size: 60px
@@ -313,9 +311,12 @@ body {
   padding-left: 0!important;
   padding-right: 0!important
 }
-#header-img img {
+#header-img .easy-digitization {
   border-radius: 50%;
   border: 10px solid #2368fb
+}
+.easy-digitization {
+  width: 60%!important
 }
 ul {
   list-style: none;
@@ -2316,6 +2317,11 @@ label {
     margin: 0 -50px 0 0
   }
 }
+@media (min-width:580px) {
+  .easy-digitization {
+    width: 50%!important
+  }
+}
 @media (min-width:768px) {
   .container {
     max-width: 720px
@@ -2651,6 +2657,11 @@ label {
     height: 70vh!important
   }
 }
+@media (min-width:800px) {
+  .easy-digitization {
+    width: 40%!important
+  }
+}
 @media (min-width:992px) {
   .container {
     max-width: 960px
@@ -2976,6 +2987,11 @@ label {
   }
   .top-bar__inner {
     max-width: 960px
+  }
+}
+@media (min-width:1100px) {
+  .easy-digitization {
+    width: 30%!important
   }
 }
 @media (min-width:1200px) {
@@ -3330,7 +3346,7 @@ label {
   .top-bar__navigation li {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 15px
+    margin-left: 30px
   }
   .top-bar__navigation li.has-submenu:hover > .submenu {
     margin-top: 20px;
