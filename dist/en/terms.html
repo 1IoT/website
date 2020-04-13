@@ -154,7 +154,7 @@
                         <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
                             <ul>
                                 <li class="has-submenu">
-                                    <a class="nav-link">Capabilities</a>
+                                    <a class="nav-link" href="capabilities">Capabilities</a>
                                     <ul class="submenu">
                                         <li><a href="capabilities#controlling">Control</a></li>
                                         <li><a href="capabilities#monitoring">Monitoring</a></li>
@@ -172,7 +172,7 @@
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
-                                    <a class="nav-link">Service</a>
+                                    <a class="nav-link" href="service">Service</a>
                                     <ul class="submenu">
                                         <li><a href="service#consulting">Consulting</a></li>
                                         <li><a href="service#prototyping">Prototyping</a></li>
@@ -611,35 +611,39 @@
                     ===== Contact form
                     ================================================== -->
                     <div class="col-12 col-xl-6">
+                        <p>
+                            We are at your disposal for all your questions. Our experts are available to support you
+                        </p>
+
                          <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-name-modal form-control"
                                        data-validation-required-message="Please enter your name"
                                        id="name" name="name" placeholder="Name" required="required" type="text"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-phone-modal form-control"
                                        id="phone" name="phone" placeholder="Phone" type="tel"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-subject-modal form-control"
                                        id="subject" name="subject" placeholder="Company" type="text"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-email-modal form-control"
                                        data-validation-required-message="Please enter your email address" id="email"
                                        name="email" placeholder="E-Mail" required="required" type="email"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <label class="input-wrp form-group">
-                        <textarea class="textfield textfield--grey form-message-modal form-control"
+                                <p class="help-block text-danger mt-20"></p>
+                                <textarea class="textfield textfield--grey form-message-modal form-control"
                                   data-validation-required-message="Please enter a message"
                                   id="message" name="message" placeholder="Message"
                                   required="required"></textarea>
-                                <p class="help-block text-danger mt-20"></p>
                             </label>
                             <div id="success-modal"></div>
                             <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit-modal" id="sendMessageButton"
@@ -650,15 +654,20 @@
                         </form>
                     </div>
 
-                    <div class="col-12 col-xl-6 mt-xl-0 mt-sm-12">
-                        <p class="text-center">
+                    <div class="col-12 col-xl-6 mt-xl-0 mt-sm-12 text-center">
+                        <figure class="image-container text-center">
+                            <img class="img-fluid rounded-img" width="70%" src="../img/oneiot/contact-support.png" alt="Contact us" />
+                        </figure>
+                        <div class="py-3"></div>
+                        <p>
                             <strong>+49 172 - 232 51 02</strong><br>
                             <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
                             Karlsruhe, Germany
                         </p>
-                        <figure class="image-container">
-                            <img class="img-fluid" src="../img/oneiot/world-map.png" alt="OneIoT location" />
-                        </figure>
+<!--                        <div class="py-3"></div>-->
+<!--                        <figure class="image-container">-->
+<!--                            <img class="img-fluid" width="70%" src="../img/oneiot/world-map.png" alt="OneIoT location" />-->
+<!--                        </figure>-->
                     </div>
                 </div>
             </div>

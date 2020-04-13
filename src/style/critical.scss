@@ -121,6 +121,11 @@ ul {
   }
 }
 
+.rounded-img {
+  border-radius: 100%;
+  border: 2px solid $branding-black-dark;
+}
+
 .font-size-16 {
   font-size: 1.6rem !important;
 }
@@ -133,13 +138,13 @@ ul {
 @media (min-width: 1600px) {
   .container-start-screen {
     // max-width: 1500px !important;
-    padding-top: 100px;
+ //   padding-top: 100px;
   }
 }
 
 @media (min-width: 1200px) {
   .container-start-screen {
-    padding-top: 150px;
+   // padding-top: 150px;
   }
 }
 

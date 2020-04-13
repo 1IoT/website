@@ -325,6 +325,10 @@ ul {
 #career-offer .__title {
   color: #1d2124!important
 }
+.rounded-img {
+  border-radius: 100%;
+  border: 2px solid #1d2124
+}
 .font-size-16 {
   font-size: 1.6rem!important
 }
@@ -2995,9 +2999,6 @@ label {
   }
 }
 @media (min-width:1200px) {
-  .container-start-screen {
-    padding-top: 150px
-  }
   .container {
     max-width: 1170px
   }
@@ -3485,42 +3486,6 @@ label {
     margin-left: 35px
   }
 }
-@media (min-width:1600px) {
-  .container-start-screen {
-    padding-top: 100px
-  }
-}
-@media print {
-  .d-print-none {
-    display: none!important
-  }
-  .d-print-inline {
-    display: inline!important
-  }
-  .d-print-inline-block {
-    display: inline-block!important
-  }
-  .d-print-block {
-    display: block!important
-  }
-  .d-print-table {
-    display: table!important
-  }
-  .d-print-table-row {
-    display: table-row!important
-  }
-  .d-print-table-cell {
-    display: table-cell!important
-  }
-  .d-print-flex {
-    display: -webkit-box!important;
-    display: flex!important
-  }
-  .d-print-inline-flex {
-    display: -webkit-inline-box!important;
-    display: inline-flex!important
-  }
-}
 @media screen and (prefers-reduced-motion:reduce) {
   .custom-btn,
   .custom-btn:before,
@@ -3572,6 +3537,37 @@ label {
   .checkbox i:before {
     -webkit-transition: none;
     transition: none
+  }
+}
+@media print {
+  .d-print-none {
+    display: none!important
+  }
+  .d-print-inline {
+    display: inline!important
+  }
+  .d-print-inline-block {
+    display: inline-block!important
+  }
+  .d-print-block {
+    display: block!important
+  }
+  .d-print-table {
+    display: table!important
+  }
+  .d-print-table-row {
+    display: table-row!important
+  }
+  .d-print-table-cell {
+    display: table-cell!important
+  }
+  .d-print-flex {
+    display: -webkit-box!important;
+    display: flex!important
+  }
+  .d-print-inline-flex {
+    display: -webkit-inline-box!important;
+    display: inline-flex!important
   }
 }
 @media (max-width:767.98px) {

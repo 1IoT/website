@@ -154,7 +154,7 @@
                         <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
                             <ul>
                                 <li class="has-submenu">
-                                    <a class="nav-link">Möglichkeiten</a>
+                                    <a class="nav-link" href="capabilities">Möglichkeiten</a>
                                     <ul class="submenu">
                                         <li><a href="capabilities#controlling">Steuerung</a></li>
                                         <li><a href="capabilities#monitoring">Monitoring</a></li>
@@ -172,7 +172,7 @@
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
-                                    <a class="nav-link">Service</a>
+                                    <a class="nav-link" href="service">Service</a>
                                     <ul class="submenu">
                                         <li><a href="service#consulting">Beratung</a></li>
                                         <li><a href="service#prototyping">Prototypen</a></li>
@@ -306,7 +306,7 @@
                                         <!-- =================================================
                                         ===== Item 1
                                         ================================================== -->
-                                        <div class="__item">
+                                        <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="400" data-aos-delay="100">
                                             <div class="row">
                                                 <div class="col-12 col-sm-auto">
                                                     <div class="mb-3 mb-sm-0">
@@ -323,7 +323,7 @@
                                         <!-- =================================================
                                        ===== Item 2
                                        ================================================== -->
-                                        <div class="__item">
+                                        <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="400" data-aos-delay="200">
                                             <div class="row">
                                                 <div class="col-12 col-sm-auto">
                                                     <div class="mb-3 mb-sm-0">
@@ -340,7 +340,7 @@
                                         <!-- =================================================
                                         ===== Item 3
                                         ================================================== -->
-                                        <div class="__item">
+                                        <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="400" data-aos-delay="300">
                                             <div class="row">
                                                 <div class="col-12 col-sm-auto">
                                                     <div class="mb-3 mb-sm-0">
@@ -363,8 +363,8 @@
                             ===== Image
                             ================================================== -->
                             <div class="col-12 col-lg-6  text-center text-lg-right">
-                                <figure class="image-container">
-                                    <img class="img-fluid" width="547" height="567" src="../img/oneiot/api-const.png" alt="Api" />
+                                <figure class="image-container" data-aos="fade-left" data-aos-offset="100" data-aos-duration="500" data-aos-delay="200">
+                                    <img class="img-fluid" width="350" src="../img/oneiot/api.png" alt="Api" />
                                 </figure>
                             </div>
                         </div>
@@ -662,35 +662,39 @@
                     ===== Contact form
                     ================================================== -->
                     <div class="col-12 col-xl-6">
+                        <p>
+                            Wir stehen Ihnen für all Ihre Fragen zur Verfügung. Unsere Experten beraten Sie gerne
+                        </p>
+
                          <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-name-modal form-control"
                                        data-validation-required-message="Bitte geben Sie Ihren Namen an"
                                        id="name" name="name" placeholder="Name" required="required" type="text"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-phone-modal form-control"
                                        id="phone" name="phone" placeholder="Telefon" type="tel"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-subject-modal form-control"
                                        id="subject" name="subject" placeholder="Unternehmen" type="text"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-email-modal form-control"
                                        data-validation-required-message="Bitte geben Sie Ihre E-Mail Adresse an" id="email"
                                        name="email" placeholder="E-Mail" required="required" type="email"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <label class="input-wrp form-group">
-                        <textarea class="textfield textfield--grey form-message-modal form-control"
+                                <p class="help-block text-danger mt-20"></p>
+                                <textarea class="textfield textfield--grey form-message-modal form-control"
                                   data-validation-required-message="Bitte schreiben Sie eine Nachricht"
                                   id="message" name="message" placeholder="Nachricht"
                                   required="required"></textarea>
-                                <p class="help-block text-danger mt-20"></p>
                             </label>
                             <div id="success-modal"></div>
                             <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit-modal" id="sendMessageButton"
@@ -701,15 +705,20 @@
                         </form>
                     </div>
 
-                    <div class="col-12 col-xl-6 mt-xl-0 mt-sm-12">
-                        <p class="text-center">
+                    <div class="col-12 col-xl-6 mt-xl-0 mt-sm-12 text-center">
+                        <figure class="image-container text-center">
+                            <img class="img-fluid rounded-img" width="70%" src="../img/oneiot/contact-support.png" alt="Contact us" />
+                        </figure>
+                        <div class="py-3"></div>
+                        <p>
                             <strong>+49 172 - 232 51 02</strong><br>
                             <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
                             Karlsruhe, Germany
                         </p>
-                        <figure class="image-container">
-                            <img class="img-fluid" src="../img/oneiot/world-map.png" alt="OneIoT location" />
-                        </figure>
+<!--                        <div class="py-3"></div>-->
+<!--                        <figure class="image-container">-->
+<!--                            <img class="img-fluid" width="70%" src="../img/oneiot/world-map.png" alt="OneIoT location" />-->
+<!--                        </figure>-->
                     </div>
                 </div>
             </div>

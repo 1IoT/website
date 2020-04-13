@@ -157,7 +157,7 @@
                         <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
                             <ul>
                                 <li class="has-submenu">
-                                    <a class="nav-link">Capabilities</a>
+                                    <a class="nav-link" href="capabilities">Capabilities</a>
                                     <ul class="submenu">
                                         <li><a href="capabilities#controlling">Control</a></li>
                                         <li><a href="capabilities#monitoring">Monitoring</a></li>
@@ -175,7 +175,7 @@
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
-                                    <a class="nav-link">Service</a>
+                                    <a class="nav-link" href="service">Service</a>
                                     <ul class="submenu">
                                         <li><a href="service#consulting">Consulting</a></li>
                                         <li><a href="service#prototyping">Prototyping</a></li>
@@ -262,7 +262,7 @@
                             <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="300" data-aos-delay="100">
                                 <h2 class="__title text-white">Simply digitize</h2>
                                 <p class="text-white slogan-txt">We support your product digitization</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -404,7 +404,7 @@
                             <div class="col-12 col-lg-6  text-center text-lg-right">
                                 <div class="__item" data-aos="fade-left" data-aos-offset="100" data-aos-duration="500" data-aos-delay="200">
                                     <figure class="image-container">
-                                        <img class="img-fluid" width="547" height="567" src="../img/oneiot/video-preview.png" alt="Explain me video" />
+                                        <img class="img-fluid" src="../img/oneiot/platform.png" alt="Platform" />
                                     </figure>
                                 </div>
                             </div>
@@ -483,8 +483,25 @@
             <div class="container">
                 <div class="row d-flex align-items-stretch">
 
+
                     <div class="col-12 col-lg-4 align-top text-center">
                         <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="400" data-aos-delay="100">
+                            <div class="mb-3 mb-sm-0">
+                                <img alt="No cloud" class="img-fluid" src="../img/oneiot/no-cloud.png" width="70"/>
+                            </div>
+                            <div class="section-heading mt-lg-4 mt-sm-4">
+                                <h4 class="__title h4">Digitization even without cloud</h4>
+                            </div>
+                            <div class="spacer py-2"></div>
+                            <div>
+                                <p>You have the possibility to install our product on your own server, completely without external dependencies</p>
+                            </div>
+                            <div class="spacer py-4"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 align-top text-center">
+                        <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="400" data-aos-delay="200">
                         <div class="mb-3 mb-sm-0">
                             <img alt="Certification" class="img-fluid" src="../img/oneiot/cert.png" width="70"/>
                         </div>
@@ -494,22 +511,6 @@
                         <div class="spacer py-2"></div>
                         <div>
                             <p>We bring along all necessary certifications and take care of industry-specific certifications within the scope of joint product development</p>
-                        </div>
-                        <div class="spacer py-4"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-4 align-top text-center">
-                        <div class="__item" data-aos="fade" data-aos-offset="100" data-aos-duration="400" data-aos-delay="200">
-                        <div class="mb-3 mb-sm-0">
-                            <img alt="No cloud" class="img-fluid" src="../img/oneiot/no-cloud.png" width="70"/>
-                        </div>
-                        <div class="section-heading mt-lg-4 mt-sm-4">
-                            <h4 class="__title h4">Digitization even without cloud</h4>
-                        </div>
-                        <div class="spacer py-2"></div>
-                        <div>
-                            <p>You have the possibility to install our product on your own server, completely without external dependencies</p>
                         </div>
                         <div class="spacer py-4"></div>
                         </div>
@@ -535,86 +536,23 @@
         </section>
 
 
-        
 
-        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3" id="contact">
-            <div class="container">
 
-                <!-- =================================================
-                ===== Contact title
-                ================================================== -->
-                <div class="section-heading section-heading--center">
+        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3"
+                 style="background-color: #1d2124">
+            <div class="container small-container-with-btn">
+                <div class="section-heading section-heading--white section-heading--center">
                     <h2 class="__title">Contact <span>us today</span></h2>
-                    <p class="slogan-txt">
+                    <p>
                         Start with your digitization and take your product to a new level
                     </p>
-                </div>
-
-                <div class="spacer py-6"></div>
-
-                <!-- =================================================
-                ===== Contact content
-                ================================================== -->
-                <div class="row justify-content-md-center">
-
-                    <!-- =================================================
-                    ===== Contact form
-                    ================================================== -->
-                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
-                        <form class="js-contact-form" id="contact-form" name="sentMessage" novalidate="novalidate">
-                            <div class="input-wrp form-group">
-                                <input autocomplete="on" class="textfield textfield--dark form-name form-control" data-validation-required-message="Please enter your name"
-                                       id="name" name="name" placeholder="Name" required="required"
-                                       type="text"/>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="input-wrp form-group">
-                                <input autocomplete="on" class="textfield textfield--dark form-phone form-control" id="phone"
-                                       name="phone" placeholder="Phone" type="tel"/>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="input-wrp form-group">
-                                <input autocomplete="on" class="textfield textfield--dark form-subject form-control"
-                                       id="subject" name="subject" placeholder="Company" type="text"/>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="input-wrp form-group">
-                                <input autocomplete="on" class="textfield textfield--dark form-email form-control"
-                                       data-validation-required-message="Please enter your email address" id="email"
-                                       name="email" placeholder="E-Mail" required="required"
-                                       type="email"/>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <label class="input-wrp form-group">
-                                <textarea class="textfield textfield--dark form-message form-control" data-validation-required-message="Please enter a message"
-                                          id="message" name="message" placeholder="Message" required="required"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </label>
-                            <div id="success"></div>
-                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit" id="sendMessageButton"
-                                    name="submit" role="button" type="submit" value="Send Message">
-                                Send Message
+                    <div class="col-12 col-sm-auto">
+                        <div class="spacer py-4"></div>
+                        <a data-toggle="modal" data-target="#contact-modal">
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 medium" role="button"
+                                    type="submit">Contact
                             </button>
-                            <div class="form__note"></div>
-                        </form>
-
-                        <!-- =================================================
-                        ===== Contact details
-                        ================================================== -->
-                        <div class="company-contacts company-contacts--s2 mt-12">
-                            <div class="__inner">
-                                <div class="__name h3 text-white text-lg-left text-sm-center">Talk to <span>us?</span></div>
-                                <div class="row no-gutters align-items-baseline">
-                                    <div class="col-12 col-md text-lg-left text-sm-center">
-                                        <span class="__phone">+49 172 - 232 51 02</span>
-                                    </div>
-                                    <div class="col-12 col-md-auto text-lg-right text-sm-center mt-sm-4">
-                                        <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        </a>
                     </div>
                 </div>
             </div>
@@ -811,35 +749,39 @@
                     ===== Contact form
                     ================================================== -->
                     <div class="col-12 col-xl-6">
+                        <p>
+                            We are at your disposal for all your questions. Our experts are available to support you
+                        </p>
+
                          <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-name-modal form-control"
                                        data-validation-required-message="Please enter your name"
                                        id="name" name="name" placeholder="Name" required="required" type="text"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-phone-modal form-control"
                                        id="phone" name="phone" placeholder="Phone" type="tel"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-subject-modal form-control"
                                        id="subject" name="subject" placeholder="Company" type="text"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
                                 <input autocomplete="on" class="textfield textfield--grey form-email-modal form-control"
                                        data-validation-required-message="Please enter your email address" id="email"
                                        name="email" placeholder="E-Mail" required="required" type="email"/>
-                                <p class="help-block text-danger mt-20"></p>
                             </div>
                             <label class="input-wrp form-group">
-                        <textarea class="textfield textfield--grey form-message-modal form-control"
+                                <p class="help-block text-danger mt-20"></p>
+                                <textarea class="textfield textfield--grey form-message-modal form-control"
                                   data-validation-required-message="Please enter a message"
                                   id="message" name="message" placeholder="Message"
                                   required="required"></textarea>
-                                <p class="help-block text-danger mt-20"></p>
                             </label>
                             <div id="success-modal"></div>
                             <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit-modal" id="sendMessageButton"
@@ -850,15 +792,20 @@
                         </form>
                     </div>
 
-                    <div class="col-12 col-xl-6 mt-xl-0 mt-sm-12">
-                        <p class="text-center">
+                    <div class="col-12 col-xl-6 mt-xl-0 mt-sm-12 text-center">
+                        <figure class="image-container text-center">
+                            <img class="img-fluid rounded-img" width="70%" src="../img/oneiot/contact-support.png" alt="Contact us" />
+                        </figure>
+                        <div class="py-3"></div>
+                        <p>
                             <strong>+49 172 - 232 51 02</strong><br>
                             <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
                             Karlsruhe, Germany
                         </p>
-                        <figure class="image-container">
-                            <img class="img-fluid" src="../img/oneiot/world-map.png" alt="OneIoT location" />
-                        </figure>
+<!--                        <div class="py-3"></div>-->
+<!--                        <figure class="image-container">-->
+<!--                            <img class="img-fluid" width="70%" src="../img/oneiot/world-map.png" alt="OneIoT location" />-->
+<!--                        </figure>-->
                     </div>
                 </div>
             </div>
