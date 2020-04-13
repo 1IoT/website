@@ -333,7 +333,9 @@ ul {
   font-size: 1.6rem!important
 }
 .container-start-screen {
-  padding-top: 0!important
+  padding-top: 0!important;
+  vertical-align: middle;
+  margin: auto
 }
 .non-flex {
   display: -webkit-box!important
