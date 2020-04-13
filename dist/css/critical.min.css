@@ -270,7 +270,7 @@ template {
   font-size: 60px
 }
 #large-header {
-  height: 470px!important
+  height: 50vh!important
 }
 .large-header {
   position: relative;
@@ -1458,7 +1458,7 @@ a:hover {
   background-color: #2368fb
 }
 .start-screen--full-height .start-screen__content__item {
-  min-height: 70vh
+  min-height: 75vh
 }
 .start-screen__bg-container {
   position: absolute!important;
