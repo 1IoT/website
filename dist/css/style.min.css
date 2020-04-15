@@ -3368,6 +3368,11 @@ img {
   font-weight: 700;
   font-size: 14px
 }
+#brands-small {
+  padding-top: 70px!important;
+  padding-bottom: 0!important;
+  background-color: #f3f3f3
+}
 .header-progress-bar {
   position: fixed;
   top: 94px;
