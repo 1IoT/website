@@ -5042,6 +5042,16 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   height: 0;
   border-style: solid
 }
+#blog .__image,
+#blog .__item--rounded {
+  border-radius: 20px
+}
+#blog .__content {
+  padding: 45px 30px!important
+}
+#blog .__date-post {
+  color: #1d2124!important
+}
 .screens-app .slick-slide {
   margin-left: 15px;
   margin-right: 15px
