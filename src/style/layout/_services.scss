@@ -43,11 +43,33 @@ $marginBottom: 45px;
     text-align: center;
   }
 }
+.services--s2 .col:nth-of-type(even):before {
+  height: 30%;
+  margin: auto;
+  background: none !important;
+}
+
+.services--s2 [class*=col-]:nth-of-type(even):before {
+  height: 30%;
+  margin: auto;
+  background: none !important;
+}
 
 .services--s2 {
   padding: 50px 15px;
   background: $white;
   box-shadow: 0px 11px 21px 0px rgba(#d4d4d4, 0.26);
+  border-radius: 20px;
+  .d-sm-table {
+    display: inline-table !important;
+  }
+  .img-fluid {
+    padding: 30px;
+  }
+  .__item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   .section:not(.section--no-pb) &:last-child {
 

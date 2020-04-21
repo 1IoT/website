@@ -3369,7 +3369,6 @@ img {
   font-size: 14px
 }
 #brands-small {
-  padding-top: 70px!important;
   padding-bottom: 0!important;
   background-color: #f3f3f3
 }
@@ -5083,15 +5082,30 @@ footer__navigation .footer--color-light .footer__navigation li.active a {
   margin-bottom: 65px;
   text-align: center
 }
+.services--s2 .col:nth-of-type(even):before,
+.services--s2 [class*=col-]:nth-of-type(even):before {
+  height: 30%;
+  margin: auto;
+  background: 0 0!important
+}
 .services--s2 {
   padding: 50px 15px;
   background: #fff;
-  box-shadow: 0 11px 21px 0 rgba(212,212,212,.26)
+  box-shadow: 0 11px 21px 0 rgba(212,212,212,.26);
+  border-radius: 20px
+}
+.services--s2 .d-sm-table {
+  display: inline-table!important
+}
+.services--s2 .img-fluid {
+  padding: 30px
 }
 .services--s2 .__inner {
   margin-bottom: -40px
 }
 .services--s2 .__item {
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 40px
 }
 .services--s2 .__ico {

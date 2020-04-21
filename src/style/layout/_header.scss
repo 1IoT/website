@@ -4,6 +4,25 @@
 
 $column-gutter: 30px;
 
+#header-img {
+  background: linear-gradient(to bottom, #2368fb 0%,#2368fb 50%,#2368fb 50%,#f3f3f3 50%,#f3f3f3 100%);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+  .col-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .easy-digitization {
+    border-radius: 50%;
+    border: 5px solid #2368fb;
+    width: 100% !important;
+  }
+}
+
 .sticky-logo {
   display: none;
 }
