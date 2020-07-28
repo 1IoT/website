@@ -1,0 +1,39 @@
+@@include('template/document_start.html', {
+"title": "Gateway",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.product-to-internet }}$",
+    "subtitle": "${{ index.hardware-slogan }}$",
+    "background": "../img/oneiot/rocket.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/gateway-start.html')
+
+        @@include('component/gateway-connectivity.html')
+
+        @@include('component/gateway-poc.html')
+
+        @@include('component/gateway-integration.html')
+
+        @@include('component/gateway-features.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

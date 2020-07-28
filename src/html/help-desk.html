@@ -1,5 +1,6 @@
 @@include('template/document_start.html', {
-"title": "${{ index.help-desk }}$"
+"title": "${{ index.help-desk }}$",
+"subtitle" : ""
 })
 
 <body>
@@ -9,7 +10,8 @@
 
     @@include('component/header-title.html', {
     "title": "${{ index.help-desk }}$",
-    "subtitle": " ${{ index.help-desk-slogan }}$"
+    "subtitle": " ${{ index.help-desk-slogan }}$",
+    "background": "../img/oneiot/help-desk.png"
     })
 
     <main role="main">

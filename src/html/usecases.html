@@ -1,0 +1,31 @@
+@@include('template/document_start.html', {
+"title": "${{ index.use-cases }}$",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.use-cases-title }}$",
+    "subtitle": "${{ index.use-cases-small }}$",
+    "background": "../img/oneiot/success.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/usecase.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

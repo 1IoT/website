@@ -1,0 +1,34 @@
+@@include('template/document_start.html', {
+"title": "Kalibrierung",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "Smarte Kalibrierung und Rekonfiguration",
+    "subtitle": "Vereinachen Sie Ihren Prozess zur Gerätekalibrierung",
+    "background": "../img/oneiot/engine-calibration.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+
+        @@include('component/calibration-start.html')
+
+        @@include('component/brands-small.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

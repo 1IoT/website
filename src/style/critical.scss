@@ -17,6 +17,32 @@
   }
 }
 
+.is-sticky {
+  .text-shadow {
+    text-shadow: none !important;
+  }
+}
+
+.is-expanded {
+  .text-shadow {
+    text-shadow: none !important;
+  }
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 7px black;
+}
+
+.customer-title {
+  font-size: 25px;
+}
+
+#landing-page {
+  #brands-small {
+    padding-bottom: 0px !important;
+  }
+}
+
 .main-title {
   position: absolute;
   margin: 0;
@@ -25,7 +51,10 @@
   text-align: center;
   top: -16%;
   left: 0;
+}
 
+.section-bg-light-dark {
+  background-color: #f3f3f3;
 }
 
 .start-screen__content-container {
@@ -35,7 +64,7 @@
 }
 
 #large-header {
-  height: 50vh !important;
+  height: 75vh !important;
 }
 
 .large-header {

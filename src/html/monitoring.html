@@ -1,0 +1,33 @@
+@@include('template/document_start.html', {
+"title": "Monitoring",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "Smartes Monitoring",
+    "subtitle": "Sammeln Sie Daten, erkennen Sie Muster und entdecken Sie unbekannte Potenziale",
+    "background": "../img/oneiot/cargo-ship.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/monitoring-start.html')
+
+        @@include('component/brands-small.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

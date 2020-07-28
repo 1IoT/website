@@ -1,0 +1,37 @@
+@@include('template/document_start.html', {
+"title": "Serielle Schnittstelle",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "Konnektivität mit LoRaWAN & NB-IoT",
+    "subtitle": "Größtmögliche Energieeffizienz für eine lange Laufzeit",
+    "background": "../img/oneiot/roads.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/connectivity-lorawan.html')
+
+        @@include('component/connectivity-nbiot.html')
+
+        @@include('component/landing-page-preview.html')
+
+        @@include('component/brands-small.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

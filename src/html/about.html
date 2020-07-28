@@ -1,5 +1,6 @@
 @@include('template/document_start.html', {
-"title": "${{ index.about-us }}$"
+"title": "${{ index.about-us }}$",
+"subtitle" : ""
 })
 
 <body>
@@ -9,7 +10,8 @@
 
     @@include('component/header-title.html', {
     "title": "${{ index.our-vision-title }}$",
-    "subtitle": "${{ index.our-vision-slogan }}$"
+    "subtitle": "${{ index.our-vision-slogan }}$",
+    "background": "../img/oneiot/about.png"
     })
 
     <main role="main">
@@ -20,7 +22,7 @@
 
         @@include('component/about-our-location.html')
 
-<!--        @@include('component/about-our-team.html')-->
+        @@include('component/contact-small.html')
 
     </main>
 

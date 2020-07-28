@@ -1,0 +1,33 @@
+@@include('template/document_start.html', {
+"title": "Fernwartung",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "Smarte Ferndiagnose & Fernwartung",
+    "subtitle": "Besserer Service bei gleichzeitiger Kostenersparnis",
+    "background": "../img/oneiot/construction-crane.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/maintenance-start.html')
+
+        @@include('component/brands-small.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

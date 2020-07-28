@@ -1,0 +1,37 @@
+@@include('template/document_start.html', {
+"title": "${{ index.pricing }}$",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.pricing-title }}$",
+    "subtitle": "${{ index.pricing-title-small }}$",
+    "background": "../img/oneiot/construction.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/pricing-hardware.html')
+
+        @@include('component/pricing-cloud.html')
+
+        @@include('component/pricing-custom.html')
+
+        @@include('component/pricing-faq.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

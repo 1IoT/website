@@ -1,0 +1,39 @@
+@@include('template/document_start.html', {
+"title": "${{ index.measurement-technology }}$",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.measurement-title }}$",
+    "subtitle": "${{ index.measurement-small }}$",
+    "background": "../img/oneiot/industry.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/measurement-dashboard.html')
+
+        @@include('component/measurement-hardware.html')
+
+        @@include('component/healthcare-cloud.html')
+
+        @@include('component/brands-small.html')
+
+        @@include('component/measurement-blog-feature.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

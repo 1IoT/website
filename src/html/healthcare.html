@@ -1,0 +1,39 @@
+@@include('template/document_start.html', {
+"title": "${{ index.healthcare }}$",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.medical-title }}$",
+    "subtitle": "${{ index.medical-small }}$",
+    "background": "../img/oneiot/medical.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/healthcare-dashboard.html')
+
+        @@include('component/healthcare-gateway.html')
+
+        @@include('component/healthcare-cloud.html')
+
+        @@include('component/brands-small.html')
+
+        @@include('component/healthcare-blog-feature.html')
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

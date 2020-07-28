@@ -22,27 +22,27 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.3",
+    "autoprefixer": "^9.8.5",
     "css-mqpacker": "^7.0.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-file-include": "^2.1.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.2.2",
     "gulp-html-i18n": "^0.15.0",
     "gulp-imagemin": "^6.2.0",
     "gulp-postcss": "^8.0.0",
     "gulp-reference": "^1.1.2",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-watch": "^5.0.1",
     "rimraf": "^2.7.1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "gulp-remember-cache": "^3.1.2",
     "imagemin-pngquant": "^8.0.0",
-    "mdbootstrap": "^4.12.0"
+    "mdbootstrap": "^4.19.1"
   }
 }

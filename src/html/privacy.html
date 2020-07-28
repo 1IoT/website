@@ -1,5 +1,6 @@
 @@include('template/document_start.html', {
-"title": "${{ index.privacy-policy }}$"
+"title": "${{ index.privacy-policy }}$",
+"subtitle" : ""
 })
 
 <body>
@@ -9,7 +10,8 @@
 
     @@include('component/header-title.html', {
     "title": "${{ index.privacy-policy }}$",
-    "subtitle": "${{ index.nothing-to-hide }}$"
+    "subtitle": "${{ index.nothing-to-hide }}$",
+    "background": "../img/oneiot/rise-building.png"
     })
 
     <main role="main">
@@ -28,7 +30,7 @@
                         </p>
 
                         <p>
-                            ${{ index.brand-name }}$
+                            <span style="font-family:monospace !important;font-size: 20px;">${{ index.brand-name }}$</span>
                             <br/>
                             ${{ index.brand-phone }}$
                             <br/>

@@ -1,5 +1,6 @@
 @@include('template/document_start.html', {
-"title": "${{ index.iot-cloud}}$"
+"title": "Cloud",
+"subtitle" : ""
 })
 
 <body>
@@ -8,19 +9,22 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-    "title": "${{ index.cloud-title}}$",
-    "subtitle": "${{ index.cloud-slogan}}$"
+    "title": "IoT Cloud Plattform",
+    "subtitle": "Das Betriebssystem für Ihre IoT Anwendung",
+    "background": "../img/oneiot/cloud-server.png"
     })
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/cloud-why.html')
+        @@include('component/cloud-start.html')
 
-        @@include('component/cloud-on-premise.html')
+        @@include('component/cloud-managed.html')
 
-        @@include('component/eyecatcher-call.html')
+        @@include('component/cloud-private.html')
+
+        @@include('component/cloud-blog-feature.html')
 
         @@include('component/cloud-features.html')
 

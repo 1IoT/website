@@ -1,0 +1,39 @@
+@@include('template/document_start.html', {
+"title": "${{ index.agriculture }}$",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "${{ index.agriculture-title }}$",
+    "subtitle": "${{ index.agriculture-small }}$",
+    "background": "../img/oneiot/harvester.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+        @@include('component/agriculture-feature.html')
+
+        @@include('component/agriculture-gateway.html')
+
+        @@include('component/agriculture-dashboard.html')
+
+        @@include('component/brands-small.html')
+
+<!--        @@include('component/agriculture-blog-feature.html')-->
+
+        @@include('component/contact-small.html')
+
+    </main>
+
+    @@include('component/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

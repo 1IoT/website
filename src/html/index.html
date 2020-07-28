@@ -1,5 +1,6 @@
 @@include('template/document_start.html', {
-"title": "${{ index.business-iot-solution }}$"
+"title": "${{ index.business-iot-solution }}$",
+"subtitle" : ""
 })
 
 <body>
@@ -7,6 +8,7 @@
 @@include('component/header-top-bar.html')
 
 <div id="app">
+    <div id="landing-page">
 
     @@include('component/header.html')
 
@@ -18,11 +20,13 @@
 
         @@include('component/brands-small.html')
 
-        @@include('component/why.html')
+        @@include('component/landing-page-gateway.html')
+
+        @@include('component/landing-page-preview.html')
+
+        @@include('component/dashboard-remote-maintenance.html')
 
         @@include('component/blog-preview.html')
-
-        @@include('component/benefits.html')
 
         @@include('component/contact-small.html')
 
@@ -30,6 +34,7 @@
 
     @@include('component/footer.html')
 
+    </div>
 </div>
 
 @@include('template/document_end.html')

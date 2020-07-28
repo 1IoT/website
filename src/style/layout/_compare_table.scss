@@ -4,6 +4,18 @@
 
 $marginBottom: 50px;
 
+.pricing-table--s4 td {
+  font-size: 16px !important;
+}
+
+.font-size-16px {
+  font-size: 16px !important;
+}
+
+.pricing-cloud-text {
+  font-size: 13px !important;
+}
+
 .compare-table {
   .__inner {
     margin-bottom: -$marginBottom;

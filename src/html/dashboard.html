@@ -1,5 +1,6 @@
 @@include('template/document_start.html', {
-"title": "${{ index.dashboard }}$"
+"title": "${{ index.dashboard }}$",
+"subtitle" : ""
 })
 
 <body>
@@ -9,18 +10,23 @@
 
     @@include('component/header-title.html', {
     "title": "${{ index.dashboard-header-title }}$",
-    "subtitle": "${{ index.dashboard-slogan-header }}$"
+    "subtitle": "${{ index.dashboard-slogan-header }}$",
+    "background": "../img/oneiot/seaport.png"
     })
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/dashboard-company.html')
+        @@include('component/dashboard-start.html')
 
-        @@include('component/dashboard-customer.html')
+        @@include('component/dashboard-remote-maintenance.html')
 
-        @@include('component/eyecatcher-online-demo.html')
+        @@include('component/dashboard-cloud.html')
+
+        @@include('component/dashboard-management.html')
+
+        @@include('component/dashboard-blog-feature.html')
 
         @@include('component/dashboard-features.html')
 
