@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Use cases |  OneIoT</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" name="viewport"/>
+    <meta content="There is only one IoT custom solution. We digitize your product from the hardware to the IoT Ecosystem." name="description">
+    <meta content="Smart Home, Cloud, Cloud Computing, IoT, Internet of Things, Digitization, Platform, Ecosystem, Device Cloud, Alexa, Google Home, Hardware" name="keywords">
+    <meta content="OneIoT" name="author">
+
+    <!-- =================================================
+    ===== Bootstrap
+    ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- =================================================
+    ===== MDBootstrap
+    ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+
+    <!-- =================================================
+    ===== Favicon
+    ================================================== -->
+    <link href="../img/ico/oneiot-icon-rounded.png" rel="shortcut icon" type="image/png">
+
+    <!-- =================================================
+    ===== Fontawesome icons
+    ================================================== -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Critical style
+    ================================================== -->
+    <link href="../css/critical.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Common style
+    ================================================== -->
+    <link href="../css/style.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Theme style
+    ================================================== -->
+    <link href="../css/color.min.css" rel="stylesheet" type="text/css">
+
+    <!-- =================================================
+    ===== Load Google fonts
+    ================================================== -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {families: ['Nunito+Sans:400,400i,700,700i,800,800i,900,900i', 'Quicksand:300,400,700']}
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120681810-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120681810-2');
+    </script>
+
+
+    <!-- =================================================
+     ===== Drift scripts
+     ================================================== -->
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                    t[e] = t.factory(e);
+                }), t.load = function(t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('hcinvii5gir9');
+    </script>
+
+    <!-- =================================================
+    ===== Load other scripts
+    ================================================== -->
+    <script type="text/javascript">
+        var _html = document.documentElement,
+            isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+        _html.className = _html.className.replace("no-js", "js");
+        _html.classList.add(isTouch ? "touch" : "no-touch");
+    </script>
+    <script src="../js/device.min.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+<div id="app">
+
+    <header class="top-bar top-bar--light" data-nav-anchor="true" id="top-bar">
+        <div class="top-bar__inner">
+            <div class="container-fluid">
+                <div class="row align-items-center no-gutters">
+
+                    <!-- =================================================
+                    ===== Logo
+                    ================================================== -->
+                    <a class="top-bar__logo site-logo" href="/">
+                        <img alt="demo" class="img-fluid large-logo" src="../img/oneiot/oneiot-logo-white.png" width="100"/>
+                        <img alt="demo" class="img-fluid sticky-logo" src="../img/oneiot/oneiot-logo-sticky.png" width="100"/>
+                    </a>
+
+                    <!-- =================================================
+                    ===== Responsive navigation bar toggle
+                    ================================================== -->
+                    <a class="top-bar__navigation-toggler" href="javascript:void(0);" id="top-bar__navigation-toggler">
+                        <span></span>
+                    </a>
+
+                    <!-- =================================================
+                    ===== Main navigation
+                    ================================================== -->
+                    <div class="top-bar__collapse">
+
+                        <!-- =================================================
+                        ===== Main navigation
+                        ================================================== -->
+                        <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
+                            <ul>
+                                <li class="has-submenu">
+                                    <a class="nav-link text-shadow">Solutions</a>
+                                    <ul class="submenu submenu-33">
+                                        <div class="column-nav-33">
+                                            <ul>
+                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2"><span>Products</span></li>
+                                                <li><a href="gateway">Gateway</a></li>
+                                                <li><a href="dashboard">Dashboard</a></li>
+                                                <li><a href="cloud">Cloud</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="column-nav-33">
+                                            <ul>
+                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Connectivity</li>
+                                                <li><a href="connectivity-lorawan-nbiot">LoRaWAN & NB-IoT</a></li>
+                    <!--                            <li><a href="connectivity-ethernet-wifi">Ethernet & WiFi</a></li>-->
+                    <!--                            <li><a href="connectivity-seriell">Serielle Schnittstelle</a></li>-->
+                                            </ul>
+                                        </div>
+                                        <div class="column-nav-33">
+                                            <ul>
+                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Capabilities</li>
+                                                <li><a href="monitoring">Monitoring</a></li>
+                                                <li><a href="maintenance">Remote maintenance</a></li>
+                                                <li><a href="calibration">Calibration</a></li>
+                                                <li><a href="control">Control</a></li>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a class="nav-link text-shadow">Industries</a>
+                                    <ul class="submenu submenu-50">
+                                        <div class="column-nav-50">
+                                            <ul>
+                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Branchenspezifisch</li>
+                                                <li><a href="agriculture">Agriculture</a></li>
+                                                <li><a href="healthcare">Healthcare</a></li>
+                                                <li><a href="environment">Environment & Smart City</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="column-nav-50">
+                                            <ul>
+                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Allgemein</li>
+                                                <li><a href="measurement">Measuring instruments</a></li>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link text-shadow" href="usecases">Use cases</a>
+                                </li>
+                                <li><a class="nav-link text-shadow" href="pricing">Pricing</a></li>
+                                <li><a class="nav-link text-shadow" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- =================================================
+                        ===== Action navigation
+                        ================================================== -->
+                        <div class="top-bar__action" id="top-bar__action">
+                            <div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+
+                                <!-- =================================================
+                                ===== Language chooser
+                                ================================================== -->
+                    <!--            <div class="top-bar__choose-lang js-choose-lang text-shadow">-->
+                    <!--                <div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/ico/en.png' width='25'/></i><span>En</span></div>-->
+                    <!--                <div class="list-wrap">-->
+                    <!--                    <ul class="list">-->
+                    <!--                        <li class="is-active" data-img="../img/ico/en.png"-->
+                    <!--                            data-short-name="En">-->
+                    <!--                            <a href="../en/">-->
+                    <!--                                <span>English</span>-->
+                    <!--                            </a>-->
+                    <!--                        </li>-->
+                    <!--                        <li class="" data-img="../img/ico/de.png"-->
+                    <!--                            data-short-name="Ger">-->
+                    <!--                            <a href="../de/">-->
+                    <!--                                <span>German</span>-->
+                    <!--                            </a>-->
+                    <!--                        </li>-->
+                    <!--                    </ul>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+
+                                <a class="ml-4" target="_blank" href="https://app.easytoi.com">
+                                    <button class="custom-btn custom-btn--medium dashboard-btn custom-btn--style-4 medium" role="button" type="submit">
+                                        Dashboard
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-progress-bar">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+
+    <div class="hero jarallax" style="background: url('../img/oneiot/success.png')" data-img-position="50% 90%" data-speed="0.7" id="hero">
+        <div class="container">
+            <h2 class="__title text-white text-center text-shadow">Erfolgsgeschichten und Projekte unserer Kunden</h2>
+            <p class="section-heading--center text-shadow">
+                Learn how companies master their digital transformation with OneIoT
+            </p>
+        </div>
+    </div>
+
+
+    <main role="main">
+
+        <script>
+            (function (w, d) {
+                var m = d.getElementsByTagName('main')[0],
+                    s = d.createElement("script"),
+                    v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+                    o = {
+                        elements_selector: ".lazy",
+                        threshold: 500,
+                        callback_enter: function (element) {
+
+                        },
+                        callback_load: function (element) {
+
+                        },
+                        callback_set: function (element) {
+
+                            oTimeout = setTimeout(function () {
+                                clearTimeout(oTimeout);
+
+                                AOS.refresh();
+                            }, 1000);
+                        },
+                        callback_error: function (element) {
+                            element.src = "https://placeholdit.imgix.net/~text?txtsize=21&txt=Image%20not%20load&w=200&h=200";
+                        }
+                    };
+                s.type = 'text/javascript';
+                s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+                s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+                m.appendChild(s);
+                // m.insertBefore(s, m.firstChild);
+                w.lazyLoadOptions = o;
+            }(window, document));
+        </script>
+
+
+        <section class="section section--bg-img lazy" id="usecases">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="posts posts--s3">
+                            <div class="__inner">
+                                <div class="row">
+
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <a target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/medical-equipment-on-an-operation-room-3844581-1-scaled-e1595882967277.jpg" alt="Krankenhaus 4.0 – Wie das Internet der Dinge den Gesundheitssektor revolutionieren kann" /></a>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann">Krankenhaus 4.0 – Wie das Internet der Dinge den Gesundheitssektor revolutionieren kann</a></h4>
+                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann"><p class="text-decoration-none">Read more...</p></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <a target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/pxfuel.com_-2048x1356.jpg" alt="Smarte Müllentsorgung für Smart Cities" /></a>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities">Smarte Müllentsorgung für Smart Cities</a></h4>
+                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities"><p class="text-decoration-none">Read more...</p></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <a target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/server.png" alt="Private Cloud für Partikelmessgeräte" /></a>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete">Private Cloud für Partikelmessgeräte</a></h4>
+                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete"><p class="text-decoration-none">Read more...</p></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
+                                        <div class="__item __item--preview __item--rounded shadow">
+                                            <div class="__header">
+                                                <figure class="__image __image--rounded">
+                                                    <a target="_blank" href="https://blog.oneiot.de/en/how-we-make-gardens-smarter-smart-gardening"><img src="https://blog.oneiot.de/wp-content/uploads/2020/03/seedling-5009286_1280.jpg" alt="How we make gardens smarter – Smart Gardening" /></a>
+                                                </figure>
+                                            </div>
+                                            <div class="__body">
+                                                <div class="__content">
+                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/en/how-we-make-gardens-smarter-smart-gardening">How we make gardens smarter – Smart Gardening</a></h4>
+                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/en/how-we-make-gardens-smarter-smart-gardening"><p class="text-decoration-none">Read more...</p></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3"
+                 style="background-color: #1d2124">
+            <div class="container small-container-with-btn">
+                <div class="section-heading section-heading--white section-heading--center">
+                    <h2 class="__title">Contact <span>us today</span></h2>
+                    <p>
+                        Start with your digitization and take your product to a new level
+                    </p>
+                    <div class="col-12 col-sm-auto">
+                        <div class="spacer py-4"></div>
+                        <a data-toggle="modal" data-target="#contact-modal">
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 medium" role="button"
+                                    type="submit">Contact
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer footer--s3 footer--color-dark">
+        <div class="footer__line footer__line--first">
+            <div class="container">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Company links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-3">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title">Company</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li>
+                                        <a href="about"> About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="career"> Career</a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#contact-modal"> Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Resources links
+                    ================================================== -->
+                    <div class="col col-sm-5 col-md-3 col-lg-3">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title">Resources</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li>
+                                        <a href="help-desk">Help Center</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/1IoT" target="_blank">Open Source</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://blog.oneiot.de/en">Blog</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col col-sm-5 col-md-3 col-lg-3">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title">Lösungen</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li><a href="gateway">Gateway</a></li>
+                                    <li><a href="dashboard">Dashboard</a></li>
+                                    <li><a href="cloud">Cloud</a></li>
+                                    <li><a href="connectivity-lorawan-nbiot">LoRaWAN & NB-IoT</a></li>
+    <!--                                <li><a href="connectivity-ethernet-wifi">Ethernet & WiFi</a></li>-->
+    <!--                                <li><a href="connectivity-seriell">Serielle Schnittstelle</a></li>-->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col col-sm-5 col-md-3 col-lg-3">
+                        <div class="footer__item">
+                            <h4 class="footer__item__title">Industries</h4>
+                            <nav class="footer__navigation">
+                                <ul>
+                                    <li><a href="agriculture">Agriculture</a></li>
+                                    <li><a href="healthcare">Healthcare</a></li>
+                                    <li><a href="environment">Environment & Smart City</a></li>
+                                    <li><a href="measurement">Measuring instruments</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+    <!--                &lt;!&ndash; =================================================-->
+    <!--                ===== Newsletter subscription-->
+    <!--                ================================================== &ndash;&gt;-->
+    <!--                <div class="col-12 col-md-8 col-lg-5 col-xl-5 offset-xl-1">-->
+    <!--                    <div class="footer__item">-->
+    <!--                        <h4 class="footer__item__title">Subscribe</h4>-->
+    <!--                        <form class="form&#45;&#45;horizontal" id="newsletter-form" novalidate="novalidate">-->
+    <!--                            <p class="mb-4">Trends and information about Internet of Things</p>-->
+    <!--                            <div class="row no-gutters">-->
+    <!--                                <div class="col-12 col-sm">-->
+    <!--                                    <div class="input-wrp form-group">-->
+    <!--                                        <input autocomplete="on"-->
+    <!--                                               class="textfield textfield&#45;&#45;grey newsletter-form-email"-->
+    <!--                                               data-validation-required-message="Please enter your email address"-->
+    <!--                                               name="email" placeholder="E-Mail" required="required"-->
+    <!--                                               type="text" type="email"/>-->
+    <!--                                        <p class="help-block text-danger mt-4"></p>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="col-12 col-sm-auto">-->
+    <!--                                    <button class="custom-btn custom-btn&#45;&#45;medium custom-btn&#45;&#45;style-2 wide form-submit"-->
+    <!--                                            name="submit"-->
+    <!--                                            role="button" type="submit">Submit-->
+    <!--                                    </button>-->
+    <!--                                </div>-->
+    <!--                                <div id="success-newsletter"></div>-->
+    <!--                            </div>-->
+    <!--                        </form>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- =================================================
+        ===== Bottom bar on footer
+        ================================================== -->
+        <div class="footer__line footer__line--second">
+            <div class="container">
+                <div class="row justify-content-center align-items-md-center">
+
+                    <!-- =================================================
+                    ===== Copyright
+                    ================================================== -->
+                    <div class="col-auto col-md-12 col-lg-6">
+                        <div class="footer__item">
+                            <p>
+                               <span class="__copy">
+                                   <a href="terms">Terms</a> |
+                                   <a href="privacy">Privacy Policy</a>
+                                   <br>
+                                   <span style="font-family:monospace !important; font-size:14px">Copyrights 2020 © OneIoT UG (haftungsbeschränkt)</span>
+                               </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- =================================================
+                    ===== Social links
+                    ================================================== -->
+                    <div class="col-auto col-md-12 col-lg-6">
+                        <div class="footer__item">
+                            <div class="s-btns s-btns--md s-btns--light s-btns--rounded">
+                                <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">
+                                    <li><a class="i" target="_blank" href="https://www.linkedin.com/company/18496129"><i
+                                            class="fontello-linkedin"></i></a></li>
+                                    <li><a class="t" target="_blank" href="https://twitter.com/oneiot_de"><i
+                                            class="fontello-twitter"></i></a></li>
+                                    <li><a class="f" target="_blank" href="https://www.facebook.com/oneiot.de"><i
+                                            class="fontello-facebook"></i></a></li>
+                                    <li><a class="y" target="_blank"
+                                           href="https://www.youtube.com/channel/UCbzmC4PVWyU54nuHTLj3qmw"><i
+                                            class="fontello-youtube-play"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+<div class="modal fade in" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog container" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <!-- =================================================
+                ===== Title
+                ================================================== -->
+                <div class="section-heading">
+                    <h2 class="__title">Contact <span>us</span></h2>
+                </div>
+
+                <!-- =================================================
+                ===== Close
+                ================================================== -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Contact form
+                    ================================================== -->
+                    <div class="col-12 col-xl-6">
+                        <p>
+                            We are at your disposal for all your questions. Our experts are available to support you
+                        </p>
+
+                         <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-name-modal form-control"
+                                       data-validation-required-message="Please enter your name"
+                                       id="name" name="name" placeholder="Name" required="required" type="text"/>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-phone-modal form-control"
+                                       id="phone" name="phone" placeholder="Phone" type="tel"/>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-subject-modal form-control"
+                                       id="subject" name="subject" placeholder="Company" type="text"/>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-email-modal form-control"
+                                       data-validation-required-message="Please enter your email address" id="email"
+                                       name="email" placeholder="E-Mail" required="required" type="email"/>
+                            </div>
+                            <label class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <textarea class="textfield textfield--grey form-message-modal form-control"
+                                  data-validation-required-message="Please enter a message"
+                                  id="message" name="message" placeholder="Message"
+                                  required="required"></textarea>
+                            </label>
+                            <div id="success-modal"></div>
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit-modal" id="sendMessageButton"
+                                    name="submit" role="button" type="submit" value="Send Message">
+                                Send Message
+                            </button>
+                            <div class="form__note"></div>
+                        </form>
+                    </div>
+
+                    <div class="col-12 col-xl-6 mt-xl-0 mt-12 mt-xl-0 text-center">
+                        <figure class="image-container text-center">
+                            <img class="img-fluid rounded-img" width="70%" src="../img/oneiot/contact-support.png" alt="Contact us" />
+                        </figure>
+                        <div class="py-3"></div>
+                        <p>
+                            <strong>+49 172 - 232 51 02</strong><br>
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
+                            Landau (Karlsruhe), Germany
+                        </p>
+<!--                        <div class="py-3"></div>-->
+<!--                        <figure class="image-container">-->
+<!--                            <img class="img-fluid" width="70%" src="../img/oneiot/world-map.png" alt="OneIoT location" />-->
+<!--                        </figure>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="alert alert-dismissible text-center cookiealert" role="alert">
+    <div class="row">
+        <div class="col-lg-6 text-center cookie-alert-col">
+            <div class="cookiealert-container">
+                &#x1F36A; We use cookies and analysis to ensure that you have the best experience on our website. By using our website you agree to our <a href="privacy">privacy policy</a> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                Close
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!--<div id="btn-to-top-wrap">-->
+<!--    <a class="circled" data-visible-offset="800" href="javascript:void(0);" id="btn-to-top"></a>-->
+<!--</div>-->
+
+<!-- Cookie alert -->
+<script src="../js/cookiealert-standalone.js" type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="../js/jquery-2.2.4.min.js"><\/script>')</script>
+
+<!-- Scroll indicator -->
+<script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="../js/main.min.js" type="text/javascript"></script>
+
+<script src="../js/contact-form-main.min.js" type="text/javascript"></script>
+<script src="../js/contact-form-modal.min.js" type="text/javascript"></script>
+<script src="../js/newsletter-form.min.js" type="text/javascript"></script>
+<script src="../js/jqBootstrapValidation.min.js" type="text/javascript"></script>
+<script src="../js/header-anim.min.js" type="text/javascript"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
