@@ -1,5 +1,5 @@
 @@include('template/document_start.html', {
-"title": "Serielle Schnittstelle",
+"title": "IoT Hardware",
 "subtitle" : ""
 })
 
@@ -9,20 +9,22 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-    "title": "Konnektivität mit LoRaWAN & NB-IoT",
-    "subtitle": "Größtmögliche Energieeffizienz für eine lange Laufzeit",
-    "background": "../img/oneiot/roads.png"
+    "title": "Bringen Sie Ihre Produkte, Geräte und Sensoren online",
+    "subtitle": "Leistungsstarke Edge-Lösung für Industrial-Grade 4.0 Anwendungen",
+    "background": "../img/oneiot/seaport.png"
     })
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/connectivity-lorawan.html')
+        @@include('component/hardware-start.html')
 
-        @@include('component/connectivity-nbiot.html')
+        @@include('component/gateway-connectivity.html')
 
-        @@include('component/landing-page-preview.html')
+        @@include('component/hardware-integration.html')
+
+        @@include('component/gateway-features.html')
 
         @@include('component/brands-small.html')
 

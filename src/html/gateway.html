@@ -1,5 +1,5 @@
 @@include('template/document_start.html', {
-"title": "Gateway",
+"title": "IoT Gateway 4.0",
 "subtitle" : ""
 })
 
@@ -9,7 +9,7 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-    "title": "${{ index.product-to-internet }}$",
+    "title": "Bringen Sie Ihre Produkte, Geräte und Sensoren online",
     "subtitle": "${{ index.hardware-slogan }}$",
     "background": "../img/oneiot/rocket.png"
     })
@@ -22,11 +22,15 @@
 
         @@include('component/gateway-connectivity.html')
 
-        @@include('component/gateway-poc.html')
+        @@include('component/gateway-sensors.html')
 
         @@include('component/gateway-integration.html')
 
+        @@include('component/gateway-howto.html')
+
         @@include('component/gateway-features.html')
+
+        @@include('component/brands-small.html')
 
         @@include('component/contact-small.html')
 

@@ -7,30 +7,109 @@
         <ul>
             <li class="has-submenu">
                 <a class="nav-link text-shadow">${{ index.solutions }}$</a>
-                <ul class="submenu submenu-33">
-                    <div class="column-nav-33">
+                <ul class="submenu submenu-50">
+                    <div class="column-nav-50">
                         <ul>
-                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2"><span>${{ index.products }}$</span></li>
-                            <li><a href="gateway">Gateway</a></li>
-                            <li><a href="dashboard">${{ index.dashboard }}$</a></li>
-                            <li><a href="cloud">${{ index.cloud }}$</a></li>
+                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2"><span>${{ index.products }}$</span>
+                            </li>
+                            <li>
+<!--                                <a class="item-title" href="gateway">-->
+<!--                                    <div class="d-inline-flex">-->
+<!--                                        <div class="mr-2">-->
+<!--                                            <figure class="image-container submenu-icon">-->
+<!--                                                <img class="img-fluid" width="50" src="../img/oneiot/development-64.png"-->
+<!--                                                     alt="IoT Operating System"/>-->
+<!--                                            </figure>-->
+<!--                                        </div>-->
+<!--                                        <div>-->
+<!--                                            Gateway-->
+<!--                                            <br/>-->
+<!--                                            <span class="small">All-in-one & Plug-and-play für Industrie 4.0</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+
+                                <a class="item-title" href="gateway">
+                                    Gateway
+                                    <br/>
+                                    <span class="small">All-In-One Industrie 4.0</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a class="item-title" href="hardware">
+                                    Hardware
+                                    <br/>
+                                    <span class="small">Industrial-Grade IoT</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="dashboard">
+                                    ${{ index.dashboard }}$
+                                    <br/>
+                                    <span class="small">Low-Code Plattform</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="cloud">${{ index.cloud }}$
+                                    <br/>
+                                    <span class="small">Flottenmanagement</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="column-nav-33">
+<!--                    <div class="column-nav-33">-->
+<!--                        <ul>-->
+<!--                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">-->
+<!--                                Konnektivität-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a class="item-title" href="connectivity-cloud">-->
+<!--                                    Cloud Verbindung-->
+<!--                                    <br/>-->
+<!--                                    <span class="small">Mobilfunk, WiFi & Ethernet</span>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a class="item-title" href="connectivity-hardware">-->
+<!--                                    Hardware Integration-->
+<!--                                    <br/>-->
+<!--                                    <span class="small">Low-Code Integration</span>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+                    <div class="column-nav-50">
                         <ul>
-                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">${{ index.connectivity }}$</li>
-                            <li><a href="connectivity-lorawan-nbiot">LoRaWAN & NB-IoT</a></li>
-<!--                            <li><a href="connectivity-ethernet-wifi">Ethernet & WiFi</a></li>-->
-<!--                            <li><a href="connectivity-seriell">Serielle Schnittstelle</a></li>-->
-                        </ul>
-                    </div>
-                    <div class="column-nav-33">
-                        <ul>
-                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">${{ index.capabilities }}$</li>
-                            <li><a href="monitoring">${{ index.monitoring }}$</a></li>
-                            <li><a href="maintenance">${{ index.remote-maintenance }}$</a></li>
-                            <li><a href="calibration">${{ index.calibration }}$</a></li>
-                            <li><a href="control">${{ index.control }}$</a></li>
+                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">
+                                ${{ index.capabilities }}$
+                            </li>
+                            <li>
+                                <a class="item-title" href="monitoring">${{ index.monitoring }}$
+                                    <br/>
+                                    <span class="small">Zustandsüberwachung</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="maintenance">
+                                    Wartung
+                                    <br/>
+                                    <span class="small">Effiziente Ferndiagnosen</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="calibration">
+                                    ${{ index.calibration }}$
+                                    <br/>
+                                    <span class="small">Fernkalibrierung</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="control">${{ index.control }}$
+                                    <br/>
+                                    <span class="small">Smarter Fernzugriff</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </ul>
@@ -41,15 +120,35 @@
                     <div class="column-nav-50">
                         <ul>
                             <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Branchenspezifisch</li>
-                            <li><a href="agriculture">${{ index.agriculture }}$</a></li>
-                            <li><a href="healthcare">${{ index.healthcare }}$</a></li>
-                            <li><a href="environment">${{ index.environment }}$ & Smart City</a></li>
+                            <li>
+                                <a class="item-title" href="agriculture">${{ index.agriculture }}$
+                                    <br/>
+                                    <span class="small">Smart Farming</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="healthcare">${{ index.healthcare }}$
+                                    <br/>
+                                    <span class="small">Health & Monitoring</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="item-title" href="environment">${{ index.environment }}$ & Smart City
+                                    <br/>
+                                    <span class="small">Ökologie & Gesellschaft</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="column-nav-50">
                         <ul>
                             <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Allgemein</li>
-                            <li><a href="measurement">${{ index.measuring-instruments }}$</a></li>
+                            <li>
+                                <a class="item-title" href="measurement">${{ index.measuring-instruments }}$
+                                    <br/>
+                                    <span class="small">Industrie 4.0</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </ul>

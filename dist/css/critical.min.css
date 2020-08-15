@@ -279,6 +279,9 @@ template {
   top: -16%;
   left: 0
 }
+.img-rounded {
+  border-radius: 15px
+}
 .section-bg-light-dark {
   background-color: #f3f3f3
 }
@@ -908,7 +911,7 @@ a:hover {
 }
 .section-heading {
   line-height: 1.4;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   color: #2a2c2f
 }
 .section-heading .__title:first-child {
@@ -939,6 +942,12 @@ a:hover {
 .text-grading {
   color: #2368fb
 }
+.front-title {
+  font-size: 7rem!important
+}
+.front-text {
+  font-size: 2.2rem!important
+}
 .submenu-title {
   font-size: 16px
 }
@@ -954,13 +963,41 @@ a:hover {
 #start-screen {
   background: url(../img/oneiot/transport.png) 0 0/cover
 }
+.column-nav-20 {
+  float: left;
+  width: 20%
+}
+.column-nav-20 li {
+  padding: 5px 33px!important
+}
+.column-nav-20 .small {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc
+}
 .column-nav-33 {
   float: left;
   width: 33%
 }
+.column-nav-33 li {
+  padding: 5px 33px!important
+}
+.column-nav-33 .small {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc
+}
 .column-nav-50 {
   float: left;
   width: 50%
+}
+.column-nav-50 li {
+  padding: 5px 33px!important
+}
+.column-nav-50 .small {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc
 }
 #header-img {
   background: linear-gradient(to bottom,#2368fb 0,#2368fb 50%,#2368fb 50%,#f3f3f3 50%,#f3f3f3 100%);
@@ -3130,9 +3167,20 @@ label {
     visibility: hidden;
     transition: left .3s ease-in-out,width .3s ease-in-out,opacity .3s ease-in-out,visibility .3s ease-in-out
   }
+  .top-bar__navigation .submenu .submenu-icon {
+    margin-top: 1.2rem!important
+  }
+  .top-bar__navigation .submenu .item-title,
+  .top-bar__navigation .submenu .submenu-title {
+    font-size: 1.6rem!important
+  }
+  .top-bar__navigation .submenu-20 {
+    min-width: 950px!important;
+    margin-right: -475px!important
+  }
   .top-bar__navigation .submenu-33 {
-    min-width: 550px!important;
-    margin-right: -275px!important
+    min-width: 750px!important;
+    margin-right: -375px!important
   }
   .top-bar__navigation .submenu-50 {
     min-width: 490px!important;

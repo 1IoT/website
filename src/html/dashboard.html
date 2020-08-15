@@ -1,5 +1,5 @@
 @@include('template/document_start.html', {
-"title": "${{ index.dashboard }}$",
+"title": "IoT Dashboard",
 "subtitle" : ""
 })
 
@@ -9,8 +9,8 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-    "title": "${{ index.dashboard-header-title }}$",
-    "subtitle": "${{ index.dashboard-slogan-header }}$",
+    "title": "Low-Code IoT Dashboard",
+    "subtitle": "Das Tool zur Steuerung und Problemlösung aller IoT-Endpunkte aus der Ferne",
     "background": "../img/oneiot/seaport.png"
     })
 
@@ -29,6 +29,8 @@
         @@include('component/dashboard-blog-feature.html')
 
         @@include('component/dashboard-features.html')
+
+        @@include('component/brands-small.html')
 
         @@include('component/contact-small.html')
 

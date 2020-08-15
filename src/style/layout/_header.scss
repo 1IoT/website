@@ -4,6 +4,14 @@
 
 $column-gutter: 30px;
 
+.front-title {
+  font-size: 7rem !important;
+}
+
+.front-text {
+  font-size: 2.2rem !important;
+}
+
 .submenu-title {
   font-size: 16px;
 }
@@ -23,14 +31,49 @@ $column-gutter: 30px;
   background-size: cover;
 }
 
+.column-nav-20 {
+  float: left;
+  width: 20%;
+
+  li {
+    padding: 5px 33px !important;
+  }
+
+  .small {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ccc;
+  }
+}
+
 .column-nav-33 {
   float: left;
   width: 33%;
+
+  li {
+    padding: 5px 33px !important;
+  }
+
+  .small {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ccc;
+  }
 }
 
 .column-nav-50 {
   float: left;
   width: 50%;
+
+  li {
+    padding: 5px 33px !important;
+  }
+
+  .small {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ccc;
+  }
 }
 
 #header-img {
@@ -755,8 +798,28 @@ $column-gutter: 30px;
         }
       }
 
+      .submenu {
+        .submenu-icon {
+          margin-top: 1.2rem!important;
+        }
+
+        .submenu-title {
+          font-size: 1.6rem !important;
+        }
+
+        .item-title {
+          font-size: 1.6rem !important;
+        }
+      }
+
+      .submenu-20 {
+        $submenuWidth: 950px;
+        min-width: $submenuWidth !important;
+        margin-right: -($submenuWidth/2) !important;
+      }
+
       .submenu-33 {
-        $submenuWidth: 550px;
+        $submenuWidth: 750px;
         min-width: $submenuWidth !important;
         margin-right: -($submenuWidth/2) !important;
       }
