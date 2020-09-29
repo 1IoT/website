@@ -213,7 +213,7 @@
                     <!--                            </li>-->
                     <!--                            <li>-->
                     <!--                                <a class="item-title" href="connectivity-cloud">-->
-                    <!--                                    Cloud Verbindung-->
+                    <!--                                    Plattform Verbindung-->
                     <!--                                    <br/>-->
                     <!--                                    <span class="small">Mobilfunk, WiFi & Ethernet</span>-->
                     <!--                                </a>-->
@@ -222,7 +222,14 @@
                     <!--                                <a class="item-title" href="connectivity-hardware">-->
                     <!--                                    Hardware Integration-->
                     <!--                                    <br/>-->
-                    <!--                                    <span class="small">Low-Code Integration</span>-->
+                    <!--                                    <span class="small">Serielle Schnittstellen</span>-->
+                    <!--                                </a>-->
+                    <!--                            </li>-->
+                    <!--                            <li>-->
+                    <!--                                <a class="item-title" href="connectivity-hardware">-->
+                    <!--                                    Bluetooth-->
+                    <!--                                    <br/>-->
+                    <!--                                    <span class="small">Sichere Vorort-Atmosphäre</span>-->
                     <!--                                </a>-->
                     <!--                            </li>-->
                     <!--                        </ul>-->
@@ -240,22 +247,15 @@
                                                 </li>
                                                 <li>
                                                     <a class="item-title" href="maintenance">
-                                                        Wartung
+                                                        Remote Service
                                                         <br/>
-                                                        <span class="small">Effiziente Ferndiagnosen</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="item-title" href="calibration">
-                                                        Kalibrierung
-                                                        <br/>
-                                                        <span class="small">Fernkalibrierung</span>
+                                                        <span class="small">Wartung, Kalibrierung & Diagnosen</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="item-title" href="control">Steuerung
                                                         <br/>
-                                                        <span class="small">Smarter Fernzugriff</span>
+                                                        <span class="small">Fernzugriff in Echtzeit</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -269,9 +269,9 @@
                                             <ul>
                                                 <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Branchenspezifisch</li>
                                                 <li>
-                                                    <a class="item-title" href="agriculture">Landwirtschaft
+                                                    <a class="item-title" href="gasupply">Gasindustrie
                                                         <br/>
-                                                        <span class="small">Smart Farming</span>
+                                                        <span class="small">4.0 Gasversorgung</span>
                                                     </a>
                                                 </li>
                                                 <li>
@@ -281,9 +281,15 @@
                                                     </a>
                                                 </li>
                                                 <li>
+                                                    <a class="item-title" href="agriculture">Landwirtschaft
+                                                        <br/>
+                                                        <span class="small">Smart Farming</span>
+                                                    </a>
+                                                </li>
+                                                <li>
                                                     <a class="item-title" href="environment">Umwelt & Smart City
                                                         <br/>
-                                                        <span class="small">Ökologie & Gesellschaft</span>
+                                                        <span class="small">Klima & Versorgung</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -305,7 +311,7 @@
                                     <a class="nav-link text-shadow" href="usecases">Anwendungsfälle</a>
                                 </li>
                                 <li><a class="nav-link text-shadow" href="pricing">Preise</a></li>
-                                <li><a class="nav-link text-shadow" data-toggle="modal" data-target="#contact-modal">Kontakt</a></li>
+                    <!--            <li><a class="nav-link text-shadow" data-toggle="modal" data-target="#contact-modal">Kontakt</a></li>-->
                             </ul>
                         </nav>
 
@@ -338,7 +344,7 @@
                     <!--                </div>-->
                     <!--            </div>-->
 
-                                <a class="ml-4" target="_blank" href="https://app.easytoi.com">
+                                <a class="ml-4" target="_blank" href="https://app.easytoi.com:444">
                                     <button class="custom-btn custom-btn--medium dashboard-btn custom-btn--style-4 medium" role="button" type="submit">
                                         Dashboard
                                     </button>
@@ -362,11 +368,12 @@
 
     <div class="hero jarallax" style="background: url('../img/oneiot/success.png')" data-img-position="50% 90%" data-speed="0.7" id="hero">
         <div class="container">
-            <h2 class="__title text-white text-center text-shadow">Erfolgsgeschichten und Projekte unserer Kunden</h2>
+            <h2 class="__title text-white text-center text-shadow">Erfolgsgeschichten und Projekte</h2>
             <p class="section-heading--center text-shadow">
                 Erfahren sie, wie Unternehmen mit OneIoT Ihre digitale Transformation meistern
             </p>
         </div>
+        <div class="background-overlay"></div>
     </div>
 
 
@@ -408,79 +415,274 @@
         </script>
 
 
-        <section class="section section--bg-img lazy section-bg-light-dark">
+        <section class="section section--bg-img section-bg-light-dark">
             <div class="container">
+                <div class="section-heading">
+                    <h2 class="__title">Remote Service <span>Wartung, Kalibrierung & Diagnosen</span></h2>
+                </div>
+
+                <div class="spacer py-6"></div>
+            </div>
+
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <div class="posts posts--s3">
-                            <div class="__inner">
-                                <div class="row">
+                        <div class="review review--s2 review--slider">
+                            <div class="js-slick"
+                                 data-slick='{
+        											"autoplay": true,
+        											"arrows": false,
+        											"dots": true,
+        											"speed": 1200,
+        											"slidesToShow": 1,
+        											"responsive": [
+        											{
+        												"breakpoint": 575,
+        												"settings":{
+        													"slidesToShow": 1
+        												}
+        											},
+        											{
+        												"breakpoint": 767,
+        												"settings":{
+        													"slidesToShow": 2
+        												}
+        											},
+        											{
+        												"breakpoint": 991,
+        												"settings":{
+        													"slidesToShow": 3
+        												}
+        											},
+        											{
+        												"breakpoint": 1199,
+        												"settings":{
+        													"slidesToShow": 3
+        												}
+        											}]
+        										}'>
 
-                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
-                                        <div class="__item __item--preview __item--rounded shadow">
-                                            <div class="__header">
-                                                <figure class="__image __image--rounded">
-                                                    <a target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/medical-equipment-on-an-operation-room-3844581-1-scaled-e1595882967277.jpg" alt="Krankenhaus 4.0 – Wie das Internet der Dinge den Gesundheitssektor revolutionieren kann" /></a>
-                                                </figure>
-                                            </div>
-                                            <div class="__body">
-                                                <div class="__content">
-                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann">Krankenhaus 4.0 – Wie das Internet der Dinge den Gesundheitssektor revolutionieren kann</a></h4>
-                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann"><p class="text-decoration-none">Mehr erfahren...</p></a>
-                                                </div>
-                                            </div>
+                                <div class="review__item review__item--rounded review__item--shadow">
+                                    <p>
+                                        Blacksmelt tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti eel crocodile icefish lake trout.
+                                    </p>
+                                    <div class="d-table">
+                                        <div class="d-table-cell align-middle">
+                                            <figure class="review__item__author-image mr-4">
+                                                <img width="50" height="50" src="img/review_img/2.jpg" alt="demo" />
+                                            </figure>
+                                        </div>
+                                        <div class="d-table-cell align-middle">
+                                            <span class="review__item__author-name h5">Ann MIller</span>
                                         </div>
                                     </div>
-
-                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
-                                        <div class="__item __item--preview __item--rounded shadow">
-                                            <div class="__header">
-                                                <figure class="__image __image--rounded">
-                                                    <a target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/pxfuel.com_-2048x1356.jpg" alt="Smarte Müllentsorgung für Smart Cities" /></a>
-                                                </figure>
-                                            </div>
-                                            <div class="__body">
-                                                <div class="__content">
-                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities">Smarte Müllentsorgung für Smart Cities</a></h4>
-                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities"><p class="text-decoration-none">Mehr erfahren...</p></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
-                                        <div class="__item __item--preview __item--rounded shadow">
-                                            <div class="__header">
-                                                <figure class="__image __image--rounded">
-                                                    <a target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/server.png" alt="Private Cloud für Partikelmessgeräte" /></a>
-                                                </figure>
-                                            </div>
-                                            <div class="__body">
-                                                <div class="__content">
-                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete">Private Cloud für Partikelmessgeräte</a></h4>
-                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete"><p class="text-decoration-none">Mehr erfahren...</p></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">
-                                        <div class="__item __item--preview __item--rounded shadow">
-                                            <div class="__header">
-                                                <figure class="__image __image--rounded">
-                                                    <a target="_blank" href="https://blog.oneiot.de/wie-wir-gaerten-smarter-machen-smart-gardening"><img src="https://blog.oneiot.de/wp-content/uploads/2020/03/seedling-5009286_1280.jpg" alt="Wie wir Gärten smarter machen – Smart Gardening" /></a>
-                                                </figure>
-                                            </div>
-                                            <div class="__body">
-                                                <div class="__content">
-                                                    <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/wie-wir-gaerten-smarter-machen-smart-gardening">Wie wir Gärten smarter machen – Smart Gardening</a></h4>
-                                                    <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/wie-wir-gaerten-smarter-machen-smart-gardening"><p class="text-decoration-none">Mehr erfahren...</p></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
+
+                                <div class="review__item review__item--rounded review__item--shadow">
+                                    <p>
+                                        Vimba, zebrafish yellow and black triplefin guitarfish Redfin perch tripod fish zebra lionfish, nase slickhead! Jewelfish angler Devario gray reef shark forehead brooder. Pike conger alewife sand lance orange roughy danio straptail jawfish.
+                                    </p>
+                                    <div class="d-table">
+                                        <div class="d-table-cell align-middle">
+                                            <figure class="review__item__author-image mr-4">
+                                                <img width="50" height="50" src="img/review_img/3.jpg" alt="demo" />
+                                            </figure>
+                                        </div>
+                                        <div class="d-table-cell align-middle">
+                                            <span class="review__item__author-name h5">Lauren Golf</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--<section class="section section&#45;&#45;bg-img lazy section-bg-light-dark">-->
+        <!--    <div class="container">-->
+        <!--        <div class="row">-->
+        <!--            <div class="col-12">-->
+        <!--                <div class="posts posts&#45;&#45;s3">-->
+        <!--                    <div class="__inner">-->
+        <!--                        <div class="row">-->
+
+        <!--                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">-->
+        <!--                                <div class="__item __item&#45;&#45;preview __item&#45;&#45;rounded shadow">-->
+        <!--                                    <div class="__header">-->
+        <!--                                        <figure class="__image __image&#45;&#45;rounded">-->
+        <!--                                            <a target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/medical-equipment-on-an-operation-room-3844581-1-scaled-e1595882967277.jpg" alt="Krankenhaus 4.0 – Wie das Internet der Dinge den Gesundheitssektor revolutionieren kann" /></a>-->
+        <!--                                        </figure>-->
+        <!--                                    </div>-->
+        <!--                                    <div class="__body">-->
+        <!--                                        <div class="__content">-->
+        <!--                                            <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann">Krankenhaus 4.0 – Wie das Internet der Dinge den Gesundheitssektor revolutionieren kann</a></h4>-->
+        <!--                                            <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/krankenhaus-4-0-wie-das-internet-der-dinge-den-gesundheitssektor-revolutionieren-kann"><p class="text-decoration-none">Mehr erfahren...</p></a>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+
+        <!--                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">-->
+        <!--                                <div class="__item __item&#45;&#45;preview __item&#45;&#45;rounded shadow">-->
+        <!--                                    <div class="__header">-->
+        <!--                                        <figure class="__image __image&#45;&#45;rounded">-->
+        <!--                                            <a target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/pxfuel.com_-2048x1356.jpg" alt="Smarte Müllentsorgung für Smart Cities" /></a>-->
+        <!--                                        </figure>-->
+        <!--                                    </div>-->
+        <!--                                    <div class="__body">-->
+        <!--                                        <div class="__content">-->
+        <!--                                            <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities">Smarte Müllentsorgung für Smart Cities</a></h4>-->
+        <!--                                            <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/smarte-muellentsorgung-fuer-smart-cities"><p class="text-decoration-none">Mehr erfahren...</p></a>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+
+        <!--                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">-->
+        <!--                                <div class="__item __item&#45;&#45;preview __item&#45;&#45;rounded shadow">-->
+        <!--                                    <div class="__header">-->
+        <!--                                        <figure class="__image __image&#45;&#45;rounded">-->
+        <!--                                            <a target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete"><img src="https://blog.oneiot.de/wp-content/uploads/2020/07/server.png" alt="Private Cloud für Partikelmessgeräte" /></a>-->
+        <!--                                        </figure>-->
+        <!--                                    </div>-->
+        <!--                                    <div class="__body">-->
+        <!--                                        <div class="__content">-->
+        <!--                                            <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete">Private Cloud für Partikelmessgeräte</a></h4>-->
+        <!--                                            <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/private-cloud-fuer-partikelmessgeraete"><p class="text-decoration-none">Mehr erfahren...</p></a>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+
+        <!--                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-sm-flex">-->
+        <!--                                <div class="__item __item&#45;&#45;preview __item&#45;&#45;rounded shadow">-->
+        <!--                                    <div class="__header">-->
+        <!--                                        <figure class="__image __image&#45;&#45;rounded">-->
+        <!--                                            <a target="_blank" href="https://blog.oneiot.de/wie-wir-gaerten-smarter-machen-smart-gardening"><img src="https://blog.oneiot.de/wp-content/uploads/2020/03/seedling-5009286_1280.jpg" alt="Wie wir Gärten smarter machen – Smart Gardening" /></a>-->
+        <!--                                        </figure>-->
+        <!--                                    </div>-->
+        <!--                                    <div class="__body">-->
+        <!--                                        <div class="__content">-->
+        <!--                                            <h4 class="__title"><a target="_blank" href="https://blog.oneiot.de/wie-wir-gaerten-smarter-machen-smart-gardening">Wie wir Gärten smarter machen – Smart Gardening</a></h4>-->
+        <!--                                            <a class="text-decoration-none font-size-16px" target="_blank" href="https://blog.oneiot.de/wie-wir-gaerten-smarter-machen-smart-gardening"><p class="text-decoration-none">Mehr erfahren...</p></a>-->
+        <!--                                        </div>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</section>-->
+
+
+        <section class="section section--bg-img">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="__title">Zustandsüberwachung <span>in Echtzeit</span></h2>
+                </div>
+                <p>
+                    <a href="">Jetzt mehr erfahren</a>
+                </p>
+                <div class="spacer py-6"></div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="review review--s2 review--slider">
+                            <div class="js-slick"
+                                 data-slick='{
+        											"autoplay": true,
+        											"arrows": false,
+        											"dots": true,
+        											"speed": 1200,
+        											"slidesToShow": 1,
+        											"responsive": [
+        											{
+        												"breakpoint": 575,
+        												"settings":{
+        													"slidesToShow": 1
+        												}
+        											},
+        											{
+        												"breakpoint": 767,
+        												"settings":{
+        													"slidesToShow": 2
+        												}
+        											},
+        											{
+        												"breakpoint": 991,
+        												"settings":{
+        													"slidesToShow": 3
+        												}
+        											},
+        											{
+        												"breakpoint": 1199,
+        												"settings":{
+        													"slidesToShow": 3
+        												}
+        											}]
+        										}'>
+
+                                <div class="review__item __item--rounded shadow p-0 ml-3 mr-3">
+                                    <div class="__header">
+                                        <figure class="__image __image--rounded">
+                                            <img class="w-100" src="../img/usecases/udata.jpg" alt="UDATA GmbH"/>
+                                        </figure>
+                                    </div>
+                                    <div class="p-8">
+                                        <h4>Fernüberwachung vertikaler Gärten</h4>
+                                        <p>
+                                            UDATA GmbH ist Teilnehmer des Forschungs- und Entwicklungsprojekt für mobile und vertikale Gärten,
+                                            die für ein besseres Wohlbefinden in Städten sorgen.
+                                        </p>
+                                        <p>
+                                            Um einen nachhaltigen und effizieten Betrieb zu ermöglichen, wird das Mobiga-System mithilfe der OneIoT Plattform intelligent bewässert.
+                                            Servicemitarbeiter können zudem die Zustände der Gärten bspw. den Füllstand des Wassertanks oder die Bodenfeuchte überwachen.
+                                            Somit lässt sich zu jedem Zeitpunkt der Zustand des Gartens ablesen, sodass sich lokale Gärtner um die richtige Pfelge kümmern können
+                                        </p>
+                                        <div class="d-table">
+                                            <div class="d-table-cell align-middle">
+                                                <figure class="mr-4">
+                                                    <img class="img-fluid" src="../img/brands/udata-logo.png" width="200"
+                                                         alt="UDATA GmbH"/>
+                                                </figure>
+                                            </div>
+                                            <div class="d-table-cell align-middle">
+                                                <span class="review__item__author-name h5">UDATA GmbH</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="review__item __item--rounded shadow p-0 ml-3 mr-3">
+                                    <div class="__header">
+                                        <figure class="__image __image--rounded">
+                                            <img class="w-100" src="../img/usecases/udata.jpg" alt="UDATA GmbH"/>
+                                        </figure>
+                                    </div>
+                                    <div class="p-8">
+                                        <h4>Smarte Müllentsorgung für Smart Cities</h4>
+                                        <p>
+                                            UDATA GmbH ist Teilnehmer des Forschungs- und Entwicklungsprojekt für mobile und vertikale Gärten,
+                                            die für ein besseres Wohlbefinden in Städten sorgen.
+                                        </p>
+                                        <p>
+                                            Um einen nachhaltigen und effizieten Betrieb zu ermöglichen, wird das Mobiga-System mithilfe der OneIoT Plattform intelligent bewässert.
+                                            Servicemitarbeiter können zudem die Zustände der Gärten bspw. den Füllstand des Wassertanks oder die Bodenfeuchte überwachen.
+                                            Somit lässt sich zu jedem Zeitpunkt der Zustand des Gartens ablesen, sodass sich lokale Gärtner um die richtige Pfelge kümmern können
+                                        </p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -489,22 +691,18 @@
         </section>
 
 
-        <section class="section section--bg-img jarallax" data-img-position="50% 60%" data-speed="0.3"
-                 style="background-color: #1d2124">
-            <div class="container small-container-with-btn">
-                <div class="section-heading section-heading--white section-heading--center">
-                    <h2 class="__title">Kontaktieren <span>Sie uns noch heute</span></h2>
-                    <p>
-                        Beginnen Sie mit Ihrer Digitalisierung und bringen Sie Ihr Produkt auf ein neues Level
-                    </p>
-                    <div class="col-12 col-sm-auto">
-                        <div class="spacer py-4"></div>
-                        <a data-toggle="modal" data-target="#contact-modal">
-                            <button class="custom-btn custom-btn--medium custom-btn--style-2 medium" role="button"
-                                    type="submit">Kontakt
-                            </button>
-                        </a>
-                    </div>
+        <section class="section section--bg-img" style="background-color: #1d2124">
+            <div class="container section-heading--white">
+                    <div class="row">
+                        <div class="col-6 col-sm-6">
+                            <h2 class="__title">Live Demo?<span> Kontaktieren Sie uns noch heute</span></h2>
+                            <p>
+                                Beginnen Sie mit Ihrer Digitalisierung und bringen Sie Ihr Produkt auf ein neues Level
+                            </p>
+                        </div>
+                        <div class="col-6 col-sm-6">
+
+                        </div>
                 </div>
             </div>
         </section>
@@ -525,9 +723,6 @@
                             <h4 class="footer__item__title">Unternehmen</h4>
                             <nav class="footer__navigation">
                                 <ul>
-                                    <li>
-                                        <a href="about"> Über us</a>
-                                    </li>
                                     <li>
                                         <a href="career"> Karriere</a>
                                     </li>
@@ -582,8 +777,9 @@
                             <h4 class="footer__item__title">Branchen</h4>
                             <nav class="footer__navigation">
                                 <ul>
-                                    <li><a href="agriculture">Landwirtschaft</a></li>
+                                    <li><a href="gassupply">Gasindustrie</a></li>
                                     <li><a href="healthcare">Gesundheitswesen</a></li>
+                                    <li><a href="agriculture">Landwirtschaft</a></li>
                                     <li><a href="environment">Umwelt & Smart City</a></li>
                                     <li><a href="measurement">Messtechnik</a></li>
                                 </ul>

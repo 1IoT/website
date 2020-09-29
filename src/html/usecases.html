@@ -9,7 +9,7 @@
     @@include('component/header.html')
 
     @@include('component/header-title.html', {
-    "title": "Erfolgsgeschichten und Projekte unserer Kunden",
+    "title": "Erfolgsgeschichten und Projekte",
     "subtitle": "${{ index.use-cases-small }}$",
     "background": "../img/oneiot/success.png"
     })
@@ -18,9 +18,11 @@
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/usecase.html')
+        @@include('component/usecase-remote-service.html')
+        
+        @@include('component/usecase-monitoring.html')
 
-        @@include('component/contact-small.html')
+        @@include('component/contact-book-demo.html')
 
     </main>
 

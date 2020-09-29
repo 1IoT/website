@@ -279,6 +279,19 @@ template {
   top: -16%;
   left: 0
 }
+.slick-track {
+  padding-top: 12px;
+  padding-bottom: 12px
+}
+.background-overlay {
+  background: rgba(32,33,36,.66);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1
+}
 .img-rounded {
   border-radius: 15px
 }
