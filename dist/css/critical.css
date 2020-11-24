@@ -280,6 +280,22 @@ template {
   top: -16%;
   left: 0
 }
+.slick-track {
+  padding-top: 12px;
+  padding-bottom: 12px
+}
+.background-overlay {
+  background: rgba(32,33,36,.66);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1
+}
+.img-rounded {
+  border-radius: 15px
+}
 .section-bg-light-dark {
   background-color: #f3f3f3
 }
@@ -919,7 +935,7 @@ a:hover {
 }
 .section-heading {
   line-height: 1.4;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   color: #2a2c2f
 }
 .section-heading .__title:first-child {
@@ -975,6 +991,14 @@ a:hover {
   float: left;
   width: 20%
 }
+.column-nav-20 li {
+  padding: 5px 33px!important
+}
+.column-nav-20 .small {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc
+}
 .column-nav-33 {
   float: left;
   width: 33%
@@ -990,6 +1014,14 @@ a:hover {
 .column-nav-50 {
   float: left;
   width: 50%
+}
+.column-nav-50 li {
+  padding: 5px 33px!important
+}
+.column-nav-50 .small {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc
 }
 #header-img {
   background: linear-gradient(to bottom,#2368fb 0,#2368fb 50%,#2368fb 50%,#f3f3f3 50%,#f3f3f3 100%);
