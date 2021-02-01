@@ -3,7 +3,7 @@
   "html-header-keywords": "Smart Home, Cloud, Cloud Computing, IoT, Internet of Things, Digitization, Platform, Ecosystem, Device Cloud, Alexa, Google Home, Hardware",
   "html-header-author": "OneIoT",
   "html-header-desc": "There is only one IoT custom solution. We digitize your product from the hardware to the IoT Ecosystem.",
-  "current-lang": "<div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/ico/en.png' width='25'/></i><span>En</span></div>",
+  "current-lang": "<div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/icon/en.png' width='25'/></i><span>En</span></div>",
   "current-lang-ger-active": "",
   "current-lang-en-active": "is-active",
   "img-usecase-aqua": "../img/oneiot/usecase-aquarium.png",

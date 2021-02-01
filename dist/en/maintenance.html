@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 
 <head>
-    <title>Fernwartung |  OneIoT</title>
+    <title>OneIOT - Messgeräte Plattform</title>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta content="initial-scale=1.0, user-scalable=no" name="viewport"/>
     <meta content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" name="viewport"/>
@@ -24,7 +24,7 @@
     <!-- =================================================
     ===== Favicon
     ================================================== -->
-    <link href="../img/ico/oneiot-icon-rounded.png" rel="shortcut icon" type="image/png">
+    <link href="../img/icon/oneiot-icon-rounded.png" rel="shortcut icon" type="image/png">
 
     <!-- =================================================
     ===== Fontawesome icons
@@ -78,32 +78,32 @@
      ===== Drift scripts
      ================================================== -->
     <!-- Start of Async Drift Code -->
-    <script>
-        "use strict";
+<!--    <script>-->
+<!--        "use strict";-->
 
-        !function() {
-            var t = window.driftt = window.drift = window.driftt || [];
-            if (!t.init) {
-                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-                    t.factory = function(e) {
-                        return function() {
-                            var n = Array.prototype.slice.call(arguments);
-                            return n.unshift(e), t.push(n), t;
-                        };
-                    }, t.methods.forEach(function(e) {
-                    t[e] = t.factory(e);
-                }), t.load = function(t) {
-                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                    var i = document.getElementsByTagName("script")[0];
-                    i.parentNode.insertBefore(o, i);
-                };
-            }
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('hcinvii5gir9');
-    </script>
+<!--        !function() {-->
+<!--            var t = window.driftt = window.drift = window.driftt || [];-->
+<!--            if (!t.init) {-->
+<!--                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));-->
+<!--                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],-->
+<!--                    t.factory = function(e) {-->
+<!--                        return function() {-->
+<!--                            var n = Array.prototype.slice.call(arguments);-->
+<!--                            return n.unshift(e), t.push(n), t;-->
+<!--                        };-->
+<!--                    }, t.methods.forEach(function(e) {-->
+<!--                    t[e] = t.factory(e);-->
+<!--                }), t.load = function(t) {-->
+<!--                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");-->
+<!--                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";-->
+<!--                    var i = document.getElementsByTagName("script")[0];-->
+<!--                    i.parentNode.insertBefore(o, i);-->
+<!--                };-->
+<!--            }-->
+<!--        }();-->
+<!--        drift.SNIPPET_VERSION = '0.3.1';-->
+<!--        drift.load('hcinvii5gir9');-->
+<!--    </script>-->
 
     <!-- =================================================
     ===== Load other scripts
@@ -154,108 +154,29 @@
                         <nav class="top-bar__navigation" id="top-bar__navigation" role="navigation">
                             <ul>
                                 <li class="has-submenu">
-                                    <a class="nav-link text-shadow">Solutions</a>
-                                    <ul class="submenu submenu-50">
-                                        <div class="column-nav-50">
+                                    <a class="nav-link">Produkte</a>
+                                    <ul class="submenu submenu">
+                                        <div class="column-nav">
                                             <ul>
-                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2"><span>Products</span>
-                                                </li>
                                                 <li>
-                    <!--                                <a class="item-title" href="gateway">-->
-                    <!--                                    <div class="d-inline-flex">-->
-                    <!--                                        <div class="mr-2">-->
-                    <!--                                            <figure class="image-container submenu-icon">-->
-                    <!--                                                <img class="img-fluid" width="50" src="../img/oneiot/development-64.png"-->
-                    <!--                                                     alt="IoT Operating System"/>-->
-                    <!--                                            </figure>-->
-                    <!--                                        </div>-->
-                    <!--                                        <div>-->
-                    <!--                                            Gateway-->
-                    <!--                                            <br/>-->
-                    <!--                                            <span class="small">All-in-one & Plug-and-play für Industrie 4.0</span>-->
-                    <!--                                        </div>-->
-                    <!--                                    </div>-->
-                    <!--                                </a>-->
-
-                                                    <a class="item-title" href="gateway">
-                                                        Gateway
+                                                    <a class="item-title" href="../gateway">
+                                                        Industrial Gateway
                                                         <br/>
-                                                        <span class="small">All-In-One Industrie 4.0</span>
+                                                        <span class="small">Bringt Ihre Messgeräte online</span>
                                                     </a>
-
                                                 </li>
                                                 <li>
                                                     <a class="item-title" href="hardware">
-                                                        Hardware
+                                                        Messgeräte App
                                                         <br/>
-                                                        <span class="small">Industrial-Grade IoT</span>
+                                                        <span class="small">Online Zugriff auf alle Messgeräte</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="item-title" href="dashboard">
-                                                        Dashboard
+                                                        Messgeräte Plattform
                                                         <br/>
-                                                        <span class="small">Low-Code Plattform</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="item-title" href="cloud">Cloud
-                                                        <br/>
-                                                        <span class="small">Flottenmanagement</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                    <!--                    <div class="column-nav-33">-->
-                    <!--                        <ul>-->
-                    <!--                            <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">-->
-                    <!--                                Konnektivität-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="connectivity-cloud">-->
-                    <!--                                    Plattform Verbindung-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Mobilfunk, WiFi & Ethernet</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="connectivity-hardware">-->
-                    <!--                                    Hardware Integration-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Serielle Schnittstellen</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="connectivity-hardware">-->
-                    <!--                                    Bluetooth-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Sichere Vorort-Atmosphäre</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                        </ul>-->
-                    <!--                    </div>-->
-                                        <div class="column-nav-50">
-                                            <ul>
-                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">
-                                                    Capabilities
-                                                </li>
-                                                <li>
-                                                    <a class="item-title" href="monitoring">Monitoring
-                                                        <br/>
-                                                        <span class="small">Zustandsüberwachung</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="item-title" href="maintenance">
-                                                        Remote Service
-                                                        <br/>
-                                                        <span class="small">Wartung, Kalibrierung & Diagnosen</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="item-title" href="control">Control
-                                                        <br/>
-                                                        <span class="small">Fernzugriff in Echtzeit</span>
+                                                        <span class="small">Industrial-Ready Cloud</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -263,55 +184,36 @@
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
-                                    <a class="nav-link text-shadow">Industries</a>
-                                    <ul class="submenu submenu-50">
-                                        <div class="column-nav-50">
+                                    <a class="nav-link">Lösungen</a>
+                                    <ul class="submenu submenu">
+                                        <div class="column-nav">
                                             <ul>
-                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Branchenspezifisch</li>
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="gasupply">Gasindustrie-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">4.0 Gasversorgung</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
                                                 <li>
-                                                    <a class="item-title" href="healthcare">Healthcare
+                                                    <a class="item-title" href="healthcare">
+                                                        Messwerte Überwachen
                                                         <br/>
-                                                        <span class="small">Health & Monitoring</span>
+                                                        <span class="small">Zustandsüberwachung in Echtzeit</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="item-title" href="agriculture">Agriculture
+                                                    <a class="item-title" href="agriculture">
+                                                        Messgeräte Steuern
                                                         <br/>
-                                                        <span class="small">Smart Farming</span>
+                                                        <span class="small">Fernzugriff zu jeder Zeit</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="item-title" href="environment">Environment & Smart City
+                                                    <a class="item-title" href="environment">
+                                                        Frühwarnsystem
                                                         <br/>
-                                                        <span class="small">Klima & Versorgung</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-nav-50">
-                                            <ul>
-                                                <li class="submenu-title pt-2 pb-2 pt-sm-2 pb-sm-2 pt-md-2 pb-md-2 pt-lg-2 pb-lg-2">Allgemein</li>
-                                                <li>
-                                                    <a class="item-title" href="measurement">Measuring instruments
-                                                        <br/>
-                                                        <span class="small">Industrie 4.0</span>
+                                                        <span class="small">Warnmeldungen per SMS & E-Mail</span>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </ul>
                                 </li>
-                    <!--            <li>-->
-                    <!--                <a class="nav-link text-shadow" href="usecases">Use cases</a>-->
-                    <!--            </li>-->
-                                <li><a class="nav-link text-shadow" href="pricing">Pricing</a></li>
-                    <!--            <li><a class="nav-link text-shadow" data-toggle="modal" data-target="#contact-modal">Contact</a></li>-->
+                                <li><a class="nav-link" href="../pricing">Pricing</a></li>
                             </ul>
                         </nav>
 
@@ -325,17 +227,17 @@
                                 ===== Language chooser
                                 ================================================== -->
                     <!--            <div class="top-bar__choose-lang js-choose-lang text-shadow">-->
-                    <!--                <div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/ico/en.png' width='25'/></i><span>En</span></div>-->
+                    <!--                <div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/icon/en.png' width='25'/></i><span>En</span></div>-->
                     <!--                <div class="list-wrap">-->
-                    <!--                    <ul class="list">-->
-                    <!--                        <li class="is-active" data-img="../img/ico/en.png"-->
-                    <!--                            data-short-name="En">-->
+                                <!--                    <ul class="list">-->
+                                <!--                        <li class="is-active" data-img="../img/icon/en.png"-->
+                                <!--                            data-short-name="En">-->
                     <!--                            <a href="../en/">-->
                     <!--                                <span>English</span>-->
                     <!--                            </a>-->
-                    <!--                        </li>-->
-                    <!--                        <li class="" data-img="../img/ico/de.png"-->
-                    <!--                            data-short-name="Ger">-->
+                                <!--                        </li>-->
+                                <!--                        <li class="" data-img="../img/icon/de.png"-->
+                                <!--                            data-short-name="Ger">-->
                     <!--                            <a href="../de/">-->
                     <!--                                <span>German</span>-->
                     <!--                            </a>-->
@@ -344,9 +246,13 @@
                     <!--                </div>-->
                     <!--            </div>-->
 
-                                <a class="ml-4" target="_blank" href="https://app.easytoi.com:444">
-                                    <button class="custom-btn custom-btn--medium dashboard-btn custom-btn--style-4 medium" role="button" type="submit">
-                                        Dashboard
+                                <a class="ml-4" target="_blank" href="https://app.easytoi.com">
+                                    Login
+                                </a>
+                                <a class="ml-4" target="_blank" href="https://app.easytoi.com">
+                                    <button class="custom-btn custom-btn--medium dashboard-btn custom-btn--style-4 medium" role="button"
+                                            type="submit">
+                                        Registrieren
                                     </button>
                                 </a>
 
@@ -530,7 +436,7 @@
                                     <div class="col-3 col-sm-auto">
                                         <div class="__item">
                                             <figure class="__image">
-                                                <img class="img-fluid" src="../img/brands/udata-logo.png" width="150"  alt="UDATA GmbH" />
+                                                <img class="img-fluid" src="../img/clients/udata-logo.png" width="150"  alt="UDATA GmbH" />
                                             </figure>
                                         </div>
                                     </div>
@@ -538,33 +444,32 @@
                                     <div class="col-3 col-sm-auto">
                                         <div class="__item">
                                             <figure class="__image">
-                                                <img class="img-fluid" src="../img/brands/futomat-logo.png" width="150"  alt="Futomat" />
+                                                <img class="img-fluid" src="../img/clients/futomat-logo.png" width="150"  alt="Futomat" />
+                                            </figure>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 col-sm-auto">
+                                        <div class="__item">
+                                            <figure class="__image">
+                                                <img class="img-fluid" src="../img/clients/hska-logo.png" width="190"  alt="Hochschule Karlsruhe" />
+                                            </figure>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 col-sm-auto">
+                                        <div class="__item">
+                                            <figure class="__image">
+                                                <img class="img-fluid" src="../img/clients/xlab-logo.png" width="120"  alt="XLab Karlsruhe" />
                                             </figure>
                                         </div>
                                     </div>
 
 
-        <!--                            <div class="col-3 col-sm-auto">-->
-        <!--                                <div class="__item">-->
-        <!--                                    <figure class="__image">-->
-        <!--                                        <img class="img-fluid" src="../img/brands/hska-logo.png" width="190"  alt="Hochschule Karlsruhe" />-->
-        <!--                                    </figure>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-
                                     <div class="col-3 col-sm-auto">
                                         <div class="__item">
                                             <figure class="__image">
-                                                <img class="img-fluid" src="../img/brands/xlab-logo.png" width="120"  alt="XLab Karlsruhe" />
-                                            </figure>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-3 col-sm-auto">
-                                        <div class="__item">
-                                            <figure class="__image">
-                                                <img class="img-fluid" src="../img/brands/aws-logo.png" width="90"  alt="Amazon AWS" />
+                                                <img class="img-fluid" src="../img/clients/aws-logo.png" width="90"  alt="Amazon AWS" />
                                             </figure>
                                         </div>
                                     </div>
@@ -591,7 +496,7 @@
                         <div class="spacer py-4"></div>
                         <a data-toggle="modal" data-target="#contact-modal">
                             <button class="custom-btn custom-btn--medium custom-btn--style-2 medium" role="button"
-                                    type="submit">Contact
+                                    type="submit">Jetzt Demo Vereinbaren
                             </button>
                         </a>
                     </div>
@@ -635,14 +540,14 @@
                             <nav class="footer__navigation">
                                 <ul>
                                     <li>
-                                        <a href="help-desk">Help Center</a>
+                                        <a href="https://blog.oneiot.de" target="_blank">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://docs.oneiot.de" target="_blank">Dokumentation</a>
                                     </li>
                                     <li>
                                         <a href="https://github.com/1IoT" target="_blank">Open Source</a>
                                     </li>
-                                    <li>
-                                        <a target="_blank" href="https://blog.oneiot.de/en">Blog</a>
-                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -650,66 +555,15 @@
 
                     <div class="col col-sm-5 col-md-3 col-lg-3">
                         <div class="footer__item">
-                            <h4 class="footer__item__title">Lösungen</h4>
-                            <nav class="footer__navigation">
-                                <ul>
-                                    <li><a href="gateway">Gateway</a></li>
-                                    <li><a href="hardware">Hardware</a></li>
-                                    <li><a href="cloud">Cloud</a></li>
-                                    <li><a href="dashboard">Dashboard</a></li>
-    <!--                                <li><a href="connectivity-cloud">Cloud Verbindung</a></li>-->
-    <!--                                <li><a href="connectivity-hardware">Hardware Integration</a></li>-->
-                                </ul>
-                            </nav>
+
                         </div>
                     </div>
 
                     <div class="col col-sm-5 col-md-3 col-lg-3">
                         <div class="footer__item">
-                            <h4 class="footer__item__title">Industries</h4>
-                            <nav class="footer__navigation">
-                                <ul>
-    <!--                                <li><a href="gassupply">Gasindustrie</a></li>-->
-                                    <li><a href="healthcare">Healthcare</a></li>
-                                    <li><a href="agriculture">Agriculture</a></li>
-                                    <li><a href="environment">Environment & Smart City</a></li>
-                                    <li><a href="measurement">Measuring instruments</a></li>
-                                </ul>
-                            </nav>
+
                         </div>
                     </div>
-
-    <!--                &lt;!&ndash; =================================================-->
-    <!--                ===== Newsletter subscription-->
-    <!--                ================================================== &ndash;&gt;-->
-    <!--                <div class="col-12 col-md-8 col-lg-5 col-xl-5 offset-xl-1">-->
-    <!--                    <div class="footer__item">-->
-    <!--                        <h4 class="footer__item__title">Subscribe</h4>-->
-    <!--                        <form class="form&#45;&#45;horizontal" id="newsletter-form" novalidate="novalidate">-->
-    <!--                            <p class="mb-4">Trends and information about Internet of Things</p>-->
-    <!--                            <div class="row no-gutters">-->
-    <!--                                <div class="col-12 col-sm">-->
-    <!--                                    <div class="input-wrp form-group">-->
-    <!--                                        <input autocomplete="on"-->
-    <!--                                               class="textfield textfield&#45;&#45;grey newsletter-form-email"-->
-    <!--                                               data-validation-required-message="Please enter your email address"-->
-    <!--                                               name="email" placeholder="E-Mail" required="required"-->
-    <!--                                               type="text" type="email"/>-->
-    <!--                                        <p class="help-block text-danger mt-4"></p>-->
-    <!--                                    </div>-->
-    <!--                                </div>-->
-    <!--                                <div class="col-12 col-sm-auto">-->
-    <!--                                    <button class="custom-btn custom-btn&#45;&#45;medium custom-btn&#45;&#45;style-2 wide form-submit"-->
-    <!--                                            name="submit"-->
-    <!--                                            role="button" type="submit">Submit-->
-    <!--                                    </button>-->
-    <!--                                </div>-->
-    <!--                                <div id="success-newsletter"></div>-->
-    <!--                            </div>-->
-    <!--                        </form>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-
                 </div>
             </div>
         </div>
@@ -727,12 +581,12 @@
                     <div class="col-auto col-md-12 col-lg-6">
                         <div class="footer__item">
                             <p>
-                               <span class="__copy">
-                                   <a href="terms">Terms</a> |
-                                   <a href="privacy">Privacy Policy</a>
-                                   <br>
-                                   <span style="font-family:monospace !important; font-size:14px">Copyrights 2020 © OneIoT UG (haftungsbeschränkt)</span>
-                               </span>
+                           <span class="__copy">
+                               <a href="terms">Terms</a> |
+                               <a href="privacy">Privacy Policy</a>
+                               <br>
+                               <span style="font-family:monospace !important; font-size:14px">Copyrights 2020 © OneIoT UG (haftungsbeschränkt)</span>
+                           </span>
                             </p>
                         </div>
                     </div>
@@ -746,10 +600,6 @@
                                 <ul class="d-flex flex-row flex-wrap align-items-center justify-content-md-end">
                                     <li><a class="i" target="_blank" href="https://www.linkedin.com/company/18496129"><i
                                             class="fontello-linkedin"></i></a></li>
-                                    <li><a class="t" target="_blank" href="https://twitter.com/oneiot_de"><i
-                                            class="fontello-twitter"></i></a></li>
-                                    <li><a class="f" target="_blank" href="https://www.facebook.com/oneiot.de"><i
-                                            class="fontello-facebook"></i></a></li>
                                     <li><a class="y" target="_blank"
                                            href="https://www.youtube.com/channel/UCbzmC4PVWyU54nuHTLj3qmw"><i
                                             class="fontello-youtube-play"></i></a></li>
@@ -761,7 +611,6 @@
                 </div>
             </div>
         </div>
-
 
     </footer>
 
@@ -863,22 +712,6 @@
 </div>
 
 
-<div class="alert alert-dismissible text-center cookiealert" role="alert">
-    <div class="row">
-        <div class="col-lg-6 text-center cookie-alert-col">
-            <div class="cookiealert-container">
-                &#x1F36A; We use cookies and analysis to ensure that you have the best experience on our website. By using our website you agree to our <a href="privacy">privacy policy</a> 
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-                Close
-            </button>
-        </div>
-    </div>
-</div>
 
 
 <!--<div id="btn-to-top-wrap">-->
@@ -895,7 +728,6 @@
 <!-- Scroll indicator -->
 <script>
     window.onscroll = function() {myFunction()};
-
     function myFunction() {
         var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;

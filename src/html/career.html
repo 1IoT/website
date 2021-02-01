@@ -6,10 +6,10 @@
 <body>
 <div id="app">
 
-    @@include('component/header.html')
+    @@include('component/shared/header.html')
 
     @@include('component/header-title.html', {
-    "title": "Career at OneIoT",
+    "title": "Your Career",
     "subtitle": "Become a part of the team and be a visionary",
     "background": "../img/oneiot/career.png"
     })
@@ -18,15 +18,15 @@
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/career-about-us.html')
+        @@include('component/career/career-about-us.html')
 
-        @@include('component/career-offer.html')
+        @@include('component/career/career-offer.html')
 
-        @@include('component/contact-small.html')
+        @@include('component/shared/contact-small.html')
 
     </main>
 
-    @@include('component/footer.html')
+    @@include('component/shared/footer.html')
 
 </div>
 

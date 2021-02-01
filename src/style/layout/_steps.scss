@@ -148,7 +148,7 @@ $gutter: 40px;
 
     @include media-breakpoint-up(md) {
       padding-left: 100px;
-      padding-left: 18%;
+      padding-left: 27%;
     }
 
     .__num {
@@ -160,7 +160,7 @@ $gutter: 40px;
       font-size: 10rem;
       font-weight: 700;
       font-family: $fontFamily-secondary;
-      color: #eef4f9;
+      color: #f3f3f3;
       z-index: -1;
 
       &:before {

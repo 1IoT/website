@@ -6,7 +6,7 @@
 <body>
 <div id="app">
 
-    @@include('component/header.html')
+    @@include('component/shared/header.html')
 
     @@include('component/header-title.html', {
     "title": "Low-Code IoT Dashboard",
@@ -20,8 +20,6 @@
 
         @@include('component/dashboard-start.html')
 
-        @@include('component/dashboard-remote-maintenance.html')
-
         @@include('component/dashboard-cloud.html')
 
         @@include('component/dashboard-management.html')
@@ -30,13 +28,13 @@
 
         @@include('component/dashboard-features.html')
 
-        @@include('component/brands-small.html')
+        @@include('component/shared/clients-preview.html')
 
-        @@include('component/contact-small.html')
+        @@include('component/shared/contact-small.html')
 
     </main>
 
-    @@include('component/footer.html')
+    @@include('component/shared/footer.html')
 
 </div>
 
