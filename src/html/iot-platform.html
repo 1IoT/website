@@ -1,0 +1,33 @@
+@@include('template/document_start.html', {
+"title": "IoT Cloud Plattform",
+"subtitle" : ""
+})
+
+<body>
+<div id="app">
+
+    @@include('component/shared/header.html')
+
+    @@include('component/header-title.html', {
+    "title": "Messgeräte Plattform",
+    "subtitle": "Industrial-Ready IOT Cloud",
+    "background": "../img/oneiot/cloud-server.png"
+    })
+
+    <main role="main">
+
+        @@include('template/LazyLoad_scripts.html')
+
+
+
+        @@include('component/shared/clients-preview.html')
+
+        @@include('component/shared/contact-small.html')
+
+    </main>
+
+    @@include('component/shared/footer.html')
+
+</div>
+
+@@include('template/document_end.html')

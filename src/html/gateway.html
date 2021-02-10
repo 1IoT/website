@@ -8,27 +8,17 @@
 
     @@include('component/shared/header.html')
 
-    @@include('component/header-title.html', {
-    "title": "Bringen Sie Ihre Produkte, Geräte und Sensoren online",
-    "subtitle": "${{ index.hardware-slogan }}$",
-    "background": "../img/oneiot/rocket.png"
-    })
+    @@include('component/gateway/banner.html')
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/gateway-start.html')
+        @@include('component/gateway/configurator.html')
 
-        @@include('component/gateway-connectivity.html')
+        @@include('component/gateway/installation.html')
 
-        @@include('component/gateway-sensors.html')
-
-        @@include('component/gateway-integration.html')
-
-        @@include('component/gateway-howto.html')
-
-        @@include('component/gateway-features.html')
+        @@include('component/gateway/industry-standard.html')
 
         @@include('component/shared/clients-preview.html')
 

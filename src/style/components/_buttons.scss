@@ -7,6 +7,16 @@
   border-color: $primary-color !important;
 }
 
+.dark-btn {
+  background-color: #2a2c2f !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.dark-btn:hover {
+  background-color: #343a3f !important;
+}
+
 .is-sticky {
   .dashboard-btn {
     background-color: $primary-color !important;

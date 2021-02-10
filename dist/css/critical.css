@@ -262,6 +262,77 @@ template {
 .is-sticky .text-shadow {
   text-shadow: none!important
 }
+.title-tag {
+  font-size: 20px;
+  font-weight: 700;
+  color: #14212b;
+  display: inline-block;
+  position: relative;
+  padding-left: 45px;
+  line-height: 1.6!important
+}
+.title-tag-lr {
+  font-size: 20px;
+  font-weight: 700;
+  color: #14212b;
+  display: inline-block;
+  position: relative;
+  padding-left: 45px;
+  padding-right: 45px;
+  line-height: 1.6!important
+}
+.font-small {
+  font-size: 12px
+}
+.__title {
+  margin-top: 0!important
+}
+.title-tag::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #14212b;
+  content: "";
+  top: 16px;
+  transform: translateY(-50%)
+}
+.title-tag-white::after,
+.title-tag-white::before {
+  background-color: #fff!important
+}
+.nav-link-small {
+  padding: 0!important
+}
+.nav-link-small button {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+  min-height: 45px!important
+}
+.title-tag-lr::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #14212b;
+  content: "";
+  top: 16px;
+  transform: translateY(-50%)
+}
+.title-tag-lr::after {
+  display: block;
+  left: auto;
+  right: 0;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #14212b;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%)
+}
 .text-shadow {
   text-shadow: 3px 3px 7px #000
 }
@@ -270,6 +341,9 @@ template {
 }
 #landing-page #brands-small {
   padding-bottom: 0!important
+}
+#start-screen .nav-link {
+  padding: 0
 }
 .main-title {
   position: absolute;
@@ -298,6 +372,34 @@ template {
 }
 .section-bg-light-dark {
   background-color: #f3f3f3
+}
+.section-special {
+  background-image: linear-gradient(#f3f3f3 50%,#fff 50%)!important;
+  background-size: calc(1 * (100% / 2)) 100%
+}
+.section-special .__inner::before {
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  top: 20px;
+  position: absolute;
+  background-color: #14212b;
+  z-index: -2;
+  content: "";
+  opacity: .07;
+  border-radius: 20px
+}
+.section-special .__inner::after {
+  left: -15px;
+  right: -15px;
+  bottom: -30px;
+  top: 40px;
+  position: absolute;
+  background-color: #14212b;
+  z-index: -2;
+  content: "";
+  opacity: .07;
+  border-radius: 20px
 }
 .pricing-btn {
   color: #2a2c2f!important
