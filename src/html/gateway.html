@@ -1,6 +1,5 @@
 @@include('template/document_start.html', {
-"title": "IoT Gateway 4.0",
-"subtitle" : ""
+"title": "Industrial Gateway 4.0",
 })
 
 <body>
@@ -14,9 +13,11 @@
 
         @@include('template/LazyLoad_scripts.html')
 
-        @@include('component/gateway/configurator.html')
+        @@include('component/gateway/modularity.html')
 
         @@include('component/gateway/installation.html')
+
+        @@include('component/gateway/gateway.html')
 
         @@include('component/gateway/industry-standard.html')
 

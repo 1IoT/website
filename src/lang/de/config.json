@@ -1,8 +1,8 @@
 {
   "html-header-lang": "de",
-  "html-header-keywords": "Smart Home, Cloud, Cloud Computing, IoT, Internet der Dinge, Digitalisierung, Plattform, Ecosystem, Device Cloud, Alexa, Google Home, Hardware",
-  "html-header-author": "OneIoT",
-  "html-header-desc": "Einfach digitalisieren mit OneIoT. Wir unterstützen Ihre Produktdigitalisierung von der Hardware über die Cloud zum Dashboard.",
+  "html-header-keywords": "IoT, Internet der Dinge, IoT Plattform, IoT Gateway, Low Code, IoT Cloud, Messgeräte Cloud, Messgeräte Plattform",
+  "html-header-author": "OneIOT",
+  "html-header-desc": "Die OneIOT All-In-One IoT Cloud bringt jedes Messgeräte ohne Programmieraufwand online.",
   "current-lang": "<div class='current-lang',><i><img alt='demo' class='circled' height='25' src='../img/icon/de.png' width='25'/></i><span>De</span></div>",
   "current-lang-ger-active": "is-active",
   "current-lang-en-active": "",

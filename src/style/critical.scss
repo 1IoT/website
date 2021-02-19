@@ -40,6 +40,17 @@
   padding: 40px;
   color: #fff;
 
+  .configurator-pricing {
+    font-size: 4rem !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+
+    span {
+      font-size: 30px !important;
+      letter-spacing: normal !important;
+    }
+  }
+
   .accordion-item-first {
     border-top: none !important;
   }

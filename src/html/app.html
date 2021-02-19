@@ -1,6 +1,5 @@
 @@include('template/document_start.html', {
-"title": "Messgeräte App",
-"subtitle" : ""
+"title": "Messgeräte Web & App",
 })
 
 <body>
@@ -15,7 +14,11 @@
 
         @@include('template/LazyLoad_scripts.html')
 
+        @@include('component/app/feature.html')
 
+        @@include('component/app/low-code.html')
+
+        @@include('component/app/roles.html')
 
         @@include('component/shared/clients-preview.html')
 

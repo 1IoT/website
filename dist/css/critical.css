@@ -258,6 +258,46 @@ template {
 ::before {
   box-sizing: inherit
 }
+.item-title {
+  color: #fff!important
+}
+.item-title .small {
+  color: #ccc;
+  font-size: 1.4rem;
+  font-weight: 400
+}
+.submenu a:hover {
+  color: #fff!important
+}
+.configurator {
+  background: #1d2124;
+  border-radius: 25px;
+  padding: 40px;
+  color: #fff
+}
+.configurator .configurator-pricing {
+  font-size: 4rem!important;
+  margin-bottom: 0!important;
+  margin-top: 0!important
+}
+.configurator .configurator-pricing span {
+  font-size: 30px!important;
+  letter-spacing: normal!important
+}
+.configurator .accordion-item-first {
+  border-top: none!important
+}
+.configurator .accordion-content__inner p {
+  margin-bottom: 20px
+}
+.configurator .btn {
+  font-size: 1.8rem!important;
+  text-transform: none!important
+}
+.configurator .accordion-toggler i {
+  left: 0;
+  right: unset
+}
 .is-expanded .text-shadow,
 .is-sticky .text-shadow {
   text-shadow: none!important
@@ -1069,7 +1109,7 @@ a:hover {
   color: #2368fb
 }
 .front-title {
-  font-size: 7rem!important
+  font-size: 5.6rem!important
 }
 .front-text {
   font-size: 2.2rem!important
@@ -1088,6 +1128,9 @@ a:hover {
 }
 #start-screen {
   background: url(../img/oneiot/banner/banner-1.jpg) 0 0/cover
+}
+#banner-gateway {
+  background: url(../img/oneiot/banner/banner-2.jpg) 0 0/cover
 }
 .column-nav-20 {
   float: left;
@@ -1705,7 +1748,6 @@ a:hover {
   transform: translateY(-50%)
 }
 .start-screen--style-3 .img-shape:nth-of-type(1) {
-  max-height: 90%;
   bottom: 0;
   left: 0
 }
@@ -1825,6 +1867,14 @@ a:hover {
 .dashboard-btn:hover {
   background-color: #2368fb!important;
   border-color: #2368fb!important
+}
+.dark-btn {
+  background-color: #2a2c2f!important;
+  color: #fff!important;
+  border: none!important
+}
+.dark-btn:hover {
+  background-color: #343a3f!important
 }
 .is-sticky .dashboard-btn {
   background-color: #2368fb!important;
@@ -2116,6 +2166,9 @@ label {
   padding-left: 32px
 }
 @media (min-width:576px) {
+  .configurator .accordion-toggler {
+    padding: 30px 0 30px 45px!important
+  }
   .container {
     max-width: 540px
   }
