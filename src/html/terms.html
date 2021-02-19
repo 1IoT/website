@@ -1,6 +1,5 @@
-@@include('template/document_start.html', {
+@@include('component/shared/document_start.html', {
 "title": "${{ index.terms }}$",
-"subtitle" : ""
 })
 
 <body>
@@ -8,15 +7,15 @@
 
     @@include('component/shared/header.html')
 
-    @@include('component/header-title.html', {
+    @@include('component/shared/header-title.html', {
     "title": "${{ index.terms }}$",
     "subtitle": "${{ index.nothing-to-hide }}$",
-    "background": "../img/oneiot/rise-building.png"
+    "background": "../img/banner/banner-2.png"
     })
 
     <main role="main">
 
-        @@include('template/LazyLoad_scripts.html')
+        @@include('component/shared/lazy-load-scripts.html')
 
         <section class="section">
             <div class="container">
@@ -155,4 +154,4 @@
 
 </div>
 
-@@include('template/document_end.html')
+@@include('component/shared/document_end.html')

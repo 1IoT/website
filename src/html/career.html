@@ -1,6 +1,5 @@
-@@include('template/document_start.html', {
-"title": "Career",
-"subtitle" : "Working in a technology startup in Karlsruhe | "
+@@include('component/shared/document_start.html', {
+"title": "Working in a technology startup in Karlsruhe | Career",
 })
 
 <body>
@@ -8,15 +7,15 @@
 
     @@include('component/shared/header.html')
 
-    @@include('component/header-title.html', {
+    @@include('component/shared/header-title.html', {
     "title": "Your Career",
     "subtitle": "Become a part of the team and be a visionary",
-    "background": "../img/oneiot/career.png"
+    "background": "../img/banner/banner-4.png"
     })
 
     <main role="main">
 
-        @@include('template/LazyLoad_scripts.html')
+        @@include('component/shared/lazy-load-scripts.html')
 
         @@include('component/career/career-about-us.html')
 
@@ -30,4 +29,4 @@
 
 </div>
 
-@@include('template/document_end.html')
+@@include('component/shared/document_end.html')

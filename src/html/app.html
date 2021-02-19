@@ -1,4 +1,4 @@
-@@include('template/document_start.html', {
+@@include('component/shared/document_start.html', {
 "title": "Messgeräte Web & App",
 })
 
@@ -9,10 +9,9 @@
 
     @@include('component/app/banner.html')
 
-
     <main role="main">
 
-        @@include('template/LazyLoad_scripts.html')
+        @@include('component/shared/lazy-load-scripts.html')
 
         @@include('component/app/feature.html')
 
@@ -30,4 +29,4 @@
 
 </div>
 
-@@include('template/document_end.html')
+@@include('component/shared/document_end.html')

@@ -1,10 +1,8 @@
-@@include('template/document_start.html', {
+@@include('component/shared/document_start.html', {
 "title": "Messgeräte Plattform",
 })
 
 <body>
-
-@@include('component/header-top-bar.html')
 
 <div id="app">
     <div id="landing-page">
@@ -15,7 +13,7 @@
 
     <main role="main">
 
-        @@include('template/LazyLoad_scripts.html')
+        @@include('component/shared/lazy-load-scripts.html')
 
         @@include('component/shared/clients-preview.html')
 
@@ -38,4 +36,4 @@
     </div>
 </div>
 
-@@include('template/document_end.html')
+@@include('component/shared/document_end.html')
