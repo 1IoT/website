@@ -1,9 +1,8 @@
 {
   "name": "oneiot-web",
   "version": "1.0.0",
-  "description": "There is only one IoT custom solution. OneIoT.",
+  "description": "Industrial-Ready Messgeräte Plattform",
   "keywords": [
-    "smart home",
     "oneiot",
     "internet of things",
     "cloud",
@@ -11,10 +10,10 @@
     "service",
     "internet der dinge",
     "digitalisierung",
-    "digitization",
-    "custom solution"
+    "saas",
+    "messgeräte"
   ],
-  "author": "OneIoT",
+  "author": "OneIOT",
   "license": "ISC",
   "scripts": {
     "watch": "gulp watch",

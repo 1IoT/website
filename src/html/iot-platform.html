@@ -1,6 +1,5 @@
 @@include('template/document_start.html', {
-"title": "IoT Cloud Plattform",
-"subtitle" : ""
+"title": "Messgeräte Plattform",
 })
 
 <body>
@@ -8,17 +7,11 @@
 
     @@include('component/shared/header.html')
 
-    @@include('component/header-title.html', {
-    "title": "Messgeräte Plattform",
-    "subtitle": "Industrial-Ready IOT Cloud",
-    "background": "../img/oneiot/cloud-server.png"
-    })
+    @@include('component/platform/banner.html')
 
     <main role="main">
 
         @@include('template/LazyLoad_scripts.html')
-
-
 
         @@include('component/shared/clients-preview.html')
 
