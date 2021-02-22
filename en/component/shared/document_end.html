@@ -1,0 +1,138 @@
+<div class="modal fade in" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog container" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <!-- =================================================
+                ===== Title
+                ================================================== -->
+                <div class="section-heading">
+                    <h2 class="__title">Contact <span>us</span></h2>
+                </div>
+
+                <!-- =================================================
+                ===== Close
+                ================================================== -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+                    <!-- =================================================
+                    ===== Contact form
+                    ================================================== -->
+                    <div class="col-12 col-xl-6">
+                        <p>
+                            We are at your disposal for all your questions. Our experts are available to support you
+                        </p>
+
+                         <form class="js-contact-form" id="contact-form-modal" name="sentMessage" novalidate="novalidate">
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-name-modal form-control"
+                                       data-validation-required-message="Please enter your name"
+                                       id="name" name="name" placeholder="Name" required="required" type="text"/>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-phone-modal form-control"
+                                       id="phone" name="phone" placeholder="Phone" type="tel"/>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-subject-modal form-control"
+                                       id="subject" name="subject" placeholder="Company" type="text"/>
+                            </div>
+                            <div class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <input autocomplete="on" class="textfield textfield--grey form-email-modal form-control"
+                                       data-validation-required-message="Please enter your email address" id="email"
+                                       name="email" placeholder="E-Mail" required="required" type="email"/>
+                            </div>
+                            <label class="input-wrp form-group">
+                                <p class="help-block text-danger mt-20"></p>
+                                <textarea class="textfield textfield--grey form-message-modal form-control"
+                                  data-validation-required-message="Please enter a message"
+                                  id="message" name="message" placeholder="Message"
+                                  required="required"></textarea>
+                            </label>
+                             <p class="font-size-16px">
+                                 Mit der Nutzung des Kontaktformulars stimmen Sie der <a href="privacy">Datenschutzerklärung</a> zu
+                             </p>
+                            <div id="success-modal"></div>
+                            <button class="custom-btn custom-btn--medium custom-btn--style-2 wide form-submit-modal" id="sendMessageButton"
+                                    name="submit" role="button" type="submit" value="Send Message">
+                                Send Message
+                            </button>
+                            <div class="form__note"></div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-xl-6 mt-xl-0 mt-12 mt-xl-0 text-center">
+                        <figure class="image-container text-center">
+                            <img class="img-fluid rounded-img" width="70%" src="../img/contact-support.png" alt="Contact us" />
+                        </figure>
+                        <div class="py-3"></div>
+                        <p>
+                            <strong>+49 172 - 232 51 02</strong><br>
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#111;&#110;&#101;&#105;&#111;&#116;&#046;&#100;&#101;</a><br>
+                            Landau (Karlsruhe), Germany
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--<div id="btn-to-top-wrap">-->
+<!--    <a class="circled" data-visible-offset="800" href="javascript:void(0);" id="btn-to-top"></a>-->
+<!--</div>-->
+
+<!-- Three.js -->
+<script type="module">
+    // Find the latest version by visiting https://unpkg.com/three. The URL will
+    // redirect to the newest stable release.
+    import * as THREE from 'https://unpkg.com/three/build/three.module.js';
+    const scene = new THREE.Scene();
+</script>
+
+<!-- Cookie alert -->
+<script src="../js/cookiealert-standalone.js" type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="../js/jquery-2.2.4.min.js"><\/script>')</script>
+
+<!-- Scroll indicator -->
+<script>
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="../js/main.min.js" type="text/javascript"></script>
+
+<script src="../js/contact-form-main.min.js" type="text/javascript"></script>
+<script src="../js/contact-form-modal.min.js" type="text/javascript"></script>
+<script src="../js/newsletter-form.min.js" type="text/javascript"></script>
+<script src="../js/jqBootstrapValidation.min.js" type="text/javascript"></script>
+<script src="../js/header-anim.min.js" type="text/javascript"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
