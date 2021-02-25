@@ -257,6 +257,9 @@ template {
 ::before {
   box-sizing: inherit
 }
+.header-progress-bar {
+  display: none!important
+}
 .ico-checked-center {
   float: none!important;
   margin-right: 15px!important
