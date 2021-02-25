@@ -78,32 +78,32 @@
      ===== Drift scripts
      ================================================== -->
     <!-- Start of Async Drift Code -->
-<!--    <script>-->
-<!--        "use strict";-->
+    <script>
+        "use strict";
 
-<!--        !function() {-->
-<!--            var t = window.driftt = window.drift = window.driftt || [];-->
-<!--            if (!t.init) {-->
-<!--                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));-->
-<!--                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],-->
-<!--                    t.factory = function(e) {-->
-<!--                        return function() {-->
-<!--                            var n = Array.prototype.slice.call(arguments);-->
-<!--                            return n.unshift(e), t.push(n), t;-->
-<!--                        };-->
-<!--                    }, t.methods.forEach(function(e) {-->
-<!--                    t[e] = t.factory(e);-->
-<!--                }), t.load = function(t) {-->
-<!--                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");-->
-<!--                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";-->
-<!--                    var i = document.getElementsByTagName("script")[0];-->
-<!--                    i.parentNode.insertBefore(o, i);-->
-<!--                };-->
-<!--            }-->
-<!--        }();-->
-<!--        drift.SNIPPET_VERSION = '0.3.1';-->
-<!--        drift.load('hcinvii5gir9');-->
-<!--    </script>-->
+        !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                    t[e] = t.factory(e);
+                }), t.load = function(t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('hcinvii5gir9');
+    </script>
 
     <!-- =================================================
     ===== Load other scripts
@@ -186,43 +186,43 @@
                                     </ul>
                                 </li>
 
-                    <!--            <li class="has-submenu">-->
-                    <!--                <a class="nav-link">Lösungen</a>-->
-                    <!--                <ul class="submenu submenu">-->
-                    <!--                    <div class="column-nav">-->
-                    <!--                        <ul>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="healthcare">-->
-                    <!--                                    Messwerte Überwachen-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Visualisierung in Echtzeit</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="agriculture">-->
-                    <!--                                    Messgeräte Steuern-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Fernzugriff zu jeder Zeit</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="environment">-->
-                    <!--                                    Frühwarnsystem-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Warnmeldungen per SMS & E-Mail</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="environment">-->
-                    <!--                                    Messgeräte Diagnosen-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Warnmeldungen per SMS & E-Mail</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                        </ul>-->
-                    <!--                    </div>-->
-                    <!--                </ul>-->
-                    <!--            </li>-->
+                                <li class="has-submenu">
+                                    <a class="nav-link">Lösungen</a>
+                                    <ul class="submenu submenu">
+                                        <div class="column-nav">
+                                            <ul>
+                                                <li>
+                                                    <a class="item-title" href="monitoring">
+                                                        Messwerte Überwachung
+                                                        <br/>
+                                                        <span class="small">Visualisierung in Echtzeit</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="item-title" href="control">
+                                                        Messgeräte Steuerung
+                                                        <br/>
+                                                        <span class="small">Fernzugriff zu jeder Zeit</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="item-title" href="alerts">
+                                                        Frühwarnsystem
+                                                        <br/>
+                                                        <span class="small">Warnmeldungen per SMS & E-Mail</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="item-title" href="debugging">
+                                                        Messgeräte Diagnosen
+                                                        <br/>
+                                                        <span class="small">Fernprüfung aller Messgeräte</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </li>
 
                                 <li><a class="nav-link" href="../pricing">Pricing</a></li>
                             </ul>
@@ -276,11 +276,11 @@
             </div>
         </div>
     </header>
-    <div class="header-progress-bar">
-        <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
-        </div>
-    </div>
+    <!--<div class="header-progress-bar">-->
+    <!--    <div class="progress-container">-->
+    <!--        <div class="progress-bar" id="myBar"></div>-->
+    <!--    </div>-->
+    <!--</div>-->
 
 
     <div id="start-screen" class="start-screen start-screen--full-height start-screen--style-3">
@@ -406,6 +406,14 @@
                                     <div class="col-3 col-sm-auto">
                                         <div class="__item">
                                             <figure class="__image">
+                                                <img class="img-fluid" src="../img/clients/th-bingen-logo.png" width="210"  alt="Th Bingen" />
+                                            </figure>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 col-sm-auto">
+                                        <div class="__item">
+                                            <figure class="__image">
                                                 <img class="img-fluid" src="../img/clients/hska-logo.png" width="190"  alt="Hochschule Karlsruhe" />
                                             </figure>
                                         </div>
@@ -511,9 +519,9 @@
                                                     type="submit">Jetzt Durchstarten
                                             </button>
                                         </a>
-                                        <p class="text-left font-small text-white">*Voraussetzung für das 48 Stunden Angebot ist eine
+                                        <p class="text-left font-small text-white">*Voraussetzung ist eine
                                             serielle
-                                            Schnittstelle und eine Dokumentation</p>
+                                            Schnittstelle und eine vollständige Dokumentation</p>
                                     </div>
                                 </div>
                             </div>
@@ -1012,6 +1020,23 @@
     </div>
 </div>
 
+
+<div class="alert alert-dismissible text-center cookiealert" role="alert">
+    <div class="row">
+        <div class="col-lg-6 text-center cookie-alert-col">
+            <div class="cookiealert-container">
+                &#x1F36A; We use cookies and analysis to ensure that you have the best experience on our website. By using our website you agree to our <a href="privacy">privacy policy</a> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                Close
+            </button>
+        </div>
+    </div>
+</div>
 
 
 

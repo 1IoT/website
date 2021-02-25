@@ -78,32 +78,32 @@
      ===== Drift scripts
      ================================================== -->
     <!-- Start of Async Drift Code -->
-<!--    <script>-->
-<!--        "use strict";-->
+    <script>
+        "use strict";
 
-<!--        !function() {-->
-<!--            var t = window.driftt = window.drift = window.driftt || [];-->
-<!--            if (!t.init) {-->
-<!--                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));-->
-<!--                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],-->
-<!--                    t.factory = function(e) {-->
-<!--                        return function() {-->
-<!--                            var n = Array.prototype.slice.call(arguments);-->
-<!--                            return n.unshift(e), t.push(n), t;-->
-<!--                        };-->
-<!--                    }, t.methods.forEach(function(e) {-->
-<!--                    t[e] = t.factory(e);-->
-<!--                }), t.load = function(t) {-->
-<!--                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");-->
-<!--                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";-->
-<!--                    var i = document.getElementsByTagName("script")[0];-->
-<!--                    i.parentNode.insertBefore(o, i);-->
-<!--                };-->
-<!--            }-->
-<!--        }();-->
-<!--        drift.SNIPPET_VERSION = '0.3.1';-->
-<!--        drift.load('hcinvii5gir9');-->
-<!--    </script>-->
+        !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                    t[e] = t.factory(e);
+                }), t.load = function(t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('hcinvii5gir9');
+    </script>
 
     <!-- =================================================
     ===== Load other scripts
@@ -184,43 +184,43 @@
                                     </ul>
                                 </li>
 
-                    <!--            <li class="has-submenu">-->
-                    <!--                <a class="nav-link">Lösungen</a>-->
-                    <!--                <ul class="submenu submenu">-->
-                    <!--                    <div class="column-nav">-->
-                    <!--                        <ul>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="healthcare">-->
-                    <!--                                    Messwerte Überwachen-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Visualisierung in Echtzeit</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="agriculture">-->
-                    <!--                                    Messgeräte Steuern-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Fernzugriff zu jeder Zeit</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="environment">-->
-                    <!--                                    Frühwarnsystem-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Warnmeldungen per SMS & E-Mail</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                            <li>-->
-                    <!--                                <a class="item-title" href="environment">-->
-                    <!--                                    Messgeräte Diagnosen-->
-                    <!--                                    <br/>-->
-                    <!--                                    <span class="small">Warnmeldungen per SMS & E-Mail</span>-->
-                    <!--                                </a>-->
-                    <!--                            </li>-->
-                    <!--                        </ul>-->
-                    <!--                    </div>-->
-                    <!--                </ul>-->
-                    <!--            </li>-->
+                                <li class="has-submenu">
+                                    <a class="nav-link">Lösungen</a>
+                                    <ul class="submenu submenu">
+                                        <div class="column-nav">
+                                            <ul>
+                                                <li>
+                                                    <a class="item-title" href="monitoring">
+                                                        Messwerte Überwachung
+                                                        <br/>
+                                                        <span class="small">Visualisierung in Echtzeit</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="item-title" href="control">
+                                                        Messgeräte Steuerung
+                                                        <br/>
+                                                        <span class="small">Fernzugriff zu jeder Zeit</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="item-title" href="alerts">
+                                                        Frühwarnsystem
+                                                        <br/>
+                                                        <span class="small">Warnmeldungen per SMS & E-Mail</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="item-title" href="debugging">
+                                                        Messgeräte Diagnosen
+                                                        <br/>
+                                                        <span class="small">Fernprüfung aller Messgeräte</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </li>
 
                                 <li><a class="nav-link" href="../pricing">Preise</a></li>
                             </ul>
@@ -274,11 +274,11 @@
             </div>
         </div>
     </header>
-    <div class="header-progress-bar">
-        <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
-        </div>
-    </div>
+    <!--<div class="header-progress-bar">-->
+    <!--    <div class="progress-container">-->
+    <!--        <div class="progress-bar" id="myBar"></div>-->
+    <!--    </div>-->
+    <!--</div>-->
 
 
     <div class="hero jarallax" style="background: url('../img/banner/banner-5.png')" data-img-position="50% 90%" data-speed="0.7" id="hero">
@@ -847,6 +847,23 @@
     </div>
 </div>
 
+
+<div class="alert alert-dismissible text-center cookiealert" role="alert">
+    <div class="row">
+        <div class="col-lg-6 text-center cookie-alert-col">
+            <div class="cookiealert-container">
+                &#x1F36A; Wir verwenden Cookies und Analysen, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erfahren. Mit der Nutzung unserer Website stimmen Sie der <a href="privacy">Datenschutzerklärung</a> zu
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                Schließen
+            </button>
+        </div>
+    </div>
+</div>
 
 
 
